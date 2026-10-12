@@ -1,0 +1,173 @@
+#VRML_SIM R2025a utf8
+# PatrolBot - custom 4-wheel skid-steer campus patrol robot (InteliPatrol)
+# Sensors: 180-degree LiDAR, RGB camera, GPS, inertial unit, wheel encoders.
+
+PROTO PatrolBot [
+  field SFVec3f    translation     0 0 0.11
+  field SFRotation rotation        0 0 1 0
+  field SFString   name            "patrolbot_1"
+  field SFString   controller      "patrol_controller"
+  field MFString   controllerArgs  []
+  field SFColor    bodyColor       0.12 0.32 0.78
+  field SFBool     supervisor      FALSE
+  field SFFloat    cameraNoise     0.0      # Gaussian sensor noise (0 = clean image)
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    name IS name
+    controller IS controller
+    controllerArgs IS controllerArgs
+    supervisor IS supervisor
+    children [
+      # ---------------- chassis
+      DEF BODY Shape {
+        appearance PBRAppearance { baseColor IS bodyColor roughness 0.5 metalness 0.2 }
+        geometry Box { size 0.5 0.36 0.16 }
+      }
+      # top deck
+      Pose {
+        translation 0 0 0.09
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 0.15 0.15 0.18 roughness 0.6 metalness 0 }
+            geometry Box { size 0.44 0.3 0.02 }
+          }
+        ]
+      }
+      # LiDAR housing (visual only, just below the LiDAR scan plane)
+      Pose {
+        translation 0 0 0.16
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 0.1 0.1 0.1 roughness 0.4 metalness 0.3 }
+            geometry Cylinder { height 0.12 radius 0.06 }
+          }
+        ]
+      }
+      # camera mast
+      Pose {
+        translation 0.2 0 0.22
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 0.8 0.8 0.8 roughness 0.5 metalness 0.5 }
+            geometry Box { size 0.03 0.03 0.28 }
+          }
+        ]
+      }
+      # warning beacon
+      Pose {
+        translation -0.18 0 0.16
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 1 0.55 0 emissiveColor 0.6 0.3 0 roughness 0.3 metalness 0 }
+            geometry Cylinder { height 0.1 radius 0.035 }
+          }
+        ]
+      }
+
+      # ---------------- wheels (front-left, front-right, rear-left, rear-right)
+      HingeJoint {
+        jointParameters HingeJointParameters { axis 0 1 0 anchor 0.15 0.21 0 }
+        device [
+          RotationalMotor { name "fl_motor" maxVelocity 12 maxTorque 20 }
+          PositionSensor { name "fl_encoder" }
+        ]
+        endPoint Solid {
+          translation 0.15 0.21 0
+          rotation 1 0 0 1.5708
+          name "wheel_fl"
+          children [
+            DEF WHEEL Shape {
+              appearance PBRAppearance { baseColor 0.08 0.08 0.08 roughness 0.9 metalness 0 }
+              geometry Cylinder { height 0.05 radius 0.1 subdivision 24 }
+            }
+          ]
+          boundingObject USE WHEEL
+          physics DEF WHEEL_PHYSICS Physics { density -1 mass 0.8 }
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters { axis 0 1 0 anchor 0.15 -0.21 0 }
+        device [
+          RotationalMotor { name "fr_motor" maxVelocity 12 maxTorque 20 }
+          PositionSensor { name "fr_encoder" }
+        ]
+        endPoint Solid {
+          translation 0.15 -0.21 0
+          rotation 1 0 0 1.5708
+          name "wheel_fr"
+          children [ USE WHEEL ]
+          boundingObject USE WHEEL
+          physics USE WHEEL_PHYSICS
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters { axis 0 1 0 anchor -0.15 0.21 0 }
+        device [
+          RotationalMotor { name "rl_motor" maxVelocity 12 maxTorque 20 }
+          PositionSensor { name "rl_encoder" }
+        ]
+        endPoint Solid {
+          translation -0.15 0.21 0
+          rotation 1 0 0 1.5708
+          name "wheel_rl"
+          children [ USE WHEEL ]
+          boundingObject USE WHEEL
+          physics USE WHEEL_PHYSICS
+        }
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters { axis 0 1 0 anchor -0.15 -0.21 0 }
+        device [
+          RotationalMotor { name "rr_motor" maxVelocity 12 maxTorque 20 }
+          PositionSensor { name "rr_encoder" }
+        ]
+        endPoint Solid {
+          translation -0.15 -0.21 0
+          rotation 1 0 0 1.5708
+          name "wheel_rr"
+          children [ USE WHEEL ]
+          boundingObject USE WHEEL
+          physics USE WHEEL_PHYSICS
+        }
+      }
+
+      # ---------------- sensors
+      Lidar {
+        translation 0 0 0.28
+        name "lidar"
+        horizontalResolution 180
+        fieldOfView 3.14159
+        numberOfLayers 1
+        verticalFieldOfView 0.05
+        minRange 0.35
+        maxRange 8
+      }
+      Camera {
+        translation 0.24 0 0.38
+        name "camera"
+        fieldOfView 1.2
+        width 416
+        height 312
+        noise IS cameraNoise
+        children [
+          Pose {
+            translation -0.02 0 0
+            children [
+              Shape {
+                appearance PBRAppearance { baseColor 0.05 0.05 0.05 roughness 0.3 metalness 0.2 }
+                geometry Box { size 0.04 0.08 0.05 }
+              }
+            ]
+          }
+        ]
+      }
+      GPS { name "gps" }
+      InertialUnit { name "imu" }
+    ]
+    boundingObject Box { size 0.5 0.36 0.16 }
+    physics Physics { density -1 mass 12 }
+  }
+}

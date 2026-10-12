@@ -1,0 +1,42 @@
+InteliPatrol - Layer 1 test log (Webots R2025a, 30 Sep 2026)
+Result: 3 full patrol loops, 18 checkpoints, 3 dynamic re-plans, 1 low-battery return + recharge, 0 collisions
+
+INFO: patrol_controller: Starting controller: python.exe -u patrol_controller.py
+[patrolbot_1 00:00] START      InteliPatrol online at (-0.0, -16.0), route: Sports Ground -> Lab Block Entrance -> Canteen -> Main Block Entrance -> Hostel Gate -> Library Entrance
+[patrolbot_1 00:00] PLAN       A* -> Sports Ground: 8.3 m, 12 waypoints, 137 cells expanded
+[patrolbot_1 00:11] CHECKPOINT reached Sports Ground
+[patrolbot_1 00:11] STATE      PATROL -> SCAN
+[patrolbot_1 00:18] SCAN       360-degree scan complete - area clear
+[patrolbot_1 00:18] STATE      SCAN -> PATROL
+[patrolbot_1 00:18] PLAN       A* -> Lab Block Entrance: 14.6 m, 17 waypoints, 197 cells expanded
+[patrolbot_1 00:24] REPLAN     path blocked by a new obstacle - re-planning
+[patrolbot_1 00:24] PLAN       A* -> Lab Block Entrance: 14.0 m, 18 waypoints, 310 cells expanded
+[patrolbot_1 00:45] CHECKPOINT reached Lab Block Entrance
+[patrolbot_1 01:15] CHECKPOINT reached Canteen
+[patrolbot_1 01:43] CHECKPOINT reached Main Block Entrance
+[patrolbot_1 02:13] CHECKPOINT reached Hostel Gate
+[patrolbot_1 02:49] CHECKPOINT reached Library Entrance
+[patrolbot_1 03:18] CHECKPOINT reached Sports Ground
+[patrolbot_1 03:30] REPLAN     path blocked by a new obstacle - re-planning
+[patrolbot_1 03:30] PLAN       A* -> Lab Block Entrance: 12.9 m, 16 waypoints, 182 cells expanded
+[patrolbot_1 03:49] CHECKPOINT reached Lab Block Entrance
+[patrolbot_1 04:20] CHECKPOINT reached Canteen
+[patrolbot_1 04:48] CHECKPOINT reached Main Block Entrance
+[patrolbot_1 05:18] CHECKPOINT reached Hostel Gate
+[patrolbot_1 05:54] CHECKPOINT reached Library Entrance
+[patrolbot_1 06:15] BATTERY    battery low (25%) - returning to base
+[patrolbot_1 06:15] STATE      PATROL -> RETURN_TO_BASE
+[patrolbot_1 06:15] PLAN       A* -> Charging Dock: 12.4 m, 15 waypoints, 521 cells expanded
+[patrolbot_1 06:34] DOCK       docked at charging station (battery 21%)
+[patrolbot_1 06:34] STATE      RETURN_TO_BASE -> CHARGING
+[patrolbot_1 06:59] BATTERY    charged to 98% - resuming patrol
+[patrolbot_1 06:59] STATE      CHARGING -> PATROL
+[patrolbot_1 07:12] CHECKPOINT reached Sports Ground
+[patrolbot_1 07:25] REPLAN     path blocked by a new obstacle - re-planning
+[patrolbot_1 07:46] CHECKPOINT reached Lab Block Entrance
+[patrolbot_1 08:16] CHECKPOINT reached Canteen
+[patrolbot_1 08:44] CHECKPOINT reached Main Block Entrance
+[patrolbot_1 09:14] CHECKPOINT reached Hostel Gate
+[patrolbot_1 09:50] CHECKPOINT reached Library Entrance
+[patrolbot_1 10:19] CHECKPOINT reached Sports Ground
+(SCAN / STATE lines between checkpoints omitted: each checkpoint was followed by a 7 s 360-degree scan)

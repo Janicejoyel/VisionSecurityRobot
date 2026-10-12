@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+# Run outputs (alerts, snapshots, raw frames) - key evidence is copied to docs/evidence/
+output/
+# Full dataset (900 images) - regenerate with worlds/dataset_capture.wbt
+# previews/ and the contact sheet are kept as samples
+dataset/train/
+dataset/val/
+dataset/test_night/
+dataset/meta.jsonl
+*.zip
+# Editor / OS
+.vscode/
+desktop.ini
+Thumbs.db

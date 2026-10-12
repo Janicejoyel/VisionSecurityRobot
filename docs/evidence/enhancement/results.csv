@@ -1,0 +1,1963 @@
+frame,pipeline,brightness,noise,ms,detections,mean_conf
+patrolbot_1_0000.1.jpg,raw,0.0,0.0,0.19,0,0.0
+patrolbot_1_0000.1.jpg,gamma only,0.0,0.0,0.64,0,0.0
+patrolbot_1_0000.1.jpg,CLAHE only,4.0,0.0,2.62,0,0.0
+patrolbot_1_0000.1.jpg,median3+gamma+CLAHE,4.0,0.0,4.59,0,0.0
+patrolbot_1_0000.1.jpg,median5+gamma+CLAHE,4.0,0.0,3.83,0,0.0
+patrolbot_1_0000.1.jpg,bilateral+gamma+CLAHE,4.0,0.0,9.19,0,0.0
+patrolbot_1_0003.1.jpg,raw,56.9,5.73,0.24,1,0.871
+patrolbot_1_0003.1.jpg,gamma only,95.0,7.23,0.6,1,0.85
+patrolbot_1_0003.1.jpg,CLAHE only,81.4,12.74,2.55,1,0.854
+patrolbot_1_0003.1.jpg,median3+gamma+CLAHE,118.8,6.06,2.75,1,0.846
+patrolbot_1_0003.1.jpg,median5+gamma+CLAHE,105.4,2.65,3.35,1,0.808
+patrolbot_1_0003.1.jpg,bilateral+gamma+CLAHE,105.1,2.92,9.08,1,0.871
+patrolbot_1_0006.3.jpg,raw,60.8,6.06,0.23,1,0.899
+patrolbot_1_0006.3.jpg,gamma only,95.5,7.37,0.71,1,0.887
+patrolbot_1_0006.3.jpg,CLAHE only,89.3,13.38,2.7,1,0.891
+patrolbot_1_0006.3.jpg,median3+gamma+CLAHE,122.5,5.94,2.86,1,0.879
+patrolbot_1_0006.3.jpg,median5+gamma+CLAHE,111.2,2.65,5.37,1,0.869
+patrolbot_1_0006.3.jpg,bilateral+gamma+CLAHE,110.7,3.04,9.57,1,0.89
+patrolbot_1_0009.4.jpg,raw,65.5,5.91,0.26,0,0.0
+patrolbot_1_0009.4.jpg,gamma only,96.0,6.93,0.63,0,0.0
+patrolbot_1_0009.4.jpg,CLAHE only,89.4,13.2,2.52,0,0.0
+patrolbot_1_0009.4.jpg,median3+gamma+CLAHE,120.5,5.62,3.03,0,0.0
+patrolbot_1_0009.4.jpg,median5+gamma+CLAHE,107.7,2.45,4.17,0,0.0
+patrolbot_1_0009.4.jpg,bilateral+gamma+CLAHE,107.0,2.77,9.96,0,0.0
+patrolbot_1_0012.5.jpg,raw,69.8,6.13,0.24,1,0.356
+patrolbot_1_0012.5.jpg,gamma only,97.4,6.82,0.75,1,0.267
+patrolbot_1_0012.5.jpg,CLAHE only,93.0,13.92,2.52,1,0.417
+patrolbot_1_0012.5.jpg,median3+gamma+CLAHE,120.7,5.3,2.79,0,0.0
+patrolbot_1_0012.5.jpg,median5+gamma+CLAHE,108.9,2.4,4.37,0,0.0
+patrolbot_1_0012.5.jpg,bilateral+gamma+CLAHE,108.4,2.79,10.01,0,0.0
+patrolbot_1_0015.7.jpg,raw,71.0,6.14,0.34,0,0.0
+patrolbot_1_0015.7.jpg,gamma only,98.5,6.62,0.66,0,0.0
+patrolbot_1_0015.7.jpg,CLAHE only,94.7,14.57,2.45,0,0.0
+patrolbot_1_0015.7.jpg,median3+gamma+CLAHE,122.4,5.32,2.94,0,0.0
+patrolbot_1_0015.7.jpg,median5+gamma+CLAHE,110.4,2.37,3.77,0,0.0
+patrolbot_1_0015.7.jpg,bilateral+gamma+CLAHE,109.5,2.81,10.11,0,0.0
+patrolbot_1_0018.8.jpg,raw,43.9,5.07,0.31,1,0.734
+patrolbot_1_0018.8.jpg,gamma only,90.5,7.95,0.75,2,0.516
+patrolbot_1_0018.8.jpg,CLAHE only,65.7,11.18,2.5,1,0.756
+patrolbot_1_0018.8.jpg,median3+gamma+CLAHE,117.8,6.58,3.04,3,0.483
+patrolbot_1_0018.8.jpg,median5+gamma+CLAHE,104.1,3.03,4.3,1,0.866
+patrolbot_1_0018.8.jpg,bilateral+gamma+CLAHE,102.9,3.24,10.53,1,0.828
+patrolbot_1_0021.9.jpg,raw,59.1,5.48,0.25,0,0.0
+patrolbot_1_0021.9.jpg,gamma only,94.3,7.05,0.68,0,0.0
+patrolbot_1_0021.9.jpg,CLAHE only,80.0,12.33,2.59,0,0.0
+patrolbot_1_0021.9.jpg,median3+gamma+CLAHE,118.0,5.68,2.91,0,0.0
+patrolbot_1_0021.9.jpg,median5+gamma+CLAHE,104.7,2.58,3.58,0,0.0
+patrolbot_1_0021.9.jpg,bilateral+gamma+CLAHE,104.4,2.86,10.68,0,0.0
+patrolbot_1_0025.0.jpg,raw,55.1,5.43,0.28,0,0.0
+patrolbot_1_0025.0.jpg,gamma only,95.5,6.92,0.75,0,0.0
+patrolbot_1_0025.0.jpg,CLAHE only,75.8,12.79,3.07,0,0.0
+patrolbot_1_0025.0.jpg,median3+gamma+CLAHE,118.5,5.64,2.76,0,0.0
+patrolbot_1_0025.0.jpg,median5+gamma+CLAHE,105.0,2.48,4.29,0,0.0
+patrolbot_1_0025.0.jpg,bilateral+gamma+CLAHE,104.1,2.72,9.71,0,0.0
+patrolbot_1_0028.1.jpg,raw,48.3,5.37,0.26,0,0.0
+patrolbot_1_0028.1.jpg,gamma only,93.5,7.57,0.62,0,0.0
+patrolbot_1_0028.1.jpg,CLAHE only,68.9,12.28,3.14,0,0.0
+patrolbot_1_0028.1.jpg,median3+gamma+CLAHE,116.8,6.14,2.87,0,0.0
+patrolbot_1_0028.1.jpg,median5+gamma+CLAHE,102.6,2.73,3.81,0,0.0
+patrolbot_1_0028.1.jpg,bilateral+gamma+CLAHE,101.7,3.02,10.19,0,0.0
+patrolbot_1_0031.2.jpg,raw,46.0,5.29,0.25,0,0.0
+patrolbot_1_0031.2.jpg,gamma only,92.9,7.65,0.74,0,0.0
+patrolbot_1_0031.2.jpg,CLAHE only,66.4,12.04,2.58,1,0.306
+patrolbot_1_0031.2.jpg,median3+gamma+CLAHE,116.9,6.27,2.85,0,0.0
+patrolbot_1_0031.2.jpg,median5+gamma+CLAHE,102.9,2.72,4.42,0,0.0
+patrolbot_1_0031.2.jpg,bilateral+gamma+CLAHE,102.0,2.88,10.72,1,0.287
+patrolbot_1_0034.2.jpg,raw,45.8,5.32,0.22,1,0.265
+patrolbot_1_0034.2.jpg,gamma only,92.9,7.67,0.55,1,0.343
+patrolbot_1_0034.2.jpg,CLAHE only,66.8,12.17,2.62,1,0.397
+patrolbot_1_0034.2.jpg,median3+gamma+CLAHE,117.4,6.26,3.02,0,0.0
+patrolbot_1_0034.2.jpg,median5+gamma+CLAHE,103.2,2.78,5.49,0,0.0
+patrolbot_1_0034.2.jpg,bilateral+gamma+CLAHE,102.4,3.01,11.55,1,0.36
+patrolbot_1_0039.8.jpg,raw,45.8,5.31,0.31,1,0.264
+patrolbot_1_0039.8.jpg,gamma only,92.8,7.66,0.72,0,0.0
+patrolbot_1_0039.8.jpg,CLAHE only,66.6,12.14,3.19,2,0.32
+patrolbot_1_0039.8.jpg,median3+gamma+CLAHE,117.1,6.2,3.56,1,0.343
+patrolbot_1_0039.8.jpg,median5+gamma+CLAHE,103.4,2.73,4.3,1,0.324
+patrolbot_1_0039.8.jpg,bilateral+gamma+CLAHE,102.6,3.03,10.29,2,0.371
+patrolbot_1_0042.9.jpg,raw,63.5,6.15,0.39,0,0.0
+patrolbot_1_0042.9.jpg,gamma only,97.5,6.98,0.81,0,0.0
+patrolbot_1_0042.9.jpg,CLAHE only,86.0,14.51,2.83,0,0.0
+patrolbot_1_0042.9.jpg,median3+gamma+CLAHE,118.9,5.46,3.29,0,0.0
+patrolbot_1_0042.9.jpg,median5+gamma+CLAHE,105.6,2.44,4.53,0,0.0
+patrolbot_1_0042.9.jpg,bilateral+gamma+CLAHE,105.3,2.92,12.27,0,0.0
+patrolbot_1_0046.0.jpg,raw,62.8,6.01,0.28,0,0.0
+patrolbot_1_0046.0.jpg,gamma only,96.6,6.96,0.63,0,0.0
+patrolbot_1_0046.0.jpg,CLAHE only,86.0,13.97,3.54,0,0.0
+patrolbot_1_0046.0.jpg,median3+gamma+CLAHE,120.6,5.4,3.32,0,0.0
+patrolbot_1_0046.0.jpg,median5+gamma+CLAHE,107.6,2.45,3.87,0,0.0
+patrolbot_1_0046.0.jpg,bilateral+gamma+CLAHE,106.8,2.86,10.8,0,0.0
+patrolbot_1_0049.1.jpg,raw,31.5,4.79,0.25,0,0.0
+patrolbot_1_0049.1.jpg,gamma only,91.2,8.71,1.1,0,0.0
+patrolbot_1_0049.1.jpg,CLAHE only,52.8,10.55,2.55,0,0.0
+patrolbot_1_0049.1.jpg,median3+gamma+CLAHE,117.0,7.26,3.19,0,0.0
+patrolbot_1_0049.1.jpg,median5+gamma+CLAHE,102.1,3.05,4.03,0,0.0
+patrolbot_1_0049.1.jpg,bilateral+gamma+CLAHE,101.2,3.19,8.8,0,0.0
+patrolbot_1_0052.2.jpg,raw,23.4,4.73,0.28,0,0.0
+patrolbot_1_0052.2.jpg,gamma only,92.5,9.89,0.62,0,0.0
+patrolbot_1_0052.2.jpg,CLAHE only,44.7,10.34,2.76,0,0.0
+patrolbot_1_0052.2.jpg,median3+gamma+CLAHE,119.8,8.26,2.77,0,0.0
+patrolbot_1_0052.2.jpg,median5+gamma+CLAHE,104.8,3.6,4.09,0,0.0
+patrolbot_1_0052.2.jpg,bilateral+gamma+CLAHE,103.9,3.65,8.9,0,0.0
+patrolbot_1_0055.3.jpg,raw,24.3,4.91,0.26,0,0.0
+patrolbot_1_0055.3.jpg,gamma only,94.2,9.63,0.66,0,0.0
+patrolbot_1_0055.3.jpg,CLAHE only,46.0,11.16,2.62,0,0.0
+patrolbot_1_0055.3.jpg,median3+gamma+CLAHE,119.0,8.03,2.81,0,0.0
+patrolbot_1_0055.3.jpg,median5+gamma+CLAHE,104.9,3.39,4.16,0,0.0
+patrolbot_1_0055.3.jpg,bilateral+gamma+CLAHE,104.6,3.58,10.66,0,0.0
+patrolbot_1_0058.4.jpg,raw,22.2,5.0,0.24,0,0.0
+patrolbot_1_0058.4.jpg,gamma only,94.1,10.38,0.82,0,0.0
+patrolbot_1_0058.4.jpg,CLAHE only,43.0,10.65,2.35,0,0.0
+patrolbot_1_0058.4.jpg,median3+gamma+CLAHE,118.1,8.5,2.66,0,0.0
+patrolbot_1_0058.4.jpg,median5+gamma+CLAHE,105.8,3.67,3.74,0,0.0
+patrolbot_1_0058.4.jpg,bilateral+gamma+CLAHE,105.0,3.89,9.99,0,0.0
+patrolbot_1_0061.5.jpg,raw,14.6,4.58,0.23,0,0.0
+patrolbot_1_0061.5.jpg,gamma only,94.8,12.08,0.61,0,0.0
+patrolbot_1_0061.5.jpg,CLAHE only,31.2,8.94,2.4,0,0.0
+patrolbot_1_0061.5.jpg,median3+gamma+CLAHE,119.8,10.18,2.71,0,0.0
+patrolbot_1_0061.5.jpg,median5+gamma+CLAHE,106.9,4.33,4.17,0,0.0
+patrolbot_1_0061.5.jpg,bilateral+gamma+CLAHE,106.3,4.19,11.17,0,0.0
+patrolbot_1_0064.6.jpg,raw,49.2,5.75,0.26,0,0.0
+patrolbot_1_0064.6.jpg,gamma only,93.8,7.75,0.82,0,0.0
+patrolbot_1_0064.6.jpg,CLAHE only,74.1,13.27,3.22,0,0.0
+patrolbot_1_0064.6.jpg,median3+gamma+CLAHE,115.5,6.02,2.94,0,0.0
+patrolbot_1_0064.6.jpg,median5+gamma+CLAHE,104.1,2.76,3.52,0,0.0
+patrolbot_1_0064.6.jpg,bilateral+gamma+CLAHE,103.4,3.19,9.68,0,0.0
+patrolbot_1_0067.7.jpg,raw,24.5,5.4,0.24,0,0.0
+patrolbot_1_0067.7.jpg,gamma only,96.0,9.82,0.63,0,0.0
+patrolbot_1_0067.7.jpg,CLAHE only,45.6,12.18,2.7,0,0.0
+patrolbot_1_0067.7.jpg,median3+gamma+CLAHE,120.0,8.14,2.77,0,0.0
+patrolbot_1_0067.7.jpg,median5+gamma+CLAHE,107.2,3.47,3.59,0,0.0
+patrolbot_1_0067.7.jpg,bilateral+gamma+CLAHE,106.6,3.82,12.86,0,0.0
+patrolbot_1_0070.8.jpg,raw,48.7,5.72,0.25,0,0.0
+patrolbot_1_0070.8.jpg,gamma only,94.4,7.69,0.64,0,0.0
+patrolbot_1_0070.8.jpg,CLAHE only,73.4,13.29,3.11,0,0.0
+patrolbot_1_0070.8.jpg,median3+gamma+CLAHE,114.8,5.99,2.75,0,0.0
+patrolbot_1_0070.8.jpg,median5+gamma+CLAHE,103.2,2.7,3.97,0,0.0
+patrolbot_1_0070.8.jpg,bilateral+gamma+CLAHE,102.5,3.07,11.55,0,0.0
+patrolbot_1_0073.9.jpg,raw,50.7,5.69,0.26,0,0.0
+patrolbot_1_0073.9.jpg,gamma only,95.1,7.42,0.68,0,0.0
+patrolbot_1_0073.9.jpg,CLAHE only,75.1,13.45,2.21,0,0.0
+patrolbot_1_0073.9.jpg,median3+gamma+CLAHE,117.0,5.82,3.0,0,0.0
+patrolbot_1_0073.9.jpg,median5+gamma+CLAHE,104.4,2.62,4.75,0,0.0
+patrolbot_1_0073.9.jpg,bilateral+gamma+CLAHE,103.7,2.99,9.85,0,0.0
+patrolbot_1_0077.0.jpg,raw,54.6,5.81,0.22,0,0.0
+patrolbot_1_0077.0.jpg,gamma only,96.6,7.13,0.62,0,0.0
+patrolbot_1_0077.0.jpg,CLAHE only,77.0,14.0,2.81,0,0.0
+patrolbot_1_0077.0.jpg,median3+gamma+CLAHE,117.2,5.53,3.26,0,0.0
+patrolbot_1_0077.0.jpg,median5+gamma+CLAHE,104.5,2.45,3.76,0,0.0
+patrolbot_1_0077.0.jpg,bilateral+gamma+CLAHE,104.0,2.84,11.53,0,0.0
+patrolbot_1_0080.1.jpg,raw,70.0,5.83,0.25,0,0.0
+patrolbot_1_0080.1.jpg,gamma only,97.6,6.5,0.68,0,0.0
+patrolbot_1_0080.1.jpg,CLAHE only,89.6,13.65,3.14,0,0.0
+patrolbot_1_0080.1.jpg,median3+gamma+CLAHE,119.9,5.19,3.15,0,0.0
+patrolbot_1_0080.1.jpg,median5+gamma+CLAHE,106.2,2.22,4.45,0,0.0
+patrolbot_1_0080.1.jpg,bilateral+gamma+CLAHE,106.0,2.58,9.81,0,0.0
+patrolbot_1_0083.2.jpg,raw,71.4,5.99,0.28,0,0.0
+patrolbot_1_0083.2.jpg,gamma only,99.0,6.47,0.66,0,0.0
+patrolbot_1_0083.2.jpg,CLAHE only,91.3,14.64,2.52,0,0.0
+patrolbot_1_0083.2.jpg,median3+gamma+CLAHE,119.9,5.15,2.98,0,0.0
+patrolbot_1_0083.2.jpg,median5+gamma+CLAHE,106.4,2.26,4.06,0,0.0
+patrolbot_1_0083.2.jpg,bilateral+gamma+CLAHE,106.6,2.68,10.74,0,0.0
+patrolbot_1_0086.3.jpg,raw,53.7,5.36,0.25,1,0.822
+patrolbot_1_0086.3.jpg,gamma only,95.3,6.9,0.63,1,0.812
+patrolbot_1_0086.3.jpg,CLAHE only,73.0,12.85,2.77,1,0.824
+patrolbot_1_0086.3.jpg,median3+gamma+CLAHE,118.2,5.91,3.51,1,0.801
+patrolbot_1_0086.3.jpg,median5+gamma+CLAHE,103.1,2.53,4.15,1,0.801
+patrolbot_1_0086.3.jpg,bilateral+gamma+CLAHE,102.5,2.81,12.67,1,0.84
+patrolbot_1_0089.3.jpg,raw,39.1,5.11,0.31,2,0.573
+patrolbot_1_0089.3.jpg,gamma only,92.5,8.04,0.58,2,0.648
+patrolbot_1_0089.3.jpg,CLAHE only,62.0,11.69,2.52,2,0.588
+patrolbot_1_0089.3.jpg,median3+gamma+CLAHE,119.2,6.66,2.79,1,0.805
+patrolbot_1_0089.3.jpg,median5+gamma+CLAHE,104.2,2.9,3.45,1,0.79
+patrolbot_1_0089.3.jpg,bilateral+gamma+CLAHE,103.0,3.09,9.69,1,0.792
+patrolbot_1_0092.4.jpg,raw,37.1,5.28,0.27,2,0.809
+patrolbot_1_0092.4.jpg,gamma only,94.5,8.17,0.6,2,0.798
+patrolbot_1_0092.4.jpg,CLAHE only,60.0,12.84,2.45,2,0.823
+patrolbot_1_0092.4.jpg,median3+gamma+CLAHE,119.7,6.79,3.22,2,0.767
+patrolbot_1_0092.4.jpg,median5+gamma+CLAHE,105.9,2.94,3.12,2,0.81
+patrolbot_1_0092.4.jpg,bilateral+gamma+CLAHE,104.9,3.3,10.32,2,0.804
+patrolbot_1_0096.5.jpg,raw,36.6,5.24,0.29,2,0.844
+patrolbot_1_0096.5.jpg,gamma only,94.2,8.26,0.58,2,0.841
+patrolbot_1_0096.5.jpg,CLAHE only,59.5,12.73,2.49,2,0.848
+patrolbot_1_0096.5.jpg,median3+gamma+CLAHE,119.8,6.85,2.63,2,0.837
+patrolbot_1_0096.5.jpg,median5+gamma+CLAHE,105.2,2.99,3.49,2,0.841
+patrolbot_1_0096.5.jpg,bilateral+gamma+CLAHE,104.4,3.32,9.13,2,0.847
+patrolbot_1_0099.6.jpg,raw,72.3,5.94,0.23,0,0.0
+patrolbot_1_0099.6.jpg,gamma only,99.5,6.32,0.59,0,0.0
+patrolbot_1_0099.6.jpg,CLAHE only,89.8,14.92,2.44,0,0.0
+patrolbot_1_0099.6.jpg,median3+gamma+CLAHE,119.4,5.14,3.0,0,0.0
+patrolbot_1_0099.6.jpg,median5+gamma+CLAHE,104.9,2.24,3.72,0,0.0
+patrolbot_1_0099.6.jpg,bilateral+gamma+CLAHE,105.0,2.69,8.88,0,0.0
+patrolbot_1_0102.7.jpg,raw,52.5,5.99,0.26,0,0.0
+patrolbot_1_0102.7.jpg,gamma only,99.1,7.1,0.79,0,0.0
+patrolbot_1_0102.7.jpg,CLAHE only,75.4,16.04,2.57,0,0.0
+patrolbot_1_0102.7.jpg,median3+gamma+CLAHE,120.8,5.96,2.88,0,0.0
+patrolbot_1_0102.7.jpg,median5+gamma+CLAHE,104.6,2.48,3.74,0,0.0
+patrolbot_1_0102.7.jpg,bilateral+gamma+CLAHE,104.9,3.04,10.12,0,0.0
+patrolbot_1_0105.7.jpg,raw,51.1,5.44,0.23,0,0.0
+patrolbot_1_0105.7.jpg,gamma only,95.2,7.04,0.71,0,0.0
+patrolbot_1_0105.7.jpg,CLAHE only,73.3,12.73,2.47,0,0.0
+patrolbot_1_0105.7.jpg,median3+gamma+CLAHE,120.4,5.74,2.79,0,0.0
+patrolbot_1_0105.7.jpg,median5+gamma+CLAHE,105.6,2.51,4.23,0,0.0
+patrolbot_1_0105.7.jpg,bilateral+gamma+CLAHE,104.7,2.8,10.7,0,0.0
+patrolbot_1_0108.8.jpg,raw,43.8,5.49,0.25,0,0.0
+patrolbot_1_0108.8.jpg,gamma only,95.2,7.68,0.77,0,0.0
+patrolbot_1_0108.8.jpg,CLAHE only,68.5,12.88,2.54,0,0.0
+patrolbot_1_0108.8.jpg,median3+gamma+CLAHE,120.9,6.17,2.77,1,0.331
+patrolbot_1_0108.8.jpg,median5+gamma+CLAHE,107.5,2.76,3.37,0,0.0
+patrolbot_1_0108.8.jpg,bilateral+gamma+CLAHE,106.7,3.13,9.74,1,0.549
+patrolbot_1_0111.9.jpg,raw,43.0,5.48,0.26,0,0.0
+patrolbot_1_0111.9.jpg,gamma only,95.1,7.71,0.69,0,0.0
+patrolbot_1_0111.9.jpg,CLAHE only,67.6,12.86,2.43,0,0.0
+patrolbot_1_0111.9.jpg,median3+gamma+CLAHE,120.1,6.27,2.88,0,0.0
+patrolbot_1_0111.9.jpg,median5+gamma+CLAHE,105.9,2.73,4.43,0,0.0
+patrolbot_1_0111.9.jpg,bilateral+gamma+CLAHE,104.9,3.1,9.89,0,0.0
+patrolbot_1_0115.0.jpg,raw,47.5,5.35,0.24,1,0.272
+patrolbot_1_0115.0.jpg,gamma only,92.8,7.63,0.72,1,0.257
+patrolbot_1_0115.0.jpg,CLAHE only,69.7,11.99,2.56,1,0.317
+patrolbot_1_0115.0.jpg,median3+gamma+CLAHE,119.9,6.16,2.66,1,0.355
+patrolbot_1_0115.0.jpg,median5+gamma+CLAHE,106.2,2.79,3.38,0,0.0
+patrolbot_1_0115.0.jpg,bilateral+gamma+CLAHE,104.9,3.01,9.51,0,0.0
+patrolbot_1_0118.1.jpg,raw,51.4,5.19,0.23,2,0.333
+patrolbot_1_0118.1.jpg,gamma only,92.2,7.25,0.6,1,0.436
+patrolbot_1_0118.1.jpg,CLAHE only,72.0,11.5,2.56,2,0.357
+patrolbot_1_0118.1.jpg,median3+gamma+CLAHE,119.2,6.06,2.75,0,0.0
+patrolbot_1_0118.1.jpg,median5+gamma+CLAHE,104.9,2.69,4.58,0,0.0
+patrolbot_1_0118.1.jpg,bilateral+gamma+CLAHE,103.8,2.94,11.31,0,0.0
+patrolbot_1_0121.2.jpg,raw,52.1,5.2,0.27,1,0.747
+patrolbot_1_0121.2.jpg,gamma only,92.6,7.2,0.78,1,0.732
+patrolbot_1_0121.2.jpg,CLAHE only,71.7,11.57,2.36,1,0.73
+patrolbot_1_0121.2.jpg,median3+gamma+CLAHE,117.6,6.05,2.76,1,0.675
+patrolbot_1_0121.2.jpg,median5+gamma+CLAHE,103.5,2.68,3.44,1,0.575
+patrolbot_1_0121.2.jpg,bilateral+gamma+CLAHE,102.4,2.91,9.67,1,0.666
+patrolbot_1_0124.3.jpg,raw,48.8,5.38,0.23,1,0.675
+patrolbot_1_0124.3.jpg,gamma only,94.0,7.42,0.97,1,0.684
+patrolbot_1_0124.3.jpg,CLAHE only,71.1,12.26,2.86,1,0.631
+patrolbot_1_0124.3.jpg,median3+gamma+CLAHE,117.9,6.01,3.26,1,0.669
+patrolbot_1_0124.3.jpg,median5+gamma+CLAHE,104.3,2.68,4.52,1,0.727
+patrolbot_1_0124.3.jpg,bilateral+gamma+CLAHE,103.6,3.06,9.95,1,0.731
+patrolbot_1_0127.4.jpg,raw,44.1,5.09,0.37,0,0.0
+patrolbot_1_0127.4.jpg,gamma only,93.2,7.44,0.74,0,0.0
+patrolbot_1_0127.4.jpg,CLAHE only,66.1,11.69,2.79,0,0.0
+patrolbot_1_0127.4.jpg,median3+gamma+CLAHE,119.4,6.32,3.1,0,0.0
+patrolbot_1_0127.4.jpg,median5+gamma+CLAHE,104.0,2.77,4.42,0,0.0
+patrolbot_1_0127.4.jpg,bilateral+gamma+CLAHE,103.0,3.01,9.64,0,0.0
+patrolbot_1_0130.5.jpg,raw,39.9,4.94,0.24,1,0.844
+patrolbot_1_0130.5.jpg,gamma only,90.7,8.01,0.69,1,0.851
+patrolbot_1_0130.5.jpg,CLAHE only,61.6,10.74,2.69,1,0.854
+patrolbot_1_0130.5.jpg,median3+gamma+CLAHE,118.3,6.76,2.81,1,0.788
+patrolbot_1_0130.5.jpg,median5+gamma+CLAHE,103.3,2.97,4.34,1,0.819
+patrolbot_1_0130.5.jpg,bilateral+gamma+CLAHE,102.3,3.11,10.87,1,0.825
+patrolbot_1_0133.6.jpg,raw,42.0,5.13,0.26,1,0.861
+patrolbot_1_0133.6.jpg,gamma only,90.9,8.17,0.63,1,0.868
+patrolbot_1_0133.6.jpg,CLAHE only,64.5,11.1,2.61,1,0.859
+patrolbot_1_0133.6.jpg,median3+gamma+CLAHE,118.1,6.65,3.09,1,0.873
+patrolbot_1_0133.6.jpg,median5+gamma+CLAHE,104.1,2.94,4.29,1,0.883
+patrolbot_1_0133.6.jpg,bilateral+gamma+CLAHE,102.7,3.13,10.0,1,0.884
+patrolbot_1_0136.6.jpg,raw,48.8,5.05,0.32,1,0.931
+patrolbot_1_0136.6.jpg,gamma only,89.4,7.69,0.68,1,0.93
+patrolbot_1_0136.6.jpg,CLAHE only,66.9,10.95,2.42,1,0.937
+patrolbot_1_0136.6.jpg,median3+gamma+CLAHE,116.2,6.32,4.33,1,0.919
+patrolbot_1_0136.6.jpg,median5+gamma+CLAHE,102.1,2.88,3.88,1,0.92
+patrolbot_1_0136.6.jpg,bilateral+gamma+CLAHE,101.1,3.0,9.94,1,0.923
+patrolbot_1_0139.7.jpg,raw,50.9,5.2,0.26,0,0.0
+patrolbot_1_0139.7.jpg,gamma only,92.3,7.27,0.7,0,0.0
+patrolbot_1_0139.7.jpg,CLAHE only,70.6,11.52,2.61,0,0.0
+patrolbot_1_0139.7.jpg,median3+gamma+CLAHE,118.7,5.9,2.95,0,0.0
+patrolbot_1_0139.7.jpg,median5+gamma+CLAHE,104.0,2.65,3.44,0,0.0
+patrolbot_1_0139.7.jpg,bilateral+gamma+CLAHE,102.7,2.9,12.43,0,0.0
+patrolbot_1_0142.8.jpg,raw,64.5,5.88,0.3,0,0.0
+patrolbot_1_0142.8.jpg,gamma only,97.5,6.68,0.65,0,0.0
+patrolbot_1_0142.8.jpg,CLAHE only,87.4,14.01,3.28,0,0.0
+patrolbot_1_0142.8.jpg,median3+gamma+CLAHE,121.6,5.53,3.36,0,0.0
+patrolbot_1_0142.8.jpg,median5+gamma+CLAHE,108.2,2.42,3.92,0,0.0
+patrolbot_1_0142.8.jpg,bilateral+gamma+CLAHE,108.1,2.8,10.41,0,0.0
+patrolbot_1_0145.9.jpg,raw,46.6,5.11,0.23,1,0.885
+patrolbot_1_0145.9.jpg,gamma only,90.6,7.64,0.68,1,0.878
+patrolbot_1_0145.9.jpg,CLAHE only,67.9,11.15,3.01,1,0.881
+patrolbot_1_0145.9.jpg,median3+gamma+CLAHE,118.6,6.39,3.42,1,0.903
+patrolbot_1_0145.9.jpg,median5+gamma+CLAHE,103.9,2.87,4.46,1,0.896
+patrolbot_1_0145.9.jpg,bilateral+gamma+CLAHE,102.3,3.04,14.29,1,0.902
+patrolbot_1_0149.0.jpg,raw,50.2,5.43,0.34,0,0.0
+patrolbot_1_0149.0.jpg,gamma only,94.2,7.29,0.65,0,0.0
+patrolbot_1_0149.0.jpg,CLAHE only,72.0,12.46,3.59,0,0.0
+patrolbot_1_0149.0.jpg,median3+gamma+CLAHE,117.4,5.81,3.36,0,0.0
+patrolbot_1_0149.0.jpg,median5+gamma+CLAHE,103.8,2.58,4.11,0,0.0
+patrolbot_1_0149.0.jpg,bilateral+gamma+CLAHE,102.9,2.93,10.56,0,0.0
+patrolbot_1_0152.0.jpg,raw,50.1,5.33,0.32,0,0.0
+patrolbot_1_0152.0.jpg,gamma only,94.8,7.23,0.72,0,0.0
+patrolbot_1_0152.0.jpg,CLAHE only,70.1,12.6,2.94,0,0.0
+patrolbot_1_0152.0.jpg,median3+gamma+CLAHE,117.0,5.91,4.91,0,0.0
+patrolbot_1_0152.0.jpg,median5+gamma+CLAHE,103.1,2.62,4.06,0,0.0
+patrolbot_1_0152.0.jpg,bilateral+gamma+CLAHE,102.0,2.99,11.23,0,0.0
+patrolbot_1_0155.1.jpg,raw,50.1,5.33,0.32,0,0.0
+patrolbot_1_0155.1.jpg,gamma only,94.8,7.16,0.66,0,0.0
+patrolbot_1_0155.1.jpg,CLAHE only,69.9,12.6,2.93,0,0.0
+patrolbot_1_0155.1.jpg,median3+gamma+CLAHE,117.2,5.95,3.54,0,0.0
+patrolbot_1_0155.1.jpg,median5+gamma+CLAHE,102.8,2.62,4.45,0,0.0
+patrolbot_1_0155.1.jpg,bilateral+gamma+CLAHE,101.9,2.94,12.2,0,0.0
+patrolbot_1_0158.5.jpg,raw,52.7,5.46,0.26,0,0.0
+patrolbot_1_0158.5.jpg,gamma only,94.2,7.28,0.65,0,0.0
+patrolbot_1_0158.5.jpg,CLAHE only,74.6,12.41,3.19,0,0.0
+patrolbot_1_0158.5.jpg,median3+gamma+CLAHE,118.7,5.76,3.18,0,0.0
+patrolbot_1_0158.5.jpg,median5+gamma+CLAHE,104.9,2.58,4.9,0,0.0
+patrolbot_1_0158.5.jpg,bilateral+gamma+CLAHE,104.2,2.92,10.36,0,0.0
+patrolbot_1_0161.6.jpg,raw,58.6,5.87,0.22,0,0.0
+patrolbot_1_0161.6.jpg,gamma only,96.0,7.03,0.6,0,0.0
+patrolbot_1_0161.6.jpg,CLAHE only,82.3,13.86,2.7,0,0.0
+patrolbot_1_0161.6.jpg,median3+gamma+CLAHE,118.9,5.71,2.5,0,0.0
+patrolbot_1_0161.6.jpg,median5+gamma+CLAHE,105.7,2.53,4.6,0,0.0
+patrolbot_1_0161.6.jpg,bilateral+gamma+CLAHE,105.6,2.87,9.8,0,0.0
+patrolbot_1_0164.7.jpg,raw,50.6,5.48,0.22,0,0.0
+patrolbot_1_0164.7.jpg,gamma only,94.0,7.37,0.68,0,0.0
+patrolbot_1_0164.7.jpg,CLAHE only,73.0,12.57,2.74,0,0.0
+patrolbot_1_0164.7.jpg,median3+gamma+CLAHE,118.0,5.98,2.88,0,0.0
+patrolbot_1_0164.7.jpg,median5+gamma+CLAHE,104.8,2.65,3.38,0,0.0
+patrolbot_1_0164.7.jpg,bilateral+gamma+CLAHE,103.4,2.93,9.18,0,0.0
+patrolbot_1_0167.7.jpg,raw,26.8,4.67,0.23,0,0.0
+patrolbot_1_0167.7.jpg,gamma only,91.4,9.41,0.63,0,0.0
+patrolbot_1_0167.7.jpg,CLAHE only,47.7,10.24,2.56,0,0.0
+patrolbot_1_0167.7.jpg,median3+gamma+CLAHE,117.7,7.94,3.18,0,0.0
+patrolbot_1_0167.7.jpg,median5+gamma+CLAHE,103.3,3.46,3.53,0,0.0
+patrolbot_1_0167.7.jpg,bilateral+gamma+CLAHE,102.3,3.52,10.1,0,0.0
+patrolbot_1_0170.8.jpg,raw,59.0,5.82,0.3,1,0.483
+patrolbot_1_0170.8.jpg,gamma only,95.8,7.08,0.76,1,0.641
+patrolbot_1_0170.8.jpg,CLAHE only,82.1,13.27,2.74,1,0.536
+patrolbot_1_0170.8.jpg,median3+gamma+CLAHE,119.5,5.58,3.11,1,0.615
+patrolbot_1_0170.8.jpg,median5+gamma+CLAHE,106.9,2.51,4.06,1,0.589
+patrolbot_1_0170.8.jpg,bilateral+gamma+CLAHE,106.6,2.83,11.28,0,0.0
+patrolbot_1_0173.9.jpg,raw,57.0,5.67,0.24,0,0.0
+patrolbot_1_0173.9.jpg,gamma only,96.0,7.06,0.65,0,0.0
+patrolbot_1_0173.9.jpg,CLAHE only,81.2,13.15,2.64,0,0.0
+patrolbot_1_0173.9.jpg,median3+gamma+CLAHE,122.9,5.74,3.28,0,0.0
+patrolbot_1_0173.9.jpg,median5+gamma+CLAHE,108.5,2.56,3.87,0,0.0
+patrolbot_1_0173.9.jpg,bilateral+gamma+CLAHE,107.7,2.9,12.18,0,0.0
+patrolbot_1_0177.0.jpg,raw,65.8,6.01,0.27,0,0.0
+patrolbot_1_0177.0.jpg,gamma only,98.0,6.79,0.62,0,0.0
+patrolbot_1_0177.0.jpg,CLAHE only,89.7,14.39,2.48,0,0.0
+patrolbot_1_0177.0.jpg,median3+gamma+CLAHE,121.5,5.34,2.88,0,0.0
+patrolbot_1_0177.0.jpg,median5+gamma+CLAHE,108.6,2.45,3.75,0,0.0
+patrolbot_1_0177.0.jpg,bilateral+gamma+CLAHE,108.8,2.89,9.6,0,0.0
+patrolbot_1_0180.0.jpg,raw,63.9,5.81,0.23,0,0.0
+patrolbot_1_0180.0.jpg,gamma only,98.0,6.64,0.61,0,0.0
+patrolbot_1_0180.0.jpg,CLAHE only,86.6,14.09,3.35,0,0.0
+patrolbot_1_0180.0.jpg,median3+gamma+CLAHE,121.3,5.34,3.96,0,0.0
+patrolbot_1_0180.0.jpg,median5+gamma+CLAHE,107.3,2.41,4.09,0,0.0
+patrolbot_1_0180.0.jpg,bilateral+gamma+CLAHE,107.1,2.8,13.67,0,0.0
+patrolbot_1_0183.1.jpg,raw,80.9,6.05,0.3,0,0.0
+patrolbot_1_0183.1.jpg,gamma only,100.5,6.18,0.7,0,0.0
+patrolbot_1_0183.1.jpg,CLAHE only,97.4,14.94,3.29,0,0.0
+patrolbot_1_0183.1.jpg,median3+gamma+CLAHE,119.6,4.97,3.06,0,0.0
+patrolbot_1_0183.1.jpg,median5+gamma+CLAHE,106.6,2.22,4.05,0,0.0
+patrolbot_1_0183.1.jpg,bilateral+gamma+CLAHE,106.9,2.64,10.35,0,0.0
+patrolbot_1_0186.2.jpg,raw,84.4,6.1,0.29,0,0.0
+patrolbot_1_0186.2.jpg,gamma only,100.4,6.24,0.75,0,0.0
+patrolbot_1_0186.2.jpg,CLAHE only,99.0,15.14,3.39,0,0.0
+patrolbot_1_0186.2.jpg,median3+gamma+CLAHE,118.1,5.01,3.15,0,0.0
+patrolbot_1_0186.2.jpg,median5+gamma+CLAHE,104.3,2.21,4.97,0,0.0
+patrolbot_1_0186.2.jpg,bilateral+gamma+CLAHE,104.3,2.71,10.66,0,0.0
+patrolbot_1_0189.3.jpg,raw,49.5,5.33,0.27,0,0.0
+patrolbot_1_0189.3.jpg,gamma only,93.9,7.36,0.77,0,0.0
+patrolbot_1_0189.3.jpg,CLAHE only,71.4,12.22,2.67,0,0.0
+patrolbot_1_0189.3.jpg,median3+gamma+CLAHE,119.6,5.97,3.05,0,0.0
+patrolbot_1_0189.3.jpg,median5+gamma+CLAHE,105.6,2.71,4.33,0,0.0
+patrolbot_1_0189.3.jpg,bilateral+gamma+CLAHE,104.7,2.98,11.38,0,0.0
+patrolbot_1_0192.4.jpg,raw,51.5,6.85,0.29,0,0.0
+patrolbot_1_0192.4.jpg,gamma only,93.3,9.39,0.64,0,0.0
+patrolbot_1_0192.4.jpg,CLAHE only,73.1,15.19,2.5,0,0.0
+patrolbot_1_0192.4.jpg,median3+gamma+CLAHE,119.3,6.87,3.52,0,0.0
+patrolbot_1_0192.4.jpg,median5+gamma+CLAHE,105.1,2.96,4.03,0,0.0
+patrolbot_1_0192.4.jpg,bilateral+gamma+CLAHE,104.3,4.58,9.5,0,0.0
+patrolbot_1_0195.4.jpg,raw,62.2,5.71,0.26,0,0.0
+patrolbot_1_0195.4.jpg,gamma only,97.5,6.62,0.59,0,0.0
+patrolbot_1_0195.4.jpg,CLAHE only,82.3,13.66,2.3,0,0.0
+patrolbot_1_0195.4.jpg,median3+gamma+CLAHE,118.6,5.44,2.89,0,0.0
+patrolbot_1_0195.4.jpg,median5+gamma+CLAHE,104.8,2.4,3.93,0,0.0
+patrolbot_1_0195.4.jpg,bilateral+gamma+CLAHE,104.5,2.81,12.02,0,0.0
+patrolbot_1_0198.5.jpg,raw,48.2,5.15,0.27,0,0.0
+patrolbot_1_0198.5.jpg,gamma only,92.7,7.34,0.6,0,0.0
+patrolbot_1_0198.5.jpg,CLAHE only,69.6,11.73,3.05,0,0.0
+patrolbot_1_0198.5.jpg,median3+gamma+CLAHE,118.2,6.15,3.26,0,0.0
+patrolbot_1_0198.5.jpg,median5+gamma+CLAHE,103.7,2.79,4.01,0,0.0
+patrolbot_1_0198.5.jpg,bilateral+gamma+CLAHE,102.7,3.01,9.92,0,0.0
+patrolbot_1_0201.6.jpg,raw,44.0,5.12,0.26,0,0.0
+patrolbot_1_0201.6.jpg,gamma only,92.9,7.6,0.66,0,0.0
+patrolbot_1_0201.6.jpg,CLAHE only,66.7,11.8,2.55,0,0.0
+patrolbot_1_0201.6.jpg,median3+gamma+CLAHE,117.8,6.5,2.86,0,0.0
+patrolbot_1_0201.6.jpg,median5+gamma+CLAHE,104.0,2.77,4.08,0,0.0
+patrolbot_1_0201.6.jpg,bilateral+gamma+CLAHE,103.2,3.0,10.7,0,0.0
+patrolbot_1_0204.6.jpg,raw,42.7,5.36,0.25,0,0.0
+patrolbot_1_0204.6.jpg,gamma only,95.1,7.6,0.58,0,0.0
+patrolbot_1_0204.6.jpg,CLAHE only,67.1,13.04,4.09,0,0.0
+patrolbot_1_0204.6.jpg,median3+gamma+CLAHE,120.4,6.27,3.39,0,0.0
+patrolbot_1_0204.6.jpg,median5+gamma+CLAHE,106.1,2.82,3.41,0,0.0
+patrolbot_1_0204.6.jpg,bilateral+gamma+CLAHE,105.5,3.15,10.18,0,0.0
+patrolbot_1_0207.7.jpg,raw,55.5,5.62,0.29,1,0.703
+patrolbot_1_0207.7.jpg,gamma only,96.9,6.89,0.63,1,0.751
+patrolbot_1_0207.7.jpg,CLAHE only,78.6,13.83,2.55,1,0.67
+patrolbot_1_0207.7.jpg,median3+gamma+CLAHE,119.9,5.76,2.98,0,0.0
+patrolbot_1_0207.7.jpg,median5+gamma+CLAHE,105.2,2.51,3.81,0,0.0
+patrolbot_1_0207.7.jpg,bilateral+gamma+CLAHE,104.6,2.87,12.47,1,0.375
+patrolbot_1_0210.8.jpg,raw,50.7,5.36,0.31,1,0.789
+patrolbot_1_0210.8.jpg,gamma only,95.4,7.12,0.8,1,0.769
+patrolbot_1_0210.8.jpg,CLAHE only,72.2,12.71,2.99,1,0.789
+patrolbot_1_0210.8.jpg,median3+gamma+CLAHE,118.4,5.88,3.1,1,0.657
+patrolbot_1_0210.8.jpg,median5+gamma+CLAHE,104.1,2.59,3.44,1,0.73
+patrolbot_1_0210.8.jpg,bilateral+gamma+CLAHE,103.1,2.91,10.16,1,0.779
+patrolbot_1_0213.9.jpg,raw,42.9,5.06,0.24,2,0.663
+patrolbot_1_0213.9.jpg,gamma only,93.1,7.59,0.6,2,0.7
+patrolbot_1_0213.9.jpg,CLAHE only,64.2,11.63,2.64,2,0.697
+patrolbot_1_0213.9.jpg,median3+gamma+CLAHE,118.2,6.37,2.81,2,0.566
+patrolbot_1_0213.9.jpg,median5+gamma+CLAHE,104.6,2.76,4.01,1,0.742
+patrolbot_1_0213.9.jpg,bilateral+gamma+CLAHE,103.6,2.98,11.11,2,0.565
+patrolbot_1_0217.0.jpg,raw,33.9,4.74,0.25,1,0.86
+patrolbot_1_0217.0.jpg,gamma only,91.7,8.26,0.63,1,0.857
+patrolbot_1_0217.0.jpg,CLAHE only,55.6,10.82,3.93,1,0.859
+patrolbot_1_0217.0.jpg,median3+gamma+CLAHE,119.5,7.02,3.74,1,0.84
+patrolbot_1_0217.0.jpg,median5+gamma+CLAHE,105.2,3.03,4.16,1,0.825
+patrolbot_1_0217.0.jpg,bilateral+gamma+CLAHE,104.1,3.18,11.44,1,0.852
+patrolbot_1_0222.0.jpg,raw,33.5,4.94,0.25,1,0.865
+patrolbot_1_0222.0.jpg,gamma only,92.7,8.42,0.58,1,0.88
+patrolbot_1_0222.0.jpg,CLAHE only,55.4,11.38,2.44,1,0.885
+patrolbot_1_0222.0.jpg,median3+gamma+CLAHE,118.8,7.08,2.67,1,0.858
+patrolbot_1_0222.0.jpg,median5+gamma+CLAHE,104.5,3.07,3.6,1,0.854
+patrolbot_1_0222.0.jpg,bilateral+gamma+CLAHE,103.5,3.32,11.27,1,0.846
+patrolbot_1_0225.1.jpg,raw,68.7,5.94,0.22,0,0.0
+patrolbot_1_0225.1.jpg,gamma only,99.5,6.41,0.64,0,0.0
+patrolbot_1_0225.1.jpg,CLAHE only,88.9,15.12,2.71,0,0.0
+patrolbot_1_0225.1.jpg,median3+gamma+CLAHE,121.2,5.26,2.89,0,0.0
+patrolbot_1_0225.1.jpg,median5+gamma+CLAHE,107.2,2.28,3.73,0,0.0
+patrolbot_1_0225.1.jpg,bilateral+gamma+CLAHE,107.0,2.71,10.77,0,0.0
+patrolbot_1_0228.2.jpg,raw,38.2,5.24,0.24,0,0.0
+patrolbot_1_0228.2.jpg,gamma only,94.1,8.01,0.65,0,0.0
+patrolbot_1_0228.2.jpg,CLAHE only,61.8,12.54,2.54,0,0.0
+patrolbot_1_0228.2.jpg,median3+gamma+CLAHE,121.7,6.48,2.92,0,0.0
+patrolbot_1_0228.2.jpg,median5+gamma+CLAHE,107.3,2.76,3.87,0,0.0
+patrolbot_1_0228.2.jpg,bilateral+gamma+CLAHE,106.2,3.05,11.01,0,0.0
+patrolbot_1_0231.3.jpg,raw,72.0,6.04,0.26,0,0.0
+patrolbot_1_0231.3.jpg,gamma only,100.2,6.31,0.72,0,0.0
+patrolbot_1_0231.3.jpg,CLAHE only,90.6,15.63,3.06,0,0.0
+patrolbot_1_0231.3.jpg,median3+gamma+CLAHE,121.1,5.23,3.46,0,0.0
+patrolbot_1_0231.3.jpg,median5+gamma+CLAHE,106.2,2.25,4.54,0,0.0
+patrolbot_1_0231.3.jpg,bilateral+gamma+CLAHE,106.2,2.76,10.85,0,0.0
+patrolbot_1_0234.3.jpg,raw,45.2,5.28,0.28,1,0.523
+patrolbot_1_0234.3.jpg,gamma only,93.5,7.54,0.7,1,0.448
+patrolbot_1_0234.3.jpg,CLAHE only,68.0,12.0,2.91,1,0.552
+patrolbot_1_0234.3.jpg,median3+gamma+CLAHE,119.6,6.27,3.24,1,0.426
+patrolbot_1_0234.3.jpg,median5+gamma+CLAHE,105.9,2.77,4.36,0,0.0
+patrolbot_1_0234.3.jpg,bilateral+gamma+CLAHE,104.7,3.0,10.87,1,0.503
+patrolbot_1_0237.4.jpg,raw,45.6,5.54,0.28,1,0.423
+patrolbot_1_0237.4.jpg,gamma only,94.7,7.69,0.73,1,0.321
+patrolbot_1_0237.4.jpg,CLAHE only,69.8,12.91,3.02,1,0.449
+patrolbot_1_0237.4.jpg,median3+gamma+CLAHE,120.8,6.21,3.29,1,0.484
+patrolbot_1_0237.4.jpg,median5+gamma+CLAHE,106.9,2.75,4.72,0,0.0
+patrolbot_1_0237.4.jpg,bilateral+gamma+CLAHE,106.2,3.07,10.83,1,0.383
+patrolbot_1_0240.5.jpg,raw,47.0,5.48,0.27,1,0.658
+patrolbot_1_0240.5.jpg,gamma only,94.6,7.55,0.68,1,0.432
+patrolbot_1_0240.5.jpg,CLAHE only,70.5,12.71,2.85,1,0.57
+patrolbot_1_0240.5.jpg,median3+gamma+CLAHE,119.7,6.15,3.49,1,0.398
+patrolbot_1_0240.5.jpg,median5+gamma+CLAHE,106.1,2.74,4.63,1,0.398
+patrolbot_1_0240.5.jpg,bilateral+gamma+CLAHE,105.2,3.07,14.5,1,0.47
+patrolbot_1_0243.6.jpg,raw,44.7,5.43,0.31,1,0.454
+patrolbot_1_0243.6.jpg,gamma only,93.3,7.81,0.77,1,0.441
+patrolbot_1_0243.6.jpg,CLAHE only,68.6,12.19,3.09,1,0.504
+patrolbot_1_0243.6.jpg,median3+gamma+CLAHE,120.5,6.23,3.42,1,0.378
+patrolbot_1_0243.6.jpg,median5+gamma+CLAHE,107.0,2.78,4.37,1,0.461
+patrolbot_1_0243.6.jpg,bilateral+gamma+CLAHE,106.0,3.12,10.89,1,0.314
+patrolbot_1_0246.7.jpg,raw,52.5,5.49,0.28,0,0.0
+patrolbot_1_0246.7.jpg,gamma only,94.6,7.24,0.7,0,0.0
+patrolbot_1_0246.7.jpg,CLAHE only,75.8,12.52,3.06,0,0.0
+patrolbot_1_0246.7.jpg,median3+gamma+CLAHE,120.6,5.94,3.56,0,0.0
+patrolbot_1_0246.7.jpg,median5+gamma+CLAHE,106.8,2.68,4.63,0,0.0
+patrolbot_1_0246.7.jpg,bilateral+gamma+CLAHE,106.3,3.01,11.89,0,0.0
+patrolbot_1_0249.7.jpg,raw,49.6,5.45,0.3,1,0.686
+patrolbot_1_0249.7.jpg,gamma only,94.0,7.43,0.75,1,0.636
+patrolbot_1_0249.7.jpg,CLAHE only,73.7,12.24,3.12,1,0.717
+patrolbot_1_0249.7.jpg,median3+gamma+CLAHE,120.8,5.88,3.39,1,0.586
+patrolbot_1_0249.7.jpg,median5+gamma+CLAHE,108.0,2.65,4.56,1,0.568
+patrolbot_1_0249.7.jpg,bilateral+gamma+CLAHE,106.9,2.99,11.07,1,0.682
+patrolbot_1_0252.8.jpg,raw,46.2,5.37,0.27,0,0.0
+patrolbot_1_0252.8.jpg,gamma only,94.0,7.59,0.77,0,0.0
+patrolbot_1_0252.8.jpg,CLAHE only,70.2,12.18,3.0,0,0.0
+patrolbot_1_0252.8.jpg,median3+gamma+CLAHE,120.0,6.19,3.48,0,0.0
+patrolbot_1_0252.8.jpg,median5+gamma+CLAHE,106.4,2.78,4.68,0,0.0
+patrolbot_1_0252.8.jpg,bilateral+gamma+CLAHE,105.2,3.06,11.76,0,0.0
+patrolbot_1_0255.9.jpg,raw,47.3,5.29,0.34,0,0.0
+patrolbot_1_0255.9.jpg,gamma only,94.3,7.41,0.76,0,0.0
+patrolbot_1_0255.9.jpg,CLAHE only,70.2,12.16,3.06,0,0.0
+patrolbot_1_0255.9.jpg,median3+gamma+CLAHE,119.1,6.22,3.56,0,0.0
+patrolbot_1_0255.9.jpg,median5+gamma+CLAHE,104.7,2.81,4.7,0,0.0
+patrolbot_1_0255.9.jpg,bilateral+gamma+CLAHE,103.6,3.06,11.99,0,0.0
+patrolbot_1_0258.9.jpg,raw,38.7,4.89,0.27,1,0.448
+patrolbot_1_0258.9.jpg,gamma only,90.4,8.16,0.77,2,0.442
+patrolbot_1_0258.9.jpg,CLAHE only,60.6,10.61,3.0,2,0.388
+patrolbot_1_0258.9.jpg,median3+gamma+CLAHE,117.9,6.78,3.7,2,0.383
+patrolbot_1_0258.9.jpg,median5+gamma+CLAHE,103.3,3.06,4.35,2,0.406
+patrolbot_1_0258.9.jpg,bilateral+gamma+CLAHE,102.2,3.19,11.78,1,0.336
+patrolbot_1_0262.0.jpg,raw,39.0,4.86,0.29,1,0.736
+patrolbot_1_0262.0.jpg,gamma only,90.4,8.03,0.71,1,0.748
+patrolbot_1_0262.0.jpg,CLAHE only,60.1,10.58,2.89,1,0.745
+patrolbot_1_0262.0.jpg,median3+gamma+CLAHE,117.4,6.99,3.98,1,0.63
+patrolbot_1_0262.0.jpg,median5+gamma+CLAHE,102.4,3.04,4.25,1,0.522
+patrolbot_1_0262.0.jpg,bilateral+gamma+CLAHE,101.1,3.15,10.81,1,0.675
+patrolbot_1_0265.1.jpg,raw,43.5,4.97,0.28,1,0.865
+patrolbot_1_0265.1.jpg,gamma only,91.9,7.6,0.72,1,0.85
+patrolbot_1_0265.1.jpg,CLAHE only,64.7,10.97,2.86,1,0.854
+patrolbot_1_0265.1.jpg,median3+gamma+CLAHE,117.3,6.42,3.54,1,0.847
+patrolbot_1_0265.1.jpg,median5+gamma+CLAHE,103.1,2.8,4.43,1,0.851
+patrolbot_1_0265.1.jpg,bilateral+gamma+CLAHE,102.2,2.91,10.95,1,0.851
+patrolbot_1_0268.2.jpg,raw,41.3,4.99,0.32,1,0.849
+patrolbot_1_0268.2.jpg,gamma only,90.4,8.07,0.82,1,0.861
+patrolbot_1_0268.2.jpg,CLAHE only,62.4,10.68,3.09,1,0.853
+patrolbot_1_0268.2.jpg,median3+gamma+CLAHE,116.5,6.54,3.55,1,0.852
+patrolbot_1_0268.2.jpg,median5+gamma+CLAHE,102.1,2.95,4.19,1,0.861
+patrolbot_1_0268.2.jpg,bilateral+gamma+CLAHE,101.3,3.08,10.68,1,0.851
+patrolbot_1_0271.2.jpg,raw,47.3,4.84,0.27,0,0.0
+patrolbot_1_0271.2.jpg,gamma only,88.7,7.67,0.72,0,0.0
+patrolbot_1_0271.2.jpg,CLAHE only,65.1,10.4,3.07,0,0.0
+patrolbot_1_0271.2.jpg,median3+gamma+CLAHE,115.4,6.43,3.2,0,0.0
+patrolbot_1_0271.2.jpg,median5+gamma+CLAHE,101.7,2.86,4.22,0,0.0
+patrolbot_1_0271.2.jpg,bilateral+gamma+CLAHE,100.8,2.97,11.41,0,0.0
+patrolbot_1_0274.3.jpg,raw,51.8,5.18,0.28,0,0.0
+patrolbot_1_0274.3.jpg,gamma only,92.8,7.16,0.69,0,0.0
+patrolbot_1_0274.3.jpg,CLAHE only,71.3,11.57,2.97,0,0.0
+patrolbot_1_0274.3.jpg,median3+gamma+CLAHE,118.4,5.86,3.41,0,0.0
+patrolbot_1_0274.3.jpg,median5+gamma+CLAHE,104.0,2.61,4.37,0,0.0
+patrolbot_1_0274.3.jpg,bilateral+gamma+CLAHE,102.9,2.82,10.7,0,0.0
+patrolbot_1_0277.4.jpg,raw,62.4,5.86,0.28,0,0.0
+patrolbot_1_0277.4.jpg,gamma only,96.9,6.76,0.74,0,0.0
+patrolbot_1_0277.4.jpg,CLAHE only,85.5,13.85,3.05,0,0.0
+patrolbot_1_0277.4.jpg,median3+gamma+CLAHE,121.6,5.55,3.35,0,0.0
+patrolbot_1_0277.4.jpg,median5+gamma+CLAHE,107.6,2.44,4.43,0,0.0
+patrolbot_1_0277.4.jpg,bilateral+gamma+CLAHE,106.9,2.83,11.07,0,0.0
+patrolbot_1_0280.5.jpg,raw,45.1,4.9,0.27,0,0.0
+patrolbot_1_0280.5.jpg,gamma only,89.8,7.6,0.75,0,0.0
+patrolbot_1_0280.5.jpg,CLAHE only,64.4,10.63,2.97,0,0.0
+patrolbot_1_0280.5.jpg,median3+gamma+CLAHE,116.1,6.48,3.35,0,0.0
+patrolbot_1_0280.5.jpg,median5+gamma+CLAHE,102.1,2.79,4.99,0,0.0
+patrolbot_1_0280.5.jpg,bilateral+gamma+CLAHE,100.9,2.94,10.95,0,0.0
+patrolbot_1_0283.6.jpg,raw,50.0,5.4,0.28,0,0.0
+patrolbot_1_0283.6.jpg,gamma only,94.2,7.33,0.86,0,0.0
+patrolbot_1_0283.6.jpg,CLAHE only,71.7,12.35,3.11,0,0.0
+patrolbot_1_0283.6.jpg,median3+gamma+CLAHE,117.4,5.85,3.32,0,0.0
+patrolbot_1_0283.6.jpg,median5+gamma+CLAHE,103.8,2.61,4.58,0,0.0
+patrolbot_1_0283.6.jpg,bilateral+gamma+CLAHE,103.0,2.97,11.45,0,0.0
+patrolbot_1_0286.6.jpg,raw,50.0,5.33,0.36,0,0.0
+patrolbot_1_0286.6.jpg,gamma only,94.8,7.2,0.75,0,0.0
+patrolbot_1_0286.6.jpg,CLAHE only,69.9,12.59,2.87,0,0.0
+patrolbot_1_0286.6.jpg,median3+gamma+CLAHE,117.2,5.97,3.66,0,0.0
+patrolbot_1_0286.6.jpg,median5+gamma+CLAHE,102.9,2.62,4.71,0,0.0
+patrolbot_1_0286.6.jpg,bilateral+gamma+CLAHE,102.2,2.93,10.89,0,0.0
+patrolbot_1_0289.7.jpg,raw,50.0,5.32,0.31,0,0.0
+patrolbot_1_0289.7.jpg,gamma only,94.8,7.18,0.75,0,0.0
+patrolbot_1_0289.7.jpg,CLAHE only,69.9,12.56,3.21,0,0.0
+patrolbot_1_0289.7.jpg,median3+gamma+CLAHE,117.2,5.97,3.62,0,0.0
+patrolbot_1_0289.7.jpg,median5+gamma+CLAHE,102.9,2.62,4.57,0,0.0
+patrolbot_1_0289.7.jpg,bilateral+gamma+CLAHE,101.9,2.91,11.15,0,0.0
+patrolbot_1_0292.8.jpg,raw,55.6,5.77,0.3,0,0.0
+patrolbot_1_0292.8.jpg,gamma only,95.0,7.3,0.7,0,0.0
+patrolbot_1_0292.8.jpg,CLAHE only,79.4,13.25,2.92,0,0.0
+patrolbot_1_0292.8.jpg,median3+gamma+CLAHE,119.0,5.76,3.76,0,0.0
+patrolbot_1_0292.8.jpg,median5+gamma+CLAHE,106.5,2.61,4.63,0,0.0
+patrolbot_1_0292.8.jpg,bilateral+gamma+CLAHE,105.9,2.97,11.25,0,0.0
+patrolbot_1_0295.8.jpg,raw,57.1,5.84,0.29,0,0.0
+patrolbot_1_0295.8.jpg,gamma only,95.7,7.18,0.77,0,0.0
+patrolbot_1_0295.8.jpg,CLAHE only,81.6,13.69,3.05,0,0.0
+patrolbot_1_0295.8.jpg,median3+gamma+CLAHE,119.4,5.7,3.34,0,0.0
+patrolbot_1_0295.8.jpg,median5+gamma+CLAHE,106.2,2.54,4.56,0,0.0
+patrolbot_1_0295.8.jpg,bilateral+gamma+CLAHE,106.0,2.95,10.82,0,0.0
+patrolbot_1_0298.9.jpg,raw,36.2,4.95,0.27,0,0.0
+patrolbot_1_0298.9.jpg,gamma only,91.1,8.44,0.75,0,0.0
+patrolbot_1_0298.9.jpg,CLAHE only,57.6,10.86,3.13,0,0.0
+patrolbot_1_0298.9.jpg,median3+gamma+CLAHE,115.2,6.97,4.45,0,0.0
+patrolbot_1_0298.9.jpg,median5+gamma+CLAHE,101.0,3.08,4.41,0,0.0
+patrolbot_1_0298.9.jpg,bilateral+gamma+CLAHE,99.8,3.27,11.83,0,0.0
+patrolbot_1_0302.0.jpg,raw,23.3,4.65,0.29,0,0.0
+patrolbot_1_0302.0.jpg,gamma only,92.1,9.91,0.74,0,0.0
+patrolbot_1_0302.0.jpg,CLAHE only,43.9,10.13,3.0,0,0.0
+patrolbot_1_0302.0.jpg,median3+gamma+CLAHE,119.4,8.32,3.67,0,0.0
+patrolbot_1_0302.0.jpg,median5+gamma+CLAHE,104.3,3.63,4.51,0,0.0
+patrolbot_1_0302.0.jpg,bilateral+gamma+CLAHE,103.6,3.68,10.9,0,0.0
+patrolbot_1_0305.1.jpg,raw,23.0,4.76,0.27,0,0.0
+patrolbot_1_0305.1.jpg,gamma only,93.0,10.01,0.71,0,0.0
+patrolbot_1_0305.1.jpg,CLAHE only,44.2,10.38,3.1,0,0.0
+patrolbot_1_0305.1.jpg,median3+gamma+CLAHE,118.7,8.13,3.74,0,0.0
+patrolbot_1_0305.1.jpg,median5+gamma+CLAHE,104.2,3.55,4.18,0,0.0
+patrolbot_1_0305.1.jpg,bilateral+gamma+CLAHE,103.6,3.65,12.77,0,0.0
+patrolbot_1_0308.2.jpg,raw,22.0,5.02,0.29,0,0.0
+patrolbot_1_0308.2.jpg,gamma only,94.8,10.27,0.7,0,0.0
+patrolbot_1_0308.2.jpg,CLAHE only,42.7,11.04,3.09,0,0.0
+patrolbot_1_0308.2.jpg,median3+gamma+CLAHE,118.3,8.42,3.3,0,0.0
+patrolbot_1_0308.2.jpg,median5+gamma+CLAHE,105.3,3.61,4.25,0,0.0
+patrolbot_1_0308.2.jpg,bilateral+gamma+CLAHE,104.8,3.83,10.77,0,0.0
+patrolbot_1_0311.2.jpg,raw,21.6,5.18,0.27,0,0.0
+patrolbot_1_0311.2.jpg,gamma only,95.5,10.4,0.84,0,0.0
+patrolbot_1_0311.2.jpg,CLAHE only,41.7,11.15,3.03,0,0.0
+patrolbot_1_0311.2.jpg,median3+gamma+CLAHE,119.2,8.48,3.42,0,0.0
+patrolbot_1_0311.2.jpg,median5+gamma+CLAHE,106.4,3.71,4.19,0,0.0
+patrolbot_1_0311.2.jpg,bilateral+gamma+CLAHE,106.0,4.05,11.97,0,0.0
+patrolbot_1_0314.3.jpg,raw,51.6,5.8,0.29,0,0.0
+patrolbot_1_0314.3.jpg,gamma only,94.4,7.58,0.84,0,0.0
+patrolbot_1_0314.3.jpg,CLAHE only,76.5,13.49,3.24,0,0.0
+patrolbot_1_0314.3.jpg,median3+gamma+CLAHE,115.2,5.87,3.5,0,0.0
+patrolbot_1_0314.3.jpg,median5+gamma+CLAHE,103.4,2.65,4.19,0,0.0
+patrolbot_1_0314.3.jpg,bilateral+gamma+CLAHE,102.8,3.09,10.66,0,0.0
+patrolbot_1_0317.4.jpg,raw,42.1,5.92,0.3,0,0.0
+patrolbot_1_0317.4.jpg,gamma only,99.6,7.51,0.78,0,0.0
+patrolbot_1_0317.4.jpg,CLAHE only,66.8,16.08,3.03,0,0.0
+patrolbot_1_0317.4.jpg,median3+gamma+CLAHE,119.6,6.12,3.6,0,0.0
+patrolbot_1_0317.4.jpg,median5+gamma+CLAHE,104.8,2.66,4.69,0,0.0
+patrolbot_1_0317.4.jpg,bilateral+gamma+CLAHE,104.9,3.27,11.1,0,0.0
+patrolbot_1_0320.5.jpg,raw,39.1,5.32,0.27,0,0.0
+patrolbot_1_0320.5.jpg,gamma only,92.1,8.46,1.0,0,0.0
+patrolbot_1_0320.5.jpg,CLAHE only,62.4,12.0,3.3,0,0.0
+patrolbot_1_0320.5.jpg,median3+gamma+CLAHE,113.8,6.75,3.75,0,0.0
+patrolbot_1_0320.5.jpg,median5+gamma+CLAHE,101.2,2.97,4.43,0,0.0
+patrolbot_1_0320.5.jpg,bilateral+gamma+CLAHE,100.6,3.25,11.04,0,0.0
+patrolbot_1_0323.6.jpg,raw,49.9,5.66,0.28,0,0.0
+patrolbot_1_0323.6.jpg,gamma only,94.5,7.5,0.76,0,0.0
+patrolbot_1_0323.6.jpg,CLAHE only,73.9,13.35,3.02,0,0.0
+patrolbot_1_0323.6.jpg,median3+gamma+CLAHE,115.7,5.88,3.55,0,0.0
+patrolbot_1_0323.6.jpg,median5+gamma+CLAHE,103.3,2.62,4.4,0,0.0
+patrolbot_1_0323.6.jpg,bilateral+gamma+CLAHE,102.6,3.01,10.66,0,0.0
+patrolbot_1_0326.6.jpg,raw,54.1,5.77,0.26,0,0.0
+patrolbot_1_0326.6.jpg,gamma only,96.3,7.1,0.72,0,0.0
+patrolbot_1_0326.6.jpg,CLAHE only,76.0,13.89,2.88,0,0.0
+patrolbot_1_0326.6.jpg,median3+gamma+CLAHE,115.7,5.65,3.23,0,0.0
+patrolbot_1_0326.6.jpg,median5+gamma+CLAHE,103.3,2.44,4.64,0,0.0
+patrolbot_1_0326.6.jpg,bilateral+gamma+CLAHE,103.1,2.84,11.41,0,0.0
+patrolbot_1_0329.7.jpg,raw,69.6,5.85,0.27,0,0.0
+patrolbot_1_0329.7.jpg,gamma only,98.0,6.48,0.89,0,0.0
+patrolbot_1_0329.7.jpg,CLAHE only,89.3,13.96,3.06,0,0.0
+patrolbot_1_0329.7.jpg,median3+gamma+CLAHE,118.3,5.16,3.28,0,0.0
+patrolbot_1_0329.7.jpg,median5+gamma+CLAHE,105.8,2.27,4.22,0,0.0
+patrolbot_1_0329.7.jpg,bilateral+gamma+CLAHE,105.5,2.64,10.82,0,0.0
+patrolbot_1_0332.8.jpg,raw,70.5,5.9,0.27,0,0.0
+patrolbot_1_0332.8.jpg,gamma only,98.6,6.45,0.72,0,0.0
+patrolbot_1_0332.8.jpg,CLAHE only,90.9,14.28,2.92,0,0.0
+patrolbot_1_0332.8.jpg,median3+gamma+CLAHE,119.6,5.18,3.36,0,0.0
+patrolbot_1_0332.8.jpg,median5+gamma+CLAHE,106.3,2.24,4.23,0,0.0
+patrolbot_1_0332.8.jpg,bilateral+gamma+CLAHE,105.9,2.65,12.68,0,0.0
+patrolbot_1_0335.8.jpg,raw,62.0,5.63,0.3,0,0.0
+patrolbot_1_0335.8.jpg,gamma only,97.3,6.64,0.77,0,0.0
+patrolbot_1_0335.8.jpg,CLAHE only,81.0,13.96,3.16,0,0.0
+patrolbot_1_0335.8.jpg,median3+gamma+CLAHE,119.0,5.6,3.62,0,0.0
+patrolbot_1_0335.8.jpg,median5+gamma+CLAHE,103.8,2.39,4.39,0,0.0
+patrolbot_1_0335.8.jpg,bilateral+gamma+CLAHE,103.7,2.81,11.41,0,0.0
+patrolbot_1_0338.9.jpg,raw,41.5,5.22,0.29,3,0.66
+patrolbot_1_0338.9.jpg,gamma only,93.7,7.8,0.73,2,0.776
+patrolbot_1_0338.9.jpg,CLAHE only,63.8,12.12,2.97,3,0.646
+patrolbot_1_0338.9.jpg,median3+gamma+CLAHE,118.1,6.4,3.26,2,0.73
+patrolbot_1_0338.9.jpg,median5+gamma+CLAHE,104.3,2.83,4.28,2,0.738
+patrolbot_1_0338.9.jpg,bilateral+gamma+CLAHE,102.9,3.08,11.18,2,0.789
+patrolbot_1_0342.0.jpg,raw,41.9,5.39,0.28,4,0.382
+patrolbot_1_0342.0.jpg,gamma only,94.3,7.91,0.7,1,0.686
+patrolbot_1_0342.0.jpg,CLAHE only,64.9,12.95,3.13,5,0.362
+patrolbot_1_0342.0.jpg,median3+gamma+CLAHE,119.2,6.57,3.41,1,0.527
+patrolbot_1_0342.0.jpg,median5+gamma+CLAHE,105.6,2.82,4.65,1,0.458
+patrolbot_1_0342.0.jpg,bilateral+gamma+CLAHE,105.0,3.2,10.82,1,0.573
+patrolbot_1_0345.1.jpg,raw,41.9,5.31,0.27,4,0.58
+patrolbot_1_0345.1.jpg,gamma only,94.4,7.83,0.71,3,0.67
+patrolbot_1_0345.1.jpg,CLAHE only,65.0,12.83,2.95,3,0.689
+patrolbot_1_0345.1.jpg,median3+gamma+CLAHE,119.3,6.51,3.33,4,0.561
+patrolbot_1_0345.1.jpg,median5+gamma+CLAHE,105.8,2.82,4.65,3,0.587
+patrolbot_1_0345.1.jpg,bilateral+gamma+CLAHE,105.2,3.14,10.79,3,0.652
+patrolbot_1_0348.1.jpg,raw,41.0,5.17,0.26,0,0.0
+patrolbot_1_0348.1.jpg,gamma only,94.3,7.68,0.71,0,0.0
+patrolbot_1_0348.1.jpg,CLAHE only,63.8,12.5,3.2,0,0.0
+patrolbot_1_0348.1.jpg,median3+gamma+CLAHE,121.2,6.44,3.26,0,0.0
+patrolbot_1_0348.1.jpg,median5+gamma+CLAHE,106.3,2.79,4.32,0,0.0
+patrolbot_1_0348.1.jpg,bilateral+gamma+CLAHE,105.1,3.06,10.57,0,0.0
+patrolbot_1_0351.2.jpg,raw,42.0,5.24,0.27,0,0.0
+patrolbot_1_0351.2.jpg,gamma only,93.0,7.85,0.74,0,0.0
+patrolbot_1_0351.2.jpg,CLAHE only,65.5,11.74,3.16,0,0.0
+patrolbot_1_0351.2.jpg,median3+gamma+CLAHE,119.8,6.32,3.35,0,0.0
+patrolbot_1_0351.2.jpg,median5+gamma+CLAHE,106.2,2.77,4.49,0,0.0
+patrolbot_1_0351.2.jpg,bilateral+gamma+CLAHE,105.0,3.03,12.23,0,0.0
+patrolbot_1_0354.3.jpg,raw,35.3,5.08,0.48,3,0.633
+patrolbot_1_0354.3.jpg,gamma only,93.6,8.3,0.7,3,0.641
+patrolbot_1_0354.3.jpg,CLAHE only,57.8,12.09,3.09,3,0.702
+patrolbot_1_0354.3.jpg,median3+gamma+CLAHE,120.1,6.91,3.58,3,0.615
+patrolbot_1_0354.3.jpg,median5+gamma+CLAHE,105.5,3.04,4.69,3,0.44
+patrolbot_1_0354.3.jpg,bilateral+gamma+CLAHE,104.3,3.36,11.22,3,0.561
+patrolbot_1_0357.3.jpg,raw,55.4,5.65,0.29,0,0.0
+patrolbot_1_0357.3.jpg,gamma only,96.3,7.01,0.81,0,0.0
+patrolbot_1_0357.3.jpg,CLAHE only,77.5,13.55,3.16,0,0.0
+patrolbot_1_0357.3.jpg,median3+gamma+CLAHE,121.8,5.68,3.5,0,0.0
+patrolbot_1_0357.3.jpg,median5+gamma+CLAHE,107.4,2.51,4.62,0,0.0
+patrolbot_1_0357.3.jpg,bilateral+gamma+CLAHE,106.7,2.86,10.6,0,0.0
+patrolbot_1_0360.4.jpg,raw,42.8,5.53,0.28,1,0.51
+patrolbot_1_0360.4.jpg,gamma only,95.7,7.71,0.72,1,0.298
+patrolbot_1_0360.4.jpg,CLAHE only,67.9,13.05,3.07,0,0.0
+patrolbot_1_0360.4.jpg,median3+gamma+CLAHE,121.6,6.1,3.59,1,0.408
+patrolbot_1_0360.4.jpg,median5+gamma+CLAHE,109.1,2.79,4.34,0,0.0
+patrolbot_1_0360.4.jpg,bilateral+gamma+CLAHE,108.3,3.16,11.8,1,0.391
+patrolbot_1_0363.5.jpg,raw,45.2,5.42,0.26,0,0.0
+patrolbot_1_0363.5.jpg,gamma only,93.2,7.76,0.72,0,0.0
+patrolbot_1_0363.5.jpg,CLAHE only,69.5,12.16,2.84,0,0.0
+patrolbot_1_0363.5.jpg,median3+gamma+CLAHE,119.8,6.24,3.3,0,0.0
+patrolbot_1_0363.5.jpg,median5+gamma+CLAHE,106.6,2.71,4.56,0,0.0
+patrolbot_1_0363.5.jpg,bilateral+gamma+CLAHE,105.9,2.97,12.21,0,0.0
+patrolbot_1_0366.6.jpg,raw,48.6,5.16,0.33,0,0.0
+patrolbot_1_0366.6.jpg,gamma only,91.8,7.48,0.75,0,0.0
+patrolbot_1_0366.6.jpg,CLAHE only,68.9,11.36,3.2,0,0.0
+patrolbot_1_0366.6.jpg,median3+gamma+CLAHE,118.6,6.27,3.81,0,0.0
+patrolbot_1_0366.6.jpg,median5+gamma+CLAHE,104.4,2.75,4.39,0,0.0
+patrolbot_1_0366.6.jpg,bilateral+gamma+CLAHE,102.9,2.91,11.09,0,0.0
+patrolbot_1_0369.6.jpg,raw,52.8,5.26,0.34,1,0.67
+patrolbot_1_0369.6.jpg,gamma only,92.8,7.19,0.69,1,0.651
+patrolbot_1_0369.6.jpg,CLAHE only,74.3,11.77,2.97,1,0.633
+patrolbot_1_0369.6.jpg,median3+gamma+CLAHE,120.7,5.97,3.22,1,0.602
+patrolbot_1_0369.6.jpg,median5+gamma+CLAHE,107.2,2.68,4.54,1,0.459
+patrolbot_1_0369.6.jpg,bilateral+gamma+CLAHE,106.2,2.95,11.04,1,0.53
+patrolbot_1_0372.7.jpg,raw,50.1,5.2,0.28,1,0.493
+patrolbot_1_0372.7.jpg,gamma only,92.5,7.35,0.77,3,0.379
+patrolbot_1_0372.7.jpg,CLAHE only,70.6,11.63,2.99,1,0.466
+patrolbot_1_0372.7.jpg,median3+gamma+CLAHE,117.1,6.12,3.35,0,0.0
+patrolbot_1_0372.7.jpg,median5+gamma+CLAHE,103.0,2.75,4.07,0,0.0
+patrolbot_1_0372.7.jpg,bilateral+gamma+CLAHE,102.0,3.03,10.37,0,0.0
+patrolbot_1_0375.8.jpg,raw,47.8,5.29,0.26,1,0.696
+patrolbot_1_0375.8.jpg,gamma only,94.2,7.36,0.71,1,0.691
+patrolbot_1_0375.8.jpg,CLAHE only,70.1,12.23,3.12,1,0.672
+patrolbot_1_0375.8.jpg,median3+gamma+CLAHE,118.5,6.09,3.37,1,0.571
+patrolbot_1_0375.8.jpg,median5+gamma+CLAHE,105.0,2.69,4.33,1,0.61
+patrolbot_1_0375.8.jpg,bilateral+gamma+CLAHE,103.8,3.02,10.6,1,0.72
+patrolbot_1_0378.8.jpg,raw,40.9,4.99,0.27,1,0.773
+patrolbot_1_0378.8.jpg,gamma only,91.5,7.92,0.8,1,0.76
+patrolbot_1_0378.8.jpg,CLAHE only,62.5,11.07,3.02,1,0.778
+patrolbot_1_0378.8.jpg,median3+gamma+CLAHE,117.9,6.76,3.35,1,0.754
+patrolbot_1_0378.8.jpg,median5+gamma+CLAHE,103.1,2.95,4.58,1,0.771
+patrolbot_1_0378.8.jpg,bilateral+gamma+CLAHE,101.6,3.14,10.87,1,0.764
+patrolbot_1_0381.9.jpg,raw,40.6,4.98,0.26,1,0.832
+patrolbot_1_0381.9.jpg,gamma only,91.0,7.96,0.72,1,0.806
+patrolbot_1_0381.9.jpg,CLAHE only,62.6,10.85,3.03,1,0.826
+patrolbot_1_0381.9.jpg,median3+gamma+CLAHE,117.1,6.63,3.55,1,0.743
+patrolbot_1_0381.9.jpg,median5+gamma+CLAHE,103.6,2.96,5.04,1,0.759
+patrolbot_1_0381.9.jpg,bilateral+gamma+CLAHE,102.2,3.14,11.03,1,0.822
+patrolbot_1_0385.0.jpg,raw,44.5,4.95,0.26,1,0.678
+patrolbot_1_0385.0.jpg,gamma only,90.0,7.84,0.79,1,0.668
+patrolbot_1_0385.0.jpg,CLAHE only,64.1,10.53,2.89,1,0.666
+patrolbot_1_0385.0.jpg,median3+gamma+CLAHE,115.0,6.43,3.29,1,0.827
+patrolbot_1_0385.0.jpg,median5+gamma+CLAHE,101.6,2.87,4.5,1,0.861
+patrolbot_1_0385.0.jpg,bilateral+gamma+CLAHE,100.6,2.97,11.18,1,0.781
+patrolbot_1_0388.1.jpg,raw,42.9,4.85,0.29,0,0.0
+patrolbot_1_0388.1.jpg,gamma only,89.5,7.86,0.8,0,0.0
+patrolbot_1_0388.1.jpg,CLAHE only,61.9,10.61,3.43,0,0.0
+patrolbot_1_0388.1.jpg,median3+gamma+CLAHE,116.1,6.76,3.51,0,0.0
+patrolbot_1_0388.1.jpg,median5+gamma+CLAHE,103.0,2.92,4.71,0,0.0
+patrolbot_1_0388.1.jpg,bilateral+gamma+CLAHE,102.1,3.05,11.15,0,0.0
+patrolbot_1_0391.1.jpg,raw,55.2,5.41,0.27,0,0.0
+patrolbot_1_0391.1.jpg,gamma only,95.6,6.87,1.06,0,0.0
+patrolbot_1_0391.1.jpg,CLAHE only,75.5,12.87,2.83,0,0.0
+patrolbot_1_0391.1.jpg,median3+gamma+CLAHE,119.4,5.77,3.25,0,0.0
+patrolbot_1_0391.1.jpg,median5+gamma+CLAHE,105.1,2.5,4.4,0,0.0
+patrolbot_1_0391.1.jpg,bilateral+gamma+CLAHE,104.4,2.76,11.42,0,0.0
+patrolbot_1_0394.2.jpg,raw,56.5,5.48,0.3,0,0.0
+patrolbot_1_0394.2.jpg,gamma only,95.9,6.84,0.75,0,0.0
+patrolbot_1_0394.2.jpg,CLAHE only,75.5,13.09,3.25,0,0.0
+patrolbot_1_0394.2.jpg,median3+gamma+CLAHE,117.3,5.64,3.25,0,0.0
+patrolbot_1_0394.2.jpg,median5+gamma+CLAHE,103.0,2.53,4.24,0,0.0
+patrolbot_1_0394.2.jpg,bilateral+gamma+CLAHE,102.6,2.83,10.65,0,0.0
+patrolbot_1_0397.3.jpg,raw,57.4,5.44,0.26,0,0.0
+patrolbot_1_0397.3.jpg,gamma only,95.7,6.72,0.78,0,0.0
+patrolbot_1_0397.3.jpg,CLAHE only,77.7,12.97,3.68,0,0.0
+patrolbot_1_0397.3.jpg,median3+gamma+CLAHE,120.7,5.72,3.9,0,0.0
+patrolbot_1_0397.3.jpg,median5+gamma+CLAHE,105.0,2.45,4.93,0,0.0
+patrolbot_1_0397.3.jpg,bilateral+gamma+CLAHE,104.2,2.73,12.43,0,0.0
+patrolbot_1_0400.4.jpg,raw,50.2,5.32,0.28,0,0.0
+patrolbot_1_0400.4.jpg,gamma only,94.0,7.25,0.79,0,0.0
+patrolbot_1_0400.4.jpg,CLAHE only,70.3,12.23,3.01,0,0.0
+patrolbot_1_0400.4.jpg,median3+gamma+CLAHE,116.7,5.86,3.92,0,0.0
+patrolbot_1_0400.4.jpg,median5+gamma+CLAHE,102.3,2.63,4.21,0,0.0
+patrolbot_1_0400.4.jpg,bilateral+gamma+CLAHE,101.2,2.92,11.05,0,0.0
+patrolbot_1_0403.4.jpg,raw,50.1,5.35,0.27,0,0.0
+patrolbot_1_0403.4.jpg,gamma only,94.8,7.2,0.7,0,0.0
+patrolbot_1_0403.4.jpg,CLAHE only,69.9,12.61,3.17,0,0.0
+patrolbot_1_0403.4.jpg,median3+gamma+CLAHE,117.1,5.94,3.33,0,0.0
+patrolbot_1_0403.4.jpg,median5+gamma+CLAHE,102.7,2.64,4.25,0,0.0
+patrolbot_1_0403.4.jpg,bilateral+gamma+CLAHE,101.7,2.92,11.38,0,0.0
+patrolbot_1_0406.5.jpg,raw,49.7,5.3,0.27,0,0.0
+patrolbot_1_0406.5.jpg,gamma only,94.7,7.18,0.73,0,0.0
+patrolbot_1_0406.5.jpg,CLAHE only,69.8,12.42,2.99,0,0.0
+patrolbot_1_0406.5.jpg,median3+gamma+CLAHE,116.8,6.02,3.41,0,0.0
+patrolbot_1_0406.5.jpg,median5+gamma+CLAHE,102.5,2.61,4.32,0,0.0
+patrolbot_1_0406.5.jpg,bilateral+gamma+CLAHE,101.8,2.86,10.98,0,0.0
+patrolbot_1_0409.8.jpg,raw,55.2,5.77,0.26,0,0.0
+patrolbot_1_0409.8.jpg,gamma only,95.0,7.36,0.73,0,0.0
+patrolbot_1_0409.8.jpg,CLAHE only,79.2,13.3,2.91,0,0.0
+patrolbot_1_0409.8.jpg,median3+gamma+CLAHE,118.6,5.75,3.35,0,0.0
+patrolbot_1_0409.8.jpg,median5+gamma+CLAHE,105.8,2.57,4.3,0,0.0
+patrolbot_1_0409.8.jpg,bilateral+gamma+CLAHE,105.3,2.92,11.03,0,0.0
+patrolbot_1_0412.9.jpg,raw,65.0,6.16,0.28,0,0.0
+patrolbot_1_0412.9.jpg,gamma only,97.6,6.94,0.71,0,0.0
+patrolbot_1_0412.9.jpg,CLAHE only,89.8,14.6,2.96,0,0.0
+patrolbot_1_0412.9.jpg,median3+gamma+CLAHE,120.7,5.44,3.47,0,0.0
+patrolbot_1_0412.9.jpg,median5+gamma+CLAHE,108.8,2.45,4.5,0,0.0
+patrolbot_1_0412.9.jpg,bilateral+gamma+CLAHE,107.9,2.9,10.65,0,0.0
+patrolbot_1_0416.0.jpg,raw,38.4,5.18,0.28,0,0.0
+patrolbot_1_0416.0.jpg,gamma only,92.2,8.3,0.76,0,0.0
+patrolbot_1_0416.0.jpg,CLAHE only,61.2,11.63,2.96,0,0.0
+patrolbot_1_0416.0.jpg,median3+gamma+CLAHE,117.1,6.72,4.65,0,0.0
+patrolbot_1_0416.0.jpg,median5+gamma+CLAHE,103.4,2.97,4.32,0,0.0
+patrolbot_1_0416.0.jpg,bilateral+gamma+CLAHE,102.4,3.2,12.07,0,0.0
+patrolbot_1_0477.0.jpg,raw,33.2,5.58,0.29,0,0.0
+patrolbot_1_0477.0.jpg,gamma only,96.7,8.57,0.71,0,0.0
+patrolbot_1_0477.0.jpg,CLAHE only,58.7,14.12,3.11,0,0.0
+patrolbot_1_0477.0.jpg,median3+gamma+CLAHE,120.0,6.83,3.22,0,0.0
+patrolbot_1_0477.0.jpg,median5+gamma+CLAHE,107.4,2.99,4.08,0,0.0
+patrolbot_1_0477.0.jpg,bilateral+gamma+CLAHE,106.8,3.45,10.9,0,0.0
+patrolbot_1_0480.1.jpg,raw,53.5,5.73,0.27,2,0.458
+patrolbot_1_0480.1.jpg,gamma only,94.8,7.45,0.76,2,0.502
+patrolbot_1_0480.1.jpg,CLAHE only,77.7,12.74,2.81,2,0.405
+patrolbot_1_0480.1.jpg,median3+gamma+CLAHE,117.9,6.01,3.08,2,0.386
+patrolbot_1_0480.1.jpg,median5+gamma+CLAHE,104.7,2.73,4.38,1,0.743
+patrolbot_1_0480.1.jpg,bilateral+gamma+CLAHE,103.8,3.03,10.52,1,0.578
+patrolbot_1_0483.1.jpg,raw,59.5,6.01,0.27,1,0.857
+patrolbot_1_0483.1.jpg,gamma only,95.7,7.29,0.7,1,0.845
+patrolbot_1_0483.1.jpg,CLAHE only,84.3,13.18,2.91,1,0.84
+patrolbot_1_0483.1.jpg,median3+gamma+CLAHE,120.9,5.72,3.32,1,0.804
+patrolbot_1_0483.1.jpg,median5+gamma+CLAHE,107.4,2.63,4.42,1,0.848
+patrolbot_1_0483.1.jpg,bilateral+gamma+CLAHE,107.2,2.98,10.35,1,0.832
+patrolbot_1_0486.2.jpg,raw,59.0,5.87,0.26,1,0.871
+patrolbot_1_0486.2.jpg,gamma only,95.3,7.28,0.71,1,0.839
+patrolbot_1_0486.2.jpg,CLAHE only,83.4,12.94,2.85,1,0.872
+patrolbot_1_0486.2.jpg,median3+gamma+CLAHE,119.5,5.83,3.28,1,0.831
+patrolbot_1_0486.2.jpg,median5+gamma+CLAHE,106.8,2.61,4.26,1,0.873
+patrolbot_1_0486.2.jpg,bilateral+gamma+CLAHE,106.3,2.95,10.53,1,0.89
+patrolbot_1_0489.3.jpg,raw,66.5,5.92,0.36,1,0.308
+patrolbot_1_0489.3.jpg,gamma only,96.2,6.9,0.72,1,0.255
+patrolbot_1_0489.3.jpg,CLAHE only,88.2,13.38,3.0,0,0.0
+patrolbot_1_0489.3.jpg,median3+gamma+CLAHE,119.0,5.59,3.2,0,0.0
+patrolbot_1_0489.3.jpg,median5+gamma+CLAHE,106.5,2.42,4.27,0,0.0
+patrolbot_1_0489.3.jpg,bilateral+gamma+CLAHE,105.9,2.8,10.33,0,0.0
+patrolbot_1_0492.4.jpg,raw,68.3,5.94,0.32,0,0.0
+patrolbot_1_0492.4.jpg,gamma only,96.6,6.78,0.68,0,0.0
+patrolbot_1_0492.4.jpg,CLAHE only,91.3,13.32,3.43,0,0.0
+patrolbot_1_0492.4.jpg,median3+gamma+CLAHE,121.1,5.46,3.35,0,0.0
+patrolbot_1_0492.4.jpg,median5+gamma+CLAHE,108.1,2.37,4.25,0,0.0
+patrolbot_1_0492.4.jpg,bilateral+gamma+CLAHE,107.6,2.7,10.26,0,0.0
+patrolbot_1_0495.4.jpg,raw,68.7,6.27,0.27,0,0.0
+patrolbot_1_0495.4.jpg,gamma only,99.1,6.79,0.78,0,0.0
+patrolbot_1_0495.4.jpg,CLAHE only,92.4,15.13,2.91,0,0.0
+patrolbot_1_0495.4.jpg,median3+gamma+CLAHE,122.0,5.31,3.36,0,0.0
+patrolbot_1_0495.4.jpg,median5+gamma+CLAHE,108.5,2.39,4.29,0,0.0
+patrolbot_1_0495.4.jpg,bilateral+gamma+CLAHE,108.7,2.84,11.22,0,0.0
+patrolbot_1_0498.5.jpg,raw,51.8,5.47,0.29,0,0.0
+patrolbot_1_0498.5.jpg,gamma only,94.0,7.36,0.71,0,0.0
+patrolbot_1_0498.5.jpg,CLAHE only,74.4,12.44,2.78,0,0.0
+patrolbot_1_0498.5.jpg,median3+gamma+CLAHE,119.0,5.88,3.23,0,0.0
+patrolbot_1_0498.5.jpg,median5+gamma+CLAHE,104.9,2.58,4.21,0,0.0
+patrolbot_1_0498.5.jpg,bilateral+gamma+CLAHE,104.2,2.91,11.41,0,0.0
+patrolbot_1_0501.6.jpg,raw,44.2,5.37,0.28,0,0.0
+patrolbot_1_0501.6.jpg,gamma only,93.5,7.76,0.71,0,0.0
+patrolbot_1_0501.6.jpg,CLAHE only,67.8,12.4,3.54,0,0.0
+patrolbot_1_0501.6.jpg,median3+gamma+CLAHE,118.2,6.27,3.52,0,0.0
+patrolbot_1_0501.6.jpg,median5+gamma+CLAHE,103.9,2.79,4.56,0,0.0
+patrolbot_1_0501.6.jpg,bilateral+gamma+CLAHE,103.3,3.08,12.85,0,0.0
+patrolbot_1_0504.7.jpg,raw,56.1,5.57,0.29,0,0.0
+patrolbot_1_0504.7.jpg,gamma only,94.9,7.04,0.74,0,0.0
+patrolbot_1_0504.7.jpg,CLAHE only,78.3,12.94,2.89,0,0.0
+patrolbot_1_0504.7.jpg,median3+gamma+CLAHE,119.6,5.65,3.47,0,0.0
+patrolbot_1_0504.7.jpg,median5+gamma+CLAHE,105.4,2.5,4.91,0,0.0
+patrolbot_1_0504.7.jpg,bilateral+gamma+CLAHE,104.8,2.81,11.11,0,0.0
+patrolbot_1_0507.7.jpg,raw,35.4,4.85,0.29,0,0.0
+patrolbot_1_0507.7.jpg,gamma only,91.0,8.41,0.75,0,0.0
+patrolbot_1_0507.7.jpg,CLAHE only,56.3,10.66,2.96,0,0.0
+patrolbot_1_0507.7.jpg,median3+gamma+CLAHE,116.4,6.84,3.44,0,0.0
+patrolbot_1_0507.7.jpg,median5+gamma+CLAHE,101.5,3.0,4.34,0,0.0
+patrolbot_1_0507.7.jpg,bilateral+gamma+CLAHE,100.4,3.25,10.64,0,0.0
+patrolbot_1_0510.8.jpg,raw,26.2,4.96,0.29,0,0.0
+patrolbot_1_0510.8.jpg,gamma only,94.1,9.39,0.73,0,0.0
+patrolbot_1_0510.8.jpg,CLAHE only,49.6,11.36,3.05,0,0.0
+patrolbot_1_0510.8.jpg,median3+gamma+CLAHE,120.0,7.58,3.33,0,0.0
+patrolbot_1_0510.8.jpg,median5+gamma+CLAHE,106.5,3.32,4.44,0,0.0
+patrolbot_1_0510.8.jpg,bilateral+gamma+CLAHE,105.6,3.56,10.75,0,0.0
+patrolbot_1_0514.0.jpg,raw,27.5,5.22,0.32,0,0.0
+patrolbot_1_0514.0.jpg,gamma only,95.7,9.11,0.71,0,0.0
+patrolbot_1_0514.0.jpg,CLAHE only,50.3,12.5,2.85,0,0.0
+patrolbot_1_0514.0.jpg,median3+gamma+CLAHE,118.8,7.63,3.32,0,0.0
+patrolbot_1_0514.0.jpg,median5+gamma+CLAHE,105.1,3.24,4.56,0,0.0
+patrolbot_1_0514.0.jpg,bilateral+gamma+CLAHE,104.4,3.67,10.67,0,0.0
+patrolbot_1_0517.2.jpg,raw,19.9,4.82,0.27,0,0.0
+patrolbot_1_0517.2.jpg,gamma only,93.3,10.95,0.73,0,0.0
+patrolbot_1_0517.2.jpg,CLAHE only,40.3,10.0,2.9,0,0.0
+patrolbot_1_0517.2.jpg,median3+gamma+CLAHE,118.9,9.05,3.35,0,0.0
+patrolbot_1_0517.2.jpg,median5+gamma+CLAHE,106.2,3.94,4.41,0,0.0
+patrolbot_1_0517.2.jpg,bilateral+gamma+CLAHE,105.4,4.0,10.66,0,0.0
+patrolbot_1_0520.4.jpg,raw,15.0,4.55,0.3,0,0.0
+patrolbot_1_0520.4.jpg,gamma only,94.3,11.95,0.73,0,0.0
+patrolbot_1_0520.4.jpg,CLAHE only,31.8,9.03,2.96,0,0.0
+patrolbot_1_0520.4.jpg,median3+gamma+CLAHE,119.8,10.07,3.14,0,0.0
+patrolbot_1_0520.4.jpg,median5+gamma+CLAHE,107.0,4.28,4.33,0,0.0
+patrolbot_1_0520.4.jpg,bilateral+gamma+CLAHE,106.8,4.17,10.81,0,0.0
+patrolbot_1_0523.6.jpg,raw,45.5,5.59,0.28,0,0.0
+patrolbot_1_0523.6.jpg,gamma only,93.3,7.95,0.72,0,0.0
+patrolbot_1_0523.6.jpg,CLAHE only,69.7,12.9,2.99,0,0.0
+patrolbot_1_0523.6.jpg,median3+gamma+CLAHE,115.7,6.28,3.26,0,0.0
+patrolbot_1_0523.6.jpg,median5+gamma+CLAHE,103.3,2.86,4.17,0,0.0
+patrolbot_1_0523.6.jpg,bilateral+gamma+CLAHE,102.8,3.21,10.26,0,0.0
+patrolbot_1_0526.9.jpg,raw,15.1,4.69,0.28,0,0.0
+patrolbot_1_0526.9.jpg,gamma only,95.4,11.92,0.68,0,0.0
+patrolbot_1_0526.9.jpg,CLAHE only,32.1,9.18,2.76,0,0.0
+patrolbot_1_0526.9.jpg,median3+gamma+CLAHE,120.5,9.9,3.16,0,0.0
+patrolbot_1_0526.9.jpg,median5+gamma+CLAHE,107.7,4.25,4.49,0,0.0
+patrolbot_1_0526.9.jpg,bilateral+gamma+CLAHE,107.0,4.2,10.82,0,0.0
+patrolbot_1_0530.1.jpg,raw,47.9,5.67,0.28,0,0.0
+patrolbot_1_0530.1.jpg,gamma only,94.1,7.73,0.75,0,0.0
+patrolbot_1_0530.1.jpg,CLAHE only,71.9,13.13,2.9,0,0.0
+patrolbot_1_0530.1.jpg,median3+gamma+CLAHE,114.7,6.01,3.91,0,0.0
+patrolbot_1_0530.1.jpg,median5+gamma+CLAHE,102.7,2.69,5.12,0,0.0
+patrolbot_1_0530.1.jpg,bilateral+gamma+CLAHE,102.1,3.09,10.68,0,0.0
+patrolbot_1_0533.3.jpg,raw,51.5,5.75,0.27,0,0.0
+patrolbot_1_0533.3.jpg,gamma only,95.4,7.33,0.76,0,0.0
+patrolbot_1_0533.3.jpg,CLAHE only,75.4,13.53,3.1,0,0.0
+patrolbot_1_0533.3.jpg,median3+gamma+CLAHE,118.0,5.74,3.48,0,0.0
+patrolbot_1_0533.3.jpg,median5+gamma+CLAHE,104.6,2.56,4.25,0,0.0
+patrolbot_1_0533.3.jpg,bilateral+gamma+CLAHE,104.0,2.94,11.29,0,0.0
+patrolbot_1_0536.5.jpg,raw,54.9,5.77,0.39,0,0.0
+patrolbot_1_0536.5.jpg,gamma only,96.6,7.01,0.71,0,0.0
+patrolbot_1_0536.5.jpg,CLAHE only,77.7,14.08,2.92,0,0.0
+patrolbot_1_0536.5.jpg,median3+gamma+CLAHE,118.2,5.48,3.3,0,0.0
+patrolbot_1_0536.5.jpg,median5+gamma+CLAHE,104.8,2.4,4.38,0,0.0
+patrolbot_1_0536.5.jpg,bilateral+gamma+CLAHE,104.1,2.79,10.86,0,0.0
+patrolbot_1_0539.7.jpg,raw,68.6,5.71,0.28,0,0.0
+patrolbot_1_0539.7.jpg,gamma only,97.3,6.47,0.8,0,0.0
+patrolbot_1_0539.7.jpg,CLAHE only,88.4,13.53,3.16,0,0.0
+patrolbot_1_0539.7.jpg,median3+gamma+CLAHE,120.0,5.28,3.55,0,0.0
+patrolbot_1_0539.7.jpg,median5+gamma+CLAHE,106.0,2.24,4.38,0,0.0
+patrolbot_1_0539.7.jpg,bilateral+gamma+CLAHE,105.4,2.55,10.67,0,0.0
+patrolbot_1_0543.0.jpg,raw,71.2,5.88,0.28,0,0.0
+patrolbot_1_0543.0.jpg,gamma only,99.2,6.34,0.69,0,0.0
+patrolbot_1_0543.0.jpg,CLAHE only,90.5,14.71,2.89,0,0.0
+patrolbot_1_0543.0.jpg,median3+gamma+CLAHE,119.3,5.2,3.47,0,0.0
+patrolbot_1_0543.0.jpg,median5+gamma+CLAHE,105.6,2.26,4.38,0,0.0
+patrolbot_1_0543.0.jpg,bilateral+gamma+CLAHE,105.7,2.69,11.47,0,0.0
+patrolbot_1_0546.2.jpg,raw,46.3,5.25,0.28,4,0.468
+patrolbot_1_0546.2.jpg,gamma only,94.4,7.36,0.71,5,0.429
+patrolbot_1_0546.2.jpg,CLAHE only,68.3,12.45,2.97,4,0.463
+patrolbot_1_0546.2.jpg,median3+gamma+CLAHE,118.9,6.18,3.33,0,0.0
+patrolbot_1_0546.2.jpg,median5+gamma+CLAHE,104.5,2.74,4.23,1,0.371
+patrolbot_1_0546.2.jpg,bilateral+gamma+CLAHE,103.7,3.04,10.51,0,0.0
+patrolbot_1_0549.4.jpg,raw,41.2,5.33,0.26,3,0.755
+patrolbot_1_0549.4.jpg,gamma only,93.7,7.99,0.74,3,0.755
+patrolbot_1_0549.4.jpg,CLAHE only,64.3,12.75,2.86,3,0.763
+patrolbot_1_0549.4.jpg,median3+gamma+CLAHE,119.4,6.57,3.25,3,0.682
+patrolbot_1_0549.4.jpg,median5+gamma+CLAHE,105.3,2.85,4.33,3,0.741
+patrolbot_1_0549.4.jpg,bilateral+gamma+CLAHE,104.2,3.17,10.62,3,0.748
+patrolbot_1_0552.6.jpg,raw,35.2,5.22,0.3,2,0.745
+patrolbot_1_0552.6.jpg,gamma only,94.0,8.47,0.7,2,0.763
+patrolbot_1_0552.6.jpg,CLAHE only,58.7,12.51,2.91,2,0.711
+patrolbot_1_0552.6.jpg,median3+gamma+CLAHE,121.0,7.0,3.52,2,0.728
+patrolbot_1_0552.6.jpg,median5+gamma+CLAHE,106.0,3.05,4.38,2,0.71
+patrolbot_1_0552.6.jpg,bilateral+gamma+CLAHE,105.3,3.35,10.94,2,0.617
+patrolbot_1_0555.6.jpg,raw,35.3,5.2,0.27,3,0.766
+patrolbot_1_0555.6.jpg,gamma only,94.2,8.39,0.77,3,0.761
+patrolbot_1_0555.6.jpg,CLAHE only,59.1,12.58,3.05,3,0.76
+patrolbot_1_0555.6.jpg,median3+gamma+CLAHE,120.7,6.91,3.29,3,0.751
+patrolbot_1_0555.6.jpg,median5+gamma+CLAHE,106.3,3.07,4.18,3,0.753
+patrolbot_1_0555.6.jpg,bilateral+gamma+CLAHE,105.4,3.41,10.56,3,0.77
+patrolbot_1_0558.9.jpg,raw,64.6,5.86,0.51,1,0.301
+patrolbot_1_0558.9.jpg,gamma only,98.0,6.64,0.77,1,0.319
+patrolbot_1_0558.9.jpg,CLAHE only,84.8,14.32,3.02,1,0.398
+patrolbot_1_0558.9.jpg,median3+gamma+CLAHE,120.4,5.4,3.41,0,0.0
+patrolbot_1_0558.9.jpg,median5+gamma+CLAHE,105.5,2.37,4.71,0,0.0
+patrolbot_1_0558.9.jpg,bilateral+gamma+CLAHE,105.3,2.8,10.97,0,0.0
+patrolbot_1_0562.1.jpg,raw,48.8,5.92,0.38,0,0.0
+patrolbot_1_0562.1.jpg,gamma only,99.0,7.27,0.79,0,0.0
+patrolbot_1_0562.1.jpg,CLAHE only,72.0,15.96,2.98,0,0.0
+patrolbot_1_0562.1.jpg,median3+gamma+CLAHE,120.8,6.09,3.32,0,0.0
+patrolbot_1_0562.1.jpg,median5+gamma+CLAHE,104.5,2.54,4.35,0,0.0
+patrolbot_1_0562.1.jpg,bilateral+gamma+CLAHE,104.6,3.08,10.58,0,0.0
+patrolbot_1_0565.3.jpg,raw,58.9,5.61,0.27,0,0.0
+patrolbot_1_0565.3.jpg,gamma only,96.3,6.78,0.81,0,0.0
+patrolbot_1_0565.3.jpg,CLAHE only,78.4,13.44,2.9,1,0.269
+patrolbot_1_0565.3.jpg,median3+gamma+CLAHE,119.7,5.64,3.61,0,0.0
+patrolbot_1_0565.3.jpg,median5+gamma+CLAHE,104.0,2.46,4.56,0,0.0
+patrolbot_1_0565.3.jpg,bilateral+gamma+CLAHE,104.2,2.79,11.27,0,0.0
+patrolbot_1_0568.5.jpg,raw,43.4,5.51,0.3,0,0.0
+patrolbot_1_0568.5.jpg,gamma only,95.1,7.69,1.03,0,0.0
+patrolbot_1_0568.5.jpg,CLAHE only,68.4,12.87,2.85,0,0.0
+patrolbot_1_0568.5.jpg,median3+gamma+CLAHE,121.1,6.1,3.4,0,0.0
+patrolbot_1_0568.5.jpg,median5+gamma+CLAHE,108.3,2.73,4.48,0,0.0
+patrolbot_1_0568.5.jpg,bilateral+gamma+CLAHE,107.0,3.03,11.95,0,0.0
+patrolbot_1_0571.7.jpg,raw,40.6,5.26,0.34,0,0.0
+patrolbot_1_0571.7.jpg,gamma only,94.6,7.7,0.73,0,0.0
+patrolbot_1_0571.7.jpg,CLAHE only,64.5,12.31,2.92,0,0.0
+patrolbot_1_0571.7.jpg,median3+gamma+CLAHE,120.4,6.32,3.53,0,0.0
+patrolbot_1_0571.7.jpg,median5+gamma+CLAHE,107.1,2.73,4.55,0,0.0
+patrolbot_1_0571.7.jpg,bilateral+gamma+CLAHE,105.9,3.07,10.68,0,0.0
+patrolbot_2_0000.1.jpg,raw,0.0,0.0,0.27,0,0.0
+patrolbot_2_0000.1.jpg,gamma only,0.0,0.0,0.74,0,0.0
+patrolbot_2_0000.1.jpg,CLAHE only,4.0,0.0,3.45,0,0.0
+patrolbot_2_0000.1.jpg,median3+gamma+CLAHE,4.0,0.0,3.74,0,0.0
+patrolbot_2_0000.1.jpg,median5+gamma+CLAHE,4.0,0.0,4.57,0,0.0
+patrolbot_2_0000.1.jpg,bilateral+gamma+CLAHE,4.0,0.0,11.49,0,0.0
+patrolbot_2_0003.1.jpg,raw,43.5,5.44,0.27,0,0.0
+patrolbot_2_0003.1.jpg,gamma only,93.4,7.95,0.73,0,0.0
+patrolbot_2_0003.1.jpg,CLAHE only,68.7,11.94,3.3,0,0.0
+patrolbot_2_0003.1.jpg,median3+gamma+CLAHE,119.1,6.35,3.66,0,0.0
+patrolbot_2_0003.1.jpg,median5+gamma+CLAHE,106.2,2.83,4.45,0,0.0
+patrolbot_2_0003.1.jpg,bilateral+gamma+CLAHE,105.2,3.1,10.53,0,0.0
+patrolbot_2_0006.3.jpg,raw,43.7,5.49,0.3,3,0.593
+patrolbot_2_0006.3.jpg,gamma only,93.7,7.99,0.72,1,0.823
+patrolbot_2_0006.3.jpg,CLAHE only,69.4,12.05,3.26,2,0.617
+patrolbot_2_0006.3.jpg,median3+gamma+CLAHE,119.5,6.31,3.27,1,0.818
+patrolbot_2_0006.3.jpg,median5+gamma+CLAHE,106.9,2.81,4.7,1,0.799
+patrolbot_2_0006.3.jpg,bilateral+gamma+CLAHE,105.8,3.1,10.77,1,0.821
+patrolbot_2_0009.4.jpg,raw,20.1,4.53,0.33,0,0.0
+patrolbot_2_0009.4.jpg,gamma only,92.3,10.55,0.69,0,0.0
+patrolbot_2_0009.4.jpg,CLAHE only,39.3,9.54,2.99,0,0.0
+patrolbot_2_0009.4.jpg,median3+gamma+CLAHE,118.9,8.69,3.31,0,0.0
+patrolbot_2_0009.4.jpg,median5+gamma+CLAHE,104.2,3.79,4.27,0,0.0
+patrolbot_2_0009.4.jpg,bilateral+gamma+CLAHE,103.8,3.79,10.66,0,0.0
+patrolbot_2_0012.5.jpg,raw,18.8,4.8,0.29,0,0.0
+patrolbot_2_0012.5.jpg,gamma only,93.9,11.07,0.71,0,0.0
+patrolbot_2_0012.5.jpg,CLAHE only,37.7,9.9,3.17,0,0.0
+patrolbot_2_0012.5.jpg,median3+gamma+CLAHE,119.4,9.12,3.33,0,0.0
+patrolbot_2_0012.5.jpg,median5+gamma+CLAHE,104.8,3.9,4.54,0,0.0
+patrolbot_2_0012.5.jpg,bilateral+gamma+CLAHE,104.1,3.9,10.78,0,0.0
+patrolbot_2_0015.7.jpg,raw,32.4,5.55,0.28,0,0.0
+patrolbot_2_0015.7.jpg,gamma only,94.5,9.05,0.79,0,0.0
+patrolbot_2_0015.7.jpg,CLAHE only,55.6,12.13,3.04,0,0.0
+patrolbot_2_0015.7.jpg,median3+gamma+CLAHE,118.0,7.27,3.36,0,0.0
+patrolbot_2_0015.7.jpg,median5+gamma+CLAHE,104.1,3.17,4.32,0,0.0
+patrolbot_2_0015.7.jpg,bilateral+gamma+CLAHE,103.4,3.63,11.06,0,0.0
+patrolbot_2_0018.8.jpg,raw,48.2,5.65,0.28,0,0.0
+patrolbot_2_0018.8.jpg,gamma only,94.1,7.77,0.69,0,0.0
+patrolbot_2_0018.8.jpg,CLAHE only,71.7,12.75,2.89,0,0.0
+patrolbot_2_0018.8.jpg,median3+gamma+CLAHE,115.9,6.27,3.46,0,0.0
+patrolbot_2_0018.8.jpg,median5+gamma+CLAHE,103.3,2.83,4.35,0,0.0
+patrolbot_2_0018.8.jpg,bilateral+gamma+CLAHE,102.5,3.2,12.12,0,0.0
+patrolbot_2_0021.9.jpg,raw,53.4,5.58,0.28,0,0.0
+patrolbot_2_0021.9.jpg,gamma only,94.3,7.38,0.73,0,0.0
+patrolbot_2_0021.9.jpg,CLAHE only,76.1,12.63,3.11,0,0.0
+patrolbot_2_0021.9.jpg,median3+gamma+CLAHE,117.7,5.89,3.26,0,0.0
+patrolbot_2_0021.9.jpg,median5+gamma+CLAHE,104.5,2.62,4.49,0,0.0
+patrolbot_2_0021.9.jpg,bilateral+gamma+CLAHE,103.9,2.92,10.35,0,0.0
+patrolbot_2_0025.0.jpg,raw,60.1,5.61,0.25,0,0.0
+patrolbot_2_0025.0.jpg,gamma only,94.9,7.02,0.8,0,0.0
+patrolbot_2_0025.0.jpg,CLAHE only,81.6,12.67,2.95,0,0.0
+patrolbot_2_0025.0.jpg,median3+gamma+CLAHE,117.7,5.75,3.4,0,0.0
+patrolbot_2_0025.0.jpg,median5+gamma+CLAHE,105.2,2.6,5.01,0,0.0
+patrolbot_2_0025.0.jpg,bilateral+gamma+CLAHE,104.4,2.92,10.84,0,0.0
+patrolbot_2_0028.1.jpg,raw,74.8,6.31,0.29,0,0.0
+patrolbot_2_0028.1.jpg,gamma only,99.6,6.65,0.79,0,0.0
+patrolbot_2_0028.1.jpg,CLAHE only,97.0,15.06,2.96,0,0.0
+patrolbot_2_0028.1.jpg,median3+gamma+CLAHE,122.0,5.23,3.2,0,0.0
+patrolbot_2_0028.1.jpg,median5+gamma+CLAHE,109.3,2.36,4.71,0,0.0
+patrolbot_2_0028.1.jpg,bilateral+gamma+CLAHE,109.0,2.84,11.29,0,0.0
+patrolbot_2_0031.2.jpg,raw,71.4,6.15,0.28,0,0.0
+patrolbot_2_0031.2.jpg,gamma only,99.5,6.57,0.78,0,0.0
+patrolbot_2_0031.2.jpg,CLAHE only,91.8,15.05,2.98,0,0.0
+patrolbot_2_0031.2.jpg,median3+gamma+CLAHE,119.0,5.26,3.35,0,0.0
+patrolbot_2_0031.2.jpg,median5+gamma+CLAHE,107.1,2.37,4.54,0,0.0
+patrolbot_2_0031.2.jpg,bilateral+gamma+CLAHE,107.2,2.8,11.43,0,0.0
+patrolbot_2_0034.2.jpg,raw,69.8,6.02,0.27,0,0.0
+patrolbot_2_0034.2.jpg,gamma only,98.3,6.65,0.74,0,0.0
+patrolbot_2_0034.2.jpg,CLAHE only,90.7,14.21,2.86,0,0.0
+patrolbot_2_0034.2.jpg,median3+gamma+CLAHE,119.9,5.24,3.25,0,0.0
+patrolbot_2_0034.2.jpg,median5+gamma+CLAHE,107.1,2.37,4.57,0,0.0
+patrolbot_2_0034.2.jpg,bilateral+gamma+CLAHE,106.6,2.79,11.84,0,0.0
+patrolbot_2_0037.3.jpg,raw,65.8,5.98,0.3,0,0.0
+patrolbot_2_0037.3.jpg,gamma only,97.4,6.8,0.99,0,0.0
+patrolbot_2_0037.3.jpg,CLAHE only,88.5,14.11,2.97,0,0.0
+patrolbot_2_0037.3.jpg,median3+gamma+CLAHE,120.4,5.29,3.39,0,0.0
+patrolbot_2_0037.3.jpg,median5+gamma+CLAHE,107.1,2.39,4.57,0,0.0
+patrolbot_2_0037.3.jpg,bilateral+gamma+CLAHE,106.8,2.79,10.51,0,0.0
+patrolbot_2_0040.4.jpg,raw,78.9,6.08,0.25,0,0.0
+patrolbot_2_0040.4.jpg,gamma only,99.4,6.36,0.73,0,0.0
+patrolbot_2_0040.4.jpg,CLAHE only,97.7,14.66,3.74,0,0.0
+patrolbot_2_0040.4.jpg,median3+gamma+CLAHE,119.9,5.11,3.58,0,0.0
+patrolbot_2_0040.4.jpg,median5+gamma+CLAHE,107.0,2.26,4.61,0,0.0
+patrolbot_2_0040.4.jpg,bilateral+gamma+CLAHE,106.9,2.68,10.81,0,0.0
+patrolbot_2_0043.5.jpg,raw,81.9,6.05,0.28,0,0.0
+patrolbot_2_0043.5.jpg,gamma only,100.5,6.14,0.74,0,0.0
+patrolbot_2_0043.5.jpg,CLAHE only,98.2,15.24,3.2,0,0.0
+patrolbot_2_0043.5.jpg,median3+gamma+CLAHE,120.4,5.06,3.26,0,0.0
+patrolbot_2_0043.5.jpg,median5+gamma+CLAHE,105.7,2.23,4.25,0,0.0
+patrolbot_2_0043.5.jpg,bilateral+gamma+CLAHE,105.8,2.66,10.76,0,0.0
+patrolbot_2_0046.6.jpg,raw,86.4,6.13,0.29,0,0.0
+patrolbot_2_0046.6.jpg,gamma only,100.5,6.28,0.74,0,0.0
+patrolbot_2_0046.6.jpg,CLAHE only,99.9,15.13,2.88,0,0.0
+patrolbot_2_0046.6.jpg,median3+gamma+CLAHE,117.8,4.92,3.23,0,0.0
+patrolbot_2_0046.6.jpg,median5+gamma+CLAHE,104.4,2.22,4.54,0,0.0
+patrolbot_2_0046.6.jpg,bilateral+gamma+CLAHE,104.7,2.75,10.62,0,0.0
+patrolbot_2_0049.7.jpg,raw,59.8,5.54,0.3,0,0.0
+patrolbot_2_0049.7.jpg,gamma only,96.4,6.67,0.79,0,0.0
+patrolbot_2_0049.7.jpg,CLAHE only,79.6,12.97,2.88,0,0.0
+patrolbot_2_0049.7.jpg,median3+gamma+CLAHE,117.8,5.41,3.36,0,0.0
+patrolbot_2_0049.7.jpg,median5+gamma+CLAHE,104.1,2.39,4.66,0,0.0
+patrolbot_2_0049.7.jpg,bilateral+gamma+CLAHE,103.5,2.75,11.53,0,0.0
+patrolbot_2_0052.8.jpg,raw,50.3,5.36,0.27,0,0.0
+patrolbot_2_0052.8.jpg,gamma only,93.8,7.29,0.71,0,0.0
+patrolbot_2_0052.8.jpg,CLAHE only,73.0,12.05,3.06,0,0.0
+patrolbot_2_0052.8.jpg,median3+gamma+CLAHE,118.7,5.73,3.17,0,0.0
+patrolbot_2_0052.8.jpg,median5+gamma+CLAHE,105.7,2.63,4.35,0,0.0
+patrolbot_2_0052.8.jpg,bilateral+gamma+CLAHE,104.5,2.93,10.72,0,0.0
+patrolbot_2_0055.9.jpg,raw,74.8,6.12,0.27,0,0.0
+patrolbot_2_0055.9.jpg,gamma only,100.3,6.32,0.7,0,0.0
+patrolbot_2_0055.9.jpg,CLAHE only,93.1,15.35,3.38,0,0.0
+patrolbot_2_0055.9.jpg,median3+gamma+CLAHE,118.8,5.07,3.27,0,0.0
+patrolbot_2_0055.9.jpg,median5+gamma+CLAHE,105.1,2.22,4.4,0,0.0
+patrolbot_2_0055.9.jpg,bilateral+gamma+CLAHE,105.3,2.76,10.95,0,0.0
+patrolbot_2_0059.0.jpg,raw,48.6,5.13,0.27,0,0.0
+patrolbot_2_0059.0.jpg,gamma only,92.7,7.33,0.73,0,0.0
+patrolbot_2_0059.0.jpg,CLAHE only,69.6,11.69,2.86,0,0.0
+patrolbot_2_0059.0.jpg,median3+gamma+CLAHE,117.6,6.35,3.3,0,0.0
+patrolbot_2_0059.0.jpg,median5+gamma+CLAHE,103.6,2.73,4.19,0,0.0
+patrolbot_2_0059.0.jpg,bilateral+gamma+CLAHE,102.3,2.93,10.98,0,0.0
+patrolbot_2_0062.1.jpg,raw,44.7,5.09,0.28,0,0.0
+patrolbot_2_0062.1.jpg,gamma only,92.9,7.49,0.73,0,0.0
+patrolbot_2_0062.1.jpg,CLAHE only,67.3,11.68,2.97,0,0.0
+patrolbot_2_0062.1.jpg,median3+gamma+CLAHE,118.7,6.29,3.39,0,0.0
+patrolbot_2_0062.1.jpg,median5+gamma+CLAHE,105.1,2.81,5.05,0,0.0
+patrolbot_2_0062.1.jpg,bilateral+gamma+CLAHE,104.0,3.01,10.7,0,0.0
+patrolbot_2_0065.2.jpg,raw,42.7,5.37,0.29,0,0.0
+patrolbot_2_0065.2.jpg,gamma only,95.0,7.66,0.83,0,0.0
+patrolbot_2_0065.2.jpg,CLAHE only,66.9,12.99,3.01,0,0.0
+patrolbot_2_0065.2.jpg,median3+gamma+CLAHE,120.4,6.23,3.6,0,0.0
+patrolbot_2_0065.2.jpg,median5+gamma+CLAHE,105.9,2.81,4.48,0,0.0
+patrolbot_2_0065.2.jpg,bilateral+gamma+CLAHE,104.7,3.13,12.26,0,0.0
+patrolbot_2_0068.3.jpg,raw,56.2,5.75,0.3,1,0.291
+patrolbot_2_0068.3.jpg,gamma only,97.6,6.9,0.75,1,0.367
+patrolbot_2_0068.3.jpg,CLAHE only,78.8,14.24,2.95,1,0.351
+patrolbot_2_0068.3.jpg,median3+gamma+CLAHE,119.3,5.66,3.31,0,0.0
+patrolbot_2_0068.3.jpg,median5+gamma+CLAHE,104.9,2.49,6.14,0,0.0
+patrolbot_2_0068.3.jpg,bilateral+gamma+CLAHE,104.7,2.91,11.33,0,0.0
+patrolbot_2_0071.4.jpg,raw,51.5,5.41,0.26,1,0.718
+patrolbot_2_0071.4.jpg,gamma only,95.5,7.11,0.75,1,0.696
+patrolbot_2_0071.4.jpg,CLAHE only,72.4,12.79,3.0,1,0.744
+patrolbot_2_0071.4.jpg,median3+gamma+CLAHE,118.1,5.82,3.32,1,0.757
+patrolbot_2_0071.4.jpg,median5+gamma+CLAHE,103.6,2.58,4.68,1,0.714
+patrolbot_2_0071.4.jpg,bilateral+gamma+CLAHE,103.1,2.92,10.52,1,0.7
+patrolbot_2_0074.5.jpg,raw,43.2,5.16,0.3,1,0.821
+patrolbot_2_0074.5.jpg,gamma only,93.2,7.6,0.72,1,0.756
+patrolbot_2_0074.5.jpg,CLAHE only,64.7,11.95,2.9,1,0.818
+patrolbot_2_0074.5.jpg,median3+gamma+CLAHE,118.7,6.36,3.42,1,0.774
+patrolbot_2_0074.5.jpg,median5+gamma+CLAHE,104.1,2.76,4.2,1,0.732
+patrolbot_2_0074.5.jpg,bilateral+gamma+CLAHE,103.3,2.99,10.26,1,0.786
+patrolbot_2_0077.6.jpg,raw,35.8,4.88,0.25,1,0.849
+patrolbot_2_0077.6.jpg,gamma only,92.5,8.08,0.74,1,0.879
+patrolbot_2_0077.6.jpg,CLAHE only,57.4,11.26,2.91,1,0.868
+patrolbot_2_0077.6.jpg,median3+gamma+CLAHE,119.3,6.91,3.3,1,0.878
+patrolbot_2_0077.6.jpg,median5+gamma+CLAHE,105.0,3.02,4.54,1,0.876
+patrolbot_2_0077.6.jpg,bilateral+gamma+CLAHE,103.8,3.19,10.73,1,0.881
+patrolbot_2_0082.7.jpg,raw,33.4,4.96,0.28,1,0.873
+patrolbot_2_0082.7.jpg,gamma only,93.0,8.42,0.76,1,0.871
+patrolbot_2_0082.7.jpg,CLAHE only,55.9,11.58,2.73,1,0.892
+patrolbot_2_0082.7.jpg,median3+gamma+CLAHE,119.3,7.12,3.22,1,0.886
+patrolbot_2_0082.7.jpg,median5+gamma+CLAHE,104.7,3.03,4.4,1,0.883
+patrolbot_2_0082.7.jpg,bilateral+gamma+CLAHE,103.6,3.26,11.55,1,0.885
+patrolbot_2_0085.8.jpg,raw,56.0,5.72,0.27,0,0.0
+patrolbot_2_0085.8.jpg,gamma only,96.6,7.02,0.67,0,0.0
+patrolbot_2_0085.8.jpg,CLAHE only,79.3,13.52,3.09,0,0.0
+patrolbot_2_0085.8.jpg,median3+gamma+CLAHE,120.9,5.64,3.34,0,0.0
+patrolbot_2_0085.8.jpg,median5+gamma+CLAHE,106.5,2.49,4.3,0,0.0
+patrolbot_2_0085.8.jpg,bilateral+gamma+CLAHE,105.9,2.87,10.9,0,0.0
+patrolbot_2_0088.9.jpg,raw,31.3,4.74,0.27,1,0.825
+patrolbot_2_0088.9.jpg,gamma only,91.7,8.65,0.72,1,0.835
+patrolbot_2_0088.9.jpg,CLAHE only,52.7,10.74,2.89,1,0.814
+patrolbot_2_0088.9.jpg,median3+gamma+CLAHE,119.1,7.29,3.09,1,0.844
+patrolbot_2_0088.9.jpg,median5+gamma+CLAHE,104.7,3.17,4.14,1,0.857
+patrolbot_2_0088.9.jpg,bilateral+gamma+CLAHE,103.7,3.31,10.52,1,0.846
+patrolbot_2_0091.9.jpg,raw,65.9,5.87,0.26,0,0.0
+patrolbot_2_0091.9.jpg,gamma only,98.8,6.5,0.8,0,0.0
+patrolbot_2_0091.9.jpg,CLAHE only,86.4,14.66,3.01,0,0.0
+patrolbot_2_0091.9.jpg,median3+gamma+CLAHE,120.7,5.33,3.54,0,0.0
+patrolbot_2_0091.9.jpg,median5+gamma+CLAHE,106.1,2.32,4.55,0,0.0
+patrolbot_2_0091.9.jpg,bilateral+gamma+CLAHE,106.3,2.73,10.72,0,0.0
+patrolbot_2_0095.0.jpg,raw,49.6,5.39,0.28,1,0.273
+patrolbot_2_0095.0.jpg,gamma only,94.2,7.32,0.74,0,0.0
+patrolbot_2_0095.0.jpg,CLAHE only,71.8,12.31,3.11,0,0.0
+patrolbot_2_0095.0.jpg,median3+gamma+CLAHE,119.5,5.98,3.25,0,0.0
+patrolbot_2_0095.0.jpg,median5+gamma+CLAHE,105.6,2.69,4.48,0,0.0
+patrolbot_2_0095.0.jpg,bilateral+gamma+CLAHE,104.4,2.94,10.97,0,0.0
+patrolbot_2_0098.1.jpg,raw,44.6,5.41,0.28,0,0.0
+patrolbot_2_0098.1.jpg,gamma only,94.3,7.74,0.69,0,0.0
+patrolbot_2_0098.1.jpg,CLAHE only,68.0,12.4,2.89,0,0.0
+patrolbot_2_0098.1.jpg,median3+gamma+CLAHE,119.7,6.3,3.4,0,0.0
+patrolbot_2_0098.1.jpg,median5+gamma+CLAHE,105.4,2.78,4.32,0,0.0
+patrolbot_2_0098.1.jpg,bilateral+gamma+CLAHE,104.4,3.04,10.65,0,0.0
+patrolbot_2_0101.2.jpg,raw,44.4,5.22,0.26,0,0.0
+patrolbot_2_0101.2.jpg,gamma only,93.2,7.71,0.74,0,0.0
+patrolbot_2_0101.2.jpg,CLAHE only,66.6,12.01,3.2,0,0.0
+patrolbot_2_0101.2.jpg,median3+gamma+CLAHE,119.2,6.4,3.4,0,0.0
+patrolbot_2_0101.2.jpg,median5+gamma+CLAHE,104.0,2.79,4.68,0,0.0
+patrolbot_2_0101.2.jpg,bilateral+gamma+CLAHE,103.1,3.02,12.52,0,0.0
+patrolbot_2_0104.3.jpg,raw,31.3,4.77,0.27,0,0.0
+patrolbot_2_0104.3.jpg,gamma only,91.8,8.75,0.76,0,0.0
+patrolbot_2_0104.3.jpg,CLAHE only,52.4,10.85,3.05,0,0.0
+patrolbot_2_0104.3.jpg,median3+gamma+CLAHE,119.9,7.27,3.38,0,0.0
+patrolbot_2_0104.3.jpg,median5+gamma+CLAHE,104.4,3.2,4.29,0,0.0
+patrolbot_2_0104.3.jpg,bilateral+gamma+CLAHE,103.6,3.32,10.81,0,0.0
+patrolbot_2_0107.4.jpg,raw,29.5,4.83,0.27,0,0.0
+patrolbot_2_0107.4.jpg,gamma only,92.4,8.88,0.69,0,0.0
+patrolbot_2_0107.4.jpg,CLAHE only,51.5,11.04,3.02,0,0.0
+patrolbot_2_0107.4.jpg,median3+gamma+CLAHE,120.6,7.46,4.03,0,0.0
+patrolbot_2_0107.4.jpg,median5+gamma+CLAHE,105.7,3.23,4.58,0,0.0
+patrolbot_2_0107.4.jpg,bilateral+gamma+CLAHE,104.7,3.32,11.48,0,0.0
+patrolbot_2_0110.5.jpg,raw,49.7,5.31,0.28,0,0.0
+patrolbot_2_0110.5.jpg,gamma only,95.3,7.08,0.72,0,0.0
+patrolbot_2_0110.5.jpg,CLAHE only,70.4,12.88,2.97,0,0.0
+patrolbot_2_0110.5.jpg,median3+gamma+CLAHE,117.9,5.87,3.44,0,0.0
+patrolbot_2_0110.5.jpg,median5+gamma+CLAHE,104.3,2.55,4.36,0,0.0
+patrolbot_2_0110.5.jpg,bilateral+gamma+CLAHE,103.5,2.86,11.31,0,0.0
+patrolbot_2_0113.6.jpg,raw,59.6,5.62,0.3,0,0.0
+patrolbot_2_0113.6.jpg,gamma only,95.9,6.93,0.73,0,0.0
+patrolbot_2_0113.6.jpg,CLAHE only,79.6,13.2,2.9,0,0.0
+patrolbot_2_0113.6.jpg,median3+gamma+CLAHE,120.3,5.65,3.67,0,0.0
+patrolbot_2_0113.6.jpg,median5+gamma+CLAHE,105.3,2.51,4.59,0,0.0
+patrolbot_2_0113.6.jpg,bilateral+gamma+CLAHE,104.8,2.86,11.39,0,0.0
+patrolbot_2_0116.7.jpg,raw,53.4,5.85,0.34,0,0.0
+patrolbot_2_0116.7.jpg,gamma only,95.0,7.44,0.71,0,0.0
+patrolbot_2_0116.7.jpg,CLAHE only,77.3,12.9,2.93,0,0.0
+patrolbot_2_0116.7.jpg,median3+gamma+CLAHE,120.5,5.9,3.66,0,0.0
+patrolbot_2_0116.7.jpg,median5+gamma+CLAHE,106.7,2.62,4.86,0,0.0
+patrolbot_2_0116.7.jpg,bilateral+gamma+CLAHE,105.8,3.03,11.62,0,0.0
+patrolbot_2_0120.5.jpg,raw,53.5,5.83,0.3,0,0.0
+patrolbot_2_0120.5.jpg,gamma only,95.0,7.41,0.71,0,0.0
+patrolbot_2_0120.5.jpg,CLAHE only,77.4,12.83,2.92,0,0.0
+patrolbot_2_0120.5.jpg,median3+gamma+CLAHE,120.4,5.86,3.35,0,0.0
+patrolbot_2_0120.5.jpg,median5+gamma+CLAHE,106.4,2.64,4.69,0,0.0
+patrolbot_2_0120.5.jpg,bilateral+gamma+CLAHE,105.9,3.03,10.61,0,0.0
+patrolbot_2_0123.6.jpg,raw,56.3,5.86,0.29,0,0.0
+patrolbot_2_0123.6.jpg,gamma only,98.2,6.9,0.72,0,0.0
+patrolbot_2_0123.6.jpg,CLAHE only,78.1,15.01,3.07,0,0.0
+patrolbot_2_0123.6.jpg,median3+gamma+CLAHE,118.5,5.58,3.31,0,0.0
+patrolbot_2_0123.6.jpg,median5+gamma+CLAHE,106.0,2.45,4.61,0,0.0
+patrolbot_2_0123.6.jpg,bilateral+gamma+CLAHE,106.1,2.93,11.06,0,0.0
+patrolbot_2_0126.6.jpg,raw,35.6,5.15,0.28,0,0.0
+patrolbot_2_0126.6.jpg,gamma only,93.8,8.32,0.8,0,0.0
+patrolbot_2_0126.6.jpg,CLAHE only,59.4,12.16,2.91,0,0.0
+patrolbot_2_0126.6.jpg,median3+gamma+CLAHE,119.8,6.84,3.27,0,0.0
+patrolbot_2_0126.6.jpg,median5+gamma+CLAHE,106.1,2.96,4.29,0,0.0
+patrolbot_2_0126.6.jpg,bilateral+gamma+CLAHE,105.2,3.31,10.83,0,0.0
+patrolbot_2_0132.6.jpg,raw,35.6,5.13,0.26,0,0.0
+patrolbot_2_0132.6.jpg,gamma only,93.8,8.25,0.74,0,0.0
+patrolbot_2_0132.6.jpg,CLAHE only,59.4,12.17,3.07,0,0.0
+patrolbot_2_0132.6.jpg,median3+gamma+CLAHE,120.2,6.96,3.33,0,0.0
+patrolbot_2_0132.6.jpg,median5+gamma+CLAHE,106.1,2.99,6.91,0,0.0
+patrolbot_2_0132.6.jpg,bilateral+gamma+CLAHE,105.2,3.27,10.7,0,0.0
+patrolbot_2_0135.7.jpg,raw,65.6,6.03,0.32,0,0.0
+patrolbot_2_0135.7.jpg,gamma only,99.4,6.56,0.72,0,0.0
+patrolbot_2_0135.7.jpg,CLAHE only,85.4,15.71,2.83,0,0.0
+patrolbot_2_0135.7.jpg,median3+gamma+CLAHE,118.1,5.33,3.35,0,0.0
+patrolbot_2_0135.7.jpg,median5+gamma+CLAHE,104.5,2.29,4.32,0,0.0
+patrolbot_2_0135.7.jpg,bilateral+gamma+CLAHE,104.4,2.8,13.73,0,0.0
+patrolbot_2_0138.8.jpg,raw,58.6,5.8,0.3,0,0.0
+patrolbot_2_0138.8.jpg,gamma only,98.8,6.61,0.69,0,0.0
+patrolbot_2_0138.8.jpg,CLAHE only,78.5,14.91,2.95,0,0.0
+patrolbot_2_0138.8.jpg,median3+gamma+CLAHE,119.3,5.58,3.34,0,0.0
+patrolbot_2_0138.8.jpg,median5+gamma+CLAHE,104.2,2.36,4.35,0,0.0
+patrolbot_2_0138.8.jpg,bilateral+gamma+CLAHE,104.0,2.8,10.64,0,0.0
+patrolbot_2_0141.9.jpg,raw,46.9,5.44,0.28,0,0.0
+patrolbot_2_0141.9.jpg,gamma only,94.9,7.41,0.71,0,0.0
+patrolbot_2_0141.9.jpg,CLAHE only,71.0,13.01,2.87,0,0.0
+patrolbot_2_0141.9.jpg,median3+gamma+CLAHE,122.4,6.07,3.4,0,0.0
+patrolbot_2_0141.9.jpg,median5+gamma+CLAHE,108.1,2.65,4.36,0,0.0
+patrolbot_2_0141.9.jpg,bilateral+gamma+CLAHE,107.1,2.98,10.41,0,0.0
+patrolbot_2_0145.0.jpg,raw,52.0,5.95,0.31,0,0.0
+patrolbot_2_0145.0.jpg,gamma only,99.8,6.97,0.76,0,0.0
+patrolbot_2_0145.0.jpg,CLAHE only,74.3,16.3,2.91,0,0.0
+patrolbot_2_0145.0.jpg,median3+gamma+CLAHE,120.3,5.86,3.33,0,0.0
+patrolbot_2_0145.0.jpg,median5+gamma+CLAHE,105.2,2.5,4.67,0,0.0
+patrolbot_2_0145.0.jpg,bilateral+gamma+CLAHE,105.3,3.06,10.31,0,0.0
+patrolbot_2_0148.0.jpg,raw,61.5,5.76,0.27,0,0.0
+patrolbot_2_0148.0.jpg,gamma only,96.5,6.84,0.73,0,0.0
+patrolbot_2_0148.0.jpg,CLAHE only,82.2,13.55,2.97,0,0.0
+patrolbot_2_0148.0.jpg,median3+gamma+CLAHE,119.2,5.44,3.37,0,0.0
+patrolbot_2_0148.0.jpg,median5+gamma+CLAHE,105.0,2.41,4.4,0,0.0
+patrolbot_2_0148.0.jpg,bilateral+gamma+CLAHE,104.3,2.81,10.94,0,0.0
+patrolbot_2_0151.1.jpg,raw,70.7,5.83,0.29,0,0.0
+patrolbot_2_0151.1.jpg,gamma only,97.0,6.62,0.72,0,0.0
+patrolbot_2_0151.1.jpg,CLAHE only,89.6,13.13,3.13,0,0.0
+patrolbot_2_0151.1.jpg,median3+gamma+CLAHE,118.0,5.21,3.43,0,0.0
+patrolbot_2_0151.1.jpg,median5+gamma+CLAHE,104.6,2.27,4.38,0,0.0
+patrolbot_2_0151.1.jpg,bilateral+gamma+CLAHE,104.4,2.64,10.49,0,0.0
+patrolbot_2_0154.2.jpg,raw,56.6,5.8,0.33,0,0.0
+patrolbot_2_0154.2.jpg,gamma only,96.2,7.09,0.74,0,0.0
+patrolbot_2_0154.2.jpg,CLAHE only,80.0,13.56,2.82,0,0.0
+patrolbot_2_0154.2.jpg,median3+gamma+CLAHE,120.3,5.69,3.18,0,0.0
+patrolbot_2_0154.2.jpg,median5+gamma+CLAHE,106.8,2.51,4.36,0,0.0
+patrolbot_2_0154.2.jpg,bilateral+gamma+CLAHE,106.2,2.88,11.05,0,0.0
+patrolbot_2_0157.3.jpg,raw,64.2,5.79,0.28,0,0.0
+patrolbot_2_0157.3.jpg,gamma only,97.5,6.64,0.7,0,0.0
+patrolbot_2_0157.3.jpg,CLAHE only,85.2,14.0,2.84,0,0.0
+patrolbot_2_0157.3.jpg,median3+gamma+CLAHE,119.3,5.56,3.2,0,0.0
+patrolbot_2_0157.3.jpg,median5+gamma+CLAHE,105.4,2.35,4.37,0,0.0
+patrolbot_2_0157.3.jpg,bilateral+gamma+CLAHE,105.3,2.75,11.09,0,0.0
+patrolbot_2_0160.4.jpg,raw,73.1,6.03,0.3,0,0.0
+patrolbot_2_0160.4.jpg,gamma only,99.2,6.41,0.75,0,0.0
+patrolbot_2_0160.4.jpg,CLAHE only,91.4,14.79,3.09,0,0.0
+patrolbot_2_0160.4.jpg,median3+gamma+CLAHE,118.4,5.14,3.38,0,0.0
+patrolbot_2_0160.4.jpg,median5+gamma+CLAHE,104.5,2.22,4.66,0,0.0
+patrolbot_2_0160.4.jpg,bilateral+gamma+CLAHE,104.5,2.69,10.58,0,0.0
+patrolbot_2_0163.4.jpg,raw,57.3,5.57,0.27,0,0.0
+patrolbot_2_0163.4.jpg,gamma only,94.8,7.06,0.74,0,0.0
+patrolbot_2_0163.4.jpg,CLAHE only,79.1,12.7,3.01,0,0.0
+patrolbot_2_0163.4.jpg,median3+gamma+CLAHE,120.8,5.65,4.31,0,0.0
+patrolbot_2_0163.4.jpg,median5+gamma+CLAHE,107.1,2.59,5.12,0,0.0
+patrolbot_2_0163.4.jpg,bilateral+gamma+CLAHE,106.2,2.9,10.75,0,0.0
+patrolbot_2_0166.5.jpg,raw,61.2,5.53,0.31,0,0.0
+patrolbot_2_0166.5.jpg,gamma only,95.4,6.77,0.71,0,0.0
+patrolbot_2_0166.5.jpg,CLAHE only,80.4,12.62,3.0,0,0.0
+patrolbot_2_0166.5.jpg,median3+gamma+CLAHE,117.8,5.6,3.62,0,0.0
+patrolbot_2_0166.5.jpg,median5+gamma+CLAHE,103.3,2.47,4.72,0,0.0
+patrolbot_2_0166.5.jpg,bilateral+gamma+CLAHE,103.2,2.8,10.37,0,0.0
+patrolbot_2_0235.8.jpg,raw,21.3,4.8,0.29,0,0.0
+patrolbot_2_0235.8.jpg,gamma only,93.7,10.42,0.74,0,0.0
+patrolbot_2_0235.8.jpg,CLAHE only,41.8,10.57,3.06,0,0.0
+patrolbot_2_0235.8.jpg,median3+gamma+CLAHE,119.7,8.49,3.63,0,0.0
+patrolbot_2_0235.8.jpg,median5+gamma+CLAHE,106.1,3.72,4.2,0,0.0
+patrolbot_2_0235.8.jpg,bilateral+gamma+CLAHE,105.6,3.9,10.85,0,0.0
+patrolbot_2_0238.8.jpg,raw,41.7,5.33,0.28,1,0.747
+patrolbot_2_0238.8.jpg,gamma only,93.0,8.04,1.13,1,0.789
+patrolbot_2_0238.8.jpg,CLAHE only,68.0,11.66,2.78,1,0.662
+patrolbot_2_0238.8.jpg,median3+gamma+CLAHE,119.6,6.46,3.25,1,0.74
+patrolbot_2_0238.8.jpg,median5+gamma+CLAHE,106.4,2.9,4.47,1,0.761
+patrolbot_2_0238.8.jpg,bilateral+gamma+CLAHE,105.2,3.16,11.81,1,0.692
+patrolbot_2_0241.9.jpg,raw,46.0,5.49,0.28,2,0.581
+patrolbot_2_0241.9.jpg,gamma only,93.8,7.74,0.73,1,0.888
+patrolbot_2_0241.9.jpg,CLAHE only,71.6,12.09,2.89,2,0.575
+patrolbot_2_0241.9.jpg,median3+gamma+CLAHE,120.1,6.09,3.26,1,0.867
+patrolbot_2_0241.9.jpg,median5+gamma+CLAHE,106.3,2.79,4.48,1,0.878
+patrolbot_2_0241.9.jpg,bilateral+gamma+CLAHE,105.1,3.07,12.98,1,0.885
+patrolbot_2_0245.0.jpg,raw,56.8,5.64,0.26,0,0.0
+patrolbot_2_0245.0.jpg,gamma only,94.3,7.25,0.72,0,0.0
+patrolbot_2_0245.0.jpg,CLAHE only,80.0,12.45,3.15,0,0.0
+patrolbot_2_0245.0.jpg,median3+gamma+CLAHE,118.3,5.98,4.09,0,0.0
+patrolbot_2_0245.0.jpg,median5+gamma+CLAHE,104.8,2.6,4.48,0,0.0
+patrolbot_2_0245.0.jpg,bilateral+gamma+CLAHE,104.3,2.91,10.82,0,0.0
+patrolbot_2_0248.1.jpg,raw,66.9,5.96,0.36,0,0.0
+patrolbot_2_0248.1.jpg,gamma only,96.7,6.85,0.72,0,0.0
+patrolbot_2_0248.1.jpg,CLAHE only,88.6,13.4,2.89,0,0.0
+patrolbot_2_0248.1.jpg,median3+gamma+CLAHE,119.3,5.33,3.41,0,0.0
+patrolbot_2_0248.1.jpg,median5+gamma+CLAHE,106.1,2.42,4.36,0,0.0
+patrolbot_2_0248.1.jpg,bilateral+gamma+CLAHE,106.4,2.75,12.65,0,0.0
+patrolbot_2_0251.2.jpg,raw,73.1,6.32,0.28,1,0.258
+patrolbot_2_0251.2.jpg,gamma only,98.3,6.78,0.71,1,0.304
+patrolbot_2_0251.2.jpg,CLAHE only,98.1,14.47,2.94,0,0.0
+patrolbot_2_0251.2.jpg,median3+gamma+CLAHE,123.6,5.18,3.35,0,0.0
+patrolbot_2_0251.2.jpg,median5+gamma+CLAHE,111.4,2.35,4.23,0,0.0
+patrolbot_2_0251.2.jpg,bilateral+gamma+CLAHE,111.0,2.83,10.17,0,0.0
+patrolbot_2_0254.2.jpg,raw,66.5,6.05,0.28,0,0.0
+patrolbot_2_0254.2.jpg,gamma only,98.1,6.76,0.76,0,0.0
+patrolbot_2_0254.2.jpg,CLAHE only,88.2,14.5,2.82,0,0.0
+patrolbot_2_0254.2.jpg,median3+gamma+CLAHE,120.6,5.33,3.54,0,0.0
+patrolbot_2_0254.2.jpg,median5+gamma+CLAHE,106.9,2.36,5.51,0,0.0
+patrolbot_2_0254.2.jpg,bilateral+gamma+CLAHE,106.7,2.81,10.69,0,0.0
+patrolbot_2_0257.3.jpg,raw,70.7,6.25,0.27,0,0.0
+patrolbot_2_0257.3.jpg,gamma only,99.2,6.67,0.74,0,0.0
+patrolbot_2_0257.3.jpg,CLAHE only,94.5,15.17,2.89,0,0.0
+patrolbot_2_0257.3.jpg,median3+gamma+CLAHE,122.1,5.13,3.3,0,0.0
+patrolbot_2_0257.3.jpg,median5+gamma+CLAHE,109.1,2.32,4.41,0,0.0
+patrolbot_2_0257.3.jpg,bilateral+gamma+CLAHE,108.9,2.8,10.76,0,0.0
+patrolbot_2_0260.4.jpg,raw,73.6,6.19,0.28,0,0.0
+patrolbot_2_0260.4.jpg,gamma only,99.4,6.52,0.7,0,0.0
+patrolbot_2_0260.4.jpg,CLAHE only,96.9,15.01,2.93,0,0.0
+patrolbot_2_0260.4.jpg,median3+gamma+CLAHE,122.7,5.24,3.59,0,0.0
+patrolbot_2_0260.4.jpg,median5+gamma+CLAHE,110.0,2.33,4.33,0,0.0
+patrolbot_2_0260.4.jpg,bilateral+gamma+CLAHE,109.5,2.72,10.64,0,0.0
+patrolbot_2_0263.5.jpg,raw,83.2,6.14,0.31,0,0.0
+patrolbot_2_0263.5.jpg,gamma only,100.4,6.29,0.71,0,0.0
+patrolbot_2_0263.5.jpg,CLAHE only,103.4,15.45,3.01,0,0.0
+patrolbot_2_0263.5.jpg,median3+gamma+CLAHE,122.7,5.18,3.16,0,0.0
+patrolbot_2_0263.5.jpg,median5+gamma+CLAHE,109.6,2.28,4.35,0,0.0
+patrolbot_2_0263.5.jpg,bilateral+gamma+CLAHE,109.1,2.7,10.41,0,0.0
+patrolbot_2_0266.5.jpg,raw,77.4,6.17,0.29,0,0.0
+patrolbot_2_0266.5.jpg,gamma only,100.2,6.41,0.72,0,0.0
+patrolbot_2_0266.5.jpg,CLAHE only,97.2,15.34,2.92,0,0.0
+patrolbot_2_0266.5.jpg,median3+gamma+CLAHE,121.0,5.11,3.35,0,0.0
+patrolbot_2_0266.5.jpg,median5+gamma+CLAHE,107.6,2.3,4.21,0,0.0
+patrolbot_2_0266.5.jpg,bilateral+gamma+CLAHE,107.7,2.82,10.23,0,0.0
+patrolbot_2_0269.6.jpg,raw,52.1,5.67,0.26,0,0.0
+patrolbot_2_0269.6.jpg,gamma only,95.9,7.23,0.67,0,0.0
+patrolbot_2_0269.6.jpg,CLAHE only,75.8,13.42,2.93,0,0.0
+patrolbot_2_0269.6.jpg,median3+gamma+CLAHE,121.5,5.81,3.2,0,0.0
+patrolbot_2_0269.6.jpg,median5+gamma+CLAHE,107.7,2.6,5.49,0,0.0
+patrolbot_2_0269.6.jpg,bilateral+gamma+CLAHE,107.1,2.98,10.48,0,0.0
+patrolbot_2_0272.7.jpg,raw,40.0,4.99,0.27,1,0.64
+patrolbot_2_0272.7.jpg,gamma only,91.3,8.01,0.72,1,0.643
+patrolbot_2_0272.7.jpg,CLAHE only,61.1,10.99,2.94,1,0.607
+patrolbot_2_0272.7.jpg,median3+gamma+CLAHE,117.9,6.85,3.21,1,0.636
+patrolbot_2_0272.7.jpg,median5+gamma+CLAHE,102.9,3.02,4.21,1,0.649
+patrolbot_2_0272.7.jpg,bilateral+gamma+CLAHE,101.7,3.23,10.51,1,0.713
+patrolbot_2_0275.7.jpg,raw,81.1,6.07,0.27,0,0.0
+patrolbot_2_0275.7.jpg,gamma only,100.4,6.23,0.73,0,0.0
+patrolbot_2_0275.7.jpg,CLAHE only,97.4,15.05,3.67,0,0.0
+patrolbot_2_0275.7.jpg,median3+gamma+CLAHE,119.6,4.97,3.31,0,0.0
+patrolbot_2_0275.7.jpg,median5+gamma+CLAHE,105.0,2.22,4.27,0,0.0
+patrolbot_2_0275.7.jpg,bilateral+gamma+CLAHE,105.4,2.71,10.67,0,0.0
+patrolbot_2_0278.8.jpg,raw,84.0,6.11,0.26,0,0.0
+patrolbot_2_0278.8.jpg,gamma only,100.4,6.25,0.71,0,0.0
+patrolbot_2_0278.8.jpg,CLAHE only,98.6,15.24,3.05,0,0.0
+patrolbot_2_0278.8.jpg,median3+gamma+CLAHE,118.6,4.99,3.37,0,0.0
+patrolbot_2_0278.8.jpg,median5+gamma+CLAHE,104.2,2.21,4.48,0,0.0
+patrolbot_2_0278.8.jpg,bilateral+gamma+CLAHE,104.7,2.73,11.94,0,0.0
+patrolbot_2_0281.9.jpg,raw,48.8,5.37,0.27,0,0.0
+patrolbot_2_0281.9.jpg,gamma only,93.9,7.44,0.74,0,0.0
+patrolbot_2_0281.9.jpg,CLAHE only,70.8,12.34,2.92,0,0.0
+patrolbot_2_0281.9.jpg,median3+gamma+CLAHE,118.4,5.94,3.23,0,0.0
+patrolbot_2_0281.9.jpg,median5+gamma+CLAHE,104.8,2.72,4.5,0,0.0
+patrolbot_2_0281.9.jpg,bilateral+gamma+CLAHE,104.0,3.02,10.77,0,0.0
+patrolbot_2_0285.0.jpg,raw,50.0,5.13,0.25,0,0.0
+patrolbot_2_0285.0.jpg,gamma only,93.3,7.11,0.7,0,0.0
+patrolbot_2_0285.0.jpg,CLAHE only,72.0,11.52,2.77,0,0.0
+patrolbot_2_0285.0.jpg,median3+gamma+CLAHE,118.7,5.77,3.25,0,0.0
+patrolbot_2_0285.0.jpg,median5+gamma+CLAHE,105.4,2.61,4.11,0,0.0
+patrolbot_2_0285.0.jpg,bilateral+gamma+CLAHE,104.3,2.85,10.61,0,0.0
+patrolbot_2_0288.1.jpg,raw,61.6,5.72,0.25,0,0.0
+patrolbot_2_0288.1.jpg,gamma only,97.2,6.72,0.7,0,0.0
+patrolbot_2_0288.1.jpg,CLAHE only,82.0,13.7,2.81,0,0.0
+patrolbot_2_0288.1.jpg,median3+gamma+CLAHE,118.7,5.38,3.33,0,0.0
+patrolbot_2_0288.1.jpg,median5+gamma+CLAHE,104.4,2.39,4.41,0,0.0
+patrolbot_2_0288.1.jpg,bilateral+gamma+CLAHE,104.3,2.8,10.95,0,0.0
+patrolbot_2_0291.1.jpg,raw,48.3,5.15,0.3,0,0.0
+patrolbot_2_0291.1.jpg,gamma only,92.8,7.3,0.75,0,0.0
+patrolbot_2_0291.1.jpg,CLAHE only,69.4,11.72,3.51,0,0.0
+patrolbot_2_0291.1.jpg,median3+gamma+CLAHE,118.0,6.06,3.68,0,0.0
+patrolbot_2_0291.1.jpg,median5+gamma+CLAHE,104.2,2.75,4.34,0,0.0
+patrolbot_2_0291.1.jpg,bilateral+gamma+CLAHE,102.9,2.94,10.8,0,0.0
+patrolbot_2_0294.2.jpg,raw,44.0,5.16,0.27,0,0.0
+patrolbot_2_0294.2.jpg,gamma only,93.0,7.63,0.76,0,0.0
+patrolbot_2_0294.2.jpg,CLAHE only,66.3,11.83,3.07,0,0.0
+patrolbot_2_0294.2.jpg,median3+gamma+CLAHE,118.3,6.53,3.26,0,0.0
+patrolbot_2_0294.2.jpg,median5+gamma+CLAHE,104.0,2.73,4.35,0,0.0
+patrolbot_2_0294.2.jpg,bilateral+gamma+CLAHE,103.1,2.98,10.61,0,0.0
+patrolbot_2_0297.3.jpg,raw,42.5,5.38,0.26,0,0.0
+patrolbot_2_0297.3.jpg,gamma only,95.1,7.64,0.72,0,0.0
+patrolbot_2_0297.3.jpg,CLAHE only,66.9,13.06,2.82,0,0.0
+patrolbot_2_0297.3.jpg,median3+gamma+CLAHE,120.7,6.34,3.31,0,0.0
+patrolbot_2_0297.3.jpg,median5+gamma+CLAHE,105.9,2.72,4.17,0,0.0
+patrolbot_2_0297.3.jpg,bilateral+gamma+CLAHE,105.1,3.04,11.51,0,0.0
+patrolbot_2_0300.4.jpg,raw,55.8,5.67,0.26,1,0.756
+patrolbot_2_0300.4.jpg,gamma only,96.9,6.9,0.73,1,0.762
+patrolbot_2_0300.4.jpg,CLAHE only,79.2,14.03,2.93,1,0.793
+patrolbot_2_0300.4.jpg,median3+gamma+CLAHE,120.2,5.78,3.13,1,0.712
+patrolbot_2_0300.4.jpg,median5+gamma+CLAHE,105.3,2.53,4.28,1,0.692
+patrolbot_2_0300.4.jpg,bilateral+gamma+CLAHE,105.0,2.9,10.69,1,0.746
+patrolbot_2_0303.5.jpg,raw,50.5,5.41,0.28,1,0.783
+patrolbot_2_0303.5.jpg,gamma only,95.3,7.18,0.75,1,0.837
+patrolbot_2_0303.5.jpg,CLAHE only,72.2,12.78,2.94,1,0.784
+patrolbot_2_0303.5.jpg,median3+gamma+CLAHE,118.4,5.92,3.16,1,0.751
+patrolbot_2_0303.5.jpg,median5+gamma+CLAHE,104.1,2.59,4.81,1,0.799
+patrolbot_2_0303.5.jpg,bilateral+gamma+CLAHE,103.2,2.94,10.51,1,0.812
+patrolbot_2_0306.5.jpg,raw,43.0,5.18,0.29,1,0.88
+patrolbot_2_0306.5.jpg,gamma only,93.1,7.82,0.66,1,0.865
+patrolbot_2_0306.5.jpg,CLAHE only,64.3,11.93,2.77,1,0.874
+patrolbot_2_0306.5.jpg,median3+gamma+CLAHE,118.2,6.44,3.14,1,0.834
+patrolbot_2_0306.5.jpg,median5+gamma+CLAHE,104.8,2.86,4.85,1,0.877
+patrolbot_2_0306.5.jpg,bilateral+gamma+CLAHE,103.5,3.09,10.4,1,0.862
+patrolbot_2_0309.6.jpg,raw,35.5,4.82,0.25,1,0.83
+patrolbot_2_0309.6.jpg,gamma only,91.6,8.18,0.71,1,0.823
+patrolbot_2_0309.6.jpg,CLAHE only,56.6,10.99,2.73,1,0.829
+patrolbot_2_0309.6.jpg,median3+gamma+CLAHE,119.0,6.97,3.29,1,0.838
+patrolbot_2_0309.6.jpg,median5+gamma+CLAHE,105.1,2.98,4.33,1,0.841
+patrolbot_2_0309.6.jpg,bilateral+gamma+CLAHE,103.7,3.13,10.73,1,0.84
+patrolbot_2_0312.7.jpg,raw,66.6,5.89,0.26,0,0.0
+patrolbot_2_0312.7.jpg,gamma only,98.6,6.5,0.72,0,0.0
+patrolbot_2_0312.7.jpg,CLAHE only,87.0,14.7,2.97,0,0.0
+patrolbot_2_0312.7.jpg,median3+gamma+CLAHE,120.9,5.33,3.48,0,0.0
+patrolbot_2_0312.7.jpg,median5+gamma+CLAHE,106.5,2.35,4.27,0,0.0
+patrolbot_2_0312.7.jpg,bilateral+gamma+CLAHE,106.6,2.8,11.02,0,0.0
+patrolbot_2_0315.7.jpg,raw,47.2,5.6,0.31,0,0.0
+patrolbot_2_0315.7.jpg,gamma only,96.8,7.31,0.71,0,0.0
+patrolbot_2_0315.7.jpg,CLAHE only,70.9,14.04,2.94,0,0.0
+patrolbot_2_0315.7.jpg,median3+gamma+CLAHE,121.2,5.97,3.6,0,0.0
+patrolbot_2_0315.7.jpg,median5+gamma+CLAHE,107.5,2.6,4.39,0,0.0
+patrolbot_2_0315.7.jpg,bilateral+gamma+CLAHE,107.0,3.01,10.3,0,0.0
+patrolbot_2_0318.8.jpg,raw,68.2,9.78,0.26,0,0.0
+patrolbot_2_0318.8.jpg,gamma only,98.6,10.86,0.79,0,0.0
+patrolbot_2_0318.8.jpg,CLAHE only,88.3,23.5,2.74,0,0.0
+patrolbot_2_0318.8.jpg,median3+gamma+CLAHE,117.7,8.02,3.21,0,0.0
+patrolbot_2_0318.8.jpg,median5+gamma+CLAHE,106.0,3.41,4.07,0,0.0
+patrolbot_2_0318.8.jpg,bilateral+gamma+CLAHE,106.7,8.02,10.74,0,0.0
+patrolbot_2_0321.9.jpg,raw,44.3,5.34,0.28,0,0.0
+patrolbot_2_0321.9.jpg,gamma only,93.8,7.74,0.76,0,0.0
+patrolbot_2_0321.9.jpg,CLAHE only,67.1,12.17,2.99,0,0.0
+patrolbot_2_0321.9.jpg,median3+gamma+CLAHE,119.0,6.24,3.29,0,0.0
+patrolbot_2_0321.9.jpg,median5+gamma+CLAHE,104.7,2.79,4.57,0,0.0
+patrolbot_2_0321.9.jpg,bilateral+gamma+CLAHE,104.1,3.09,10.59,0,0.0
+patrolbot_2_0325.0.jpg,raw,44.0,5.26,0.26,0,0.0
+patrolbot_2_0325.0.jpg,gamma only,93.4,7.71,0.76,0,0.0
+patrolbot_2_0325.0.jpg,CLAHE only,66.7,11.98,3.2,2,0.286
+patrolbot_2_0325.0.jpg,median3+gamma+CLAHE,118.9,6.27,3.2,0,0.0
+patrolbot_2_0325.0.jpg,median5+gamma+CLAHE,104.2,2.79,4.32,0,0.0
+patrolbot_2_0325.0.jpg,bilateral+gamma+CLAHE,103.0,3.0,10.73,0,0.0
+patrolbot_2_0328.1.jpg,raw,32.6,4.84,0.28,0,0.0
+patrolbot_2_0328.1.jpg,gamma only,91.9,8.55,0.74,0,0.0
+patrolbot_2_0328.1.jpg,CLAHE only,54.2,11.1,2.99,0,0.0
+patrolbot_2_0328.1.jpg,median3+gamma+CLAHE,120.5,7.23,3.47,0,0.0
+patrolbot_2_0328.1.jpg,median5+gamma+CLAHE,105.4,3.1,4.09,0,0.0
+patrolbot_2_0328.1.jpg,bilateral+gamma+CLAHE,103.9,3.24,10.75,0,0.0
+patrolbot_2_0331.1.jpg,raw,29.6,4.85,0.27,0,0.0
+patrolbot_2_0331.1.jpg,gamma only,92.4,8.93,0.73,0,0.0
+patrolbot_2_0331.1.jpg,CLAHE only,51.6,11.08,3.48,0,0.0
+patrolbot_2_0331.1.jpg,median3+gamma+CLAHE,120.0,7.42,3.38,0,0.0
+patrolbot_2_0331.1.jpg,median5+gamma+CLAHE,104.5,3.17,4.21,0,0.0
+patrolbot_2_0331.1.jpg,bilateral+gamma+CLAHE,103.6,3.34,11.3,0,0.0
+patrolbot_2_0334.2.jpg,raw,43.9,5.25,0.25,0,0.0
+patrolbot_2_0334.2.jpg,gamma only,94.3,7.58,0.73,0,0.0
+patrolbot_2_0334.2.jpg,CLAHE only,65.4,12.52,3.14,0,0.0
+patrolbot_2_0334.2.jpg,median3+gamma+CLAHE,118.4,6.35,3.35,0,0.0
+patrolbot_2_0334.2.jpg,median5+gamma+CLAHE,104.0,2.73,4.3,0,0.0
+patrolbot_2_0334.2.jpg,bilateral+gamma+CLAHE,103.3,3.04,10.33,0,0.0
+patrolbot_2_0337.3.jpg,raw,57.7,5.66,0.25,0,0.0
+patrolbot_2_0337.3.jpg,gamma only,97.4,6.71,0.73,0,0.0
+patrolbot_2_0337.3.jpg,CLAHE only,78.3,14.24,3.09,0,0.0
+patrolbot_2_0337.3.jpg,median3+gamma+CLAHE,121.3,5.55,3.36,0,0.0
+patrolbot_2_0337.3.jpg,median5+gamma+CLAHE,107.0,2.39,4.28,0,0.0
+patrolbot_2_0337.3.jpg,bilateral+gamma+CLAHE,106.8,2.77,10.88,0,0.0
+patrolbot_2_0340.4.jpg,raw,54.9,6.02,0.27,0,0.0
+patrolbot_2_0340.4.jpg,gamma only,99.5,6.91,0.69,0,0.0
+patrolbot_2_0340.4.jpg,CLAHE only,78.8,16.04,2.76,0,0.0
+patrolbot_2_0340.4.jpg,median3+gamma+CLAHE,119.2,5.64,3.26,0,0.0
+patrolbot_2_0340.4.jpg,median5+gamma+CLAHE,106.4,2.44,4.34,0,0.0
+patrolbot_2_0340.4.jpg,bilateral+gamma+CLAHE,106.6,3.04,10.94,0,0.0
+patrolbot_2_0343.4.jpg,raw,62.5,6.01,0.32,0,0.0
+patrolbot_2_0343.4.jpg,gamma only,99.6,6.58,1.06,0,0.0
+patrolbot_2_0343.4.jpg,CLAHE only,82.5,15.78,2.91,0,0.0
+patrolbot_2_0343.4.jpg,median3+gamma+CLAHE,118.3,5.41,3.26,0,0.0
+patrolbot_2_0343.4.jpg,median5+gamma+CLAHE,103.8,2.33,7.51,0,0.0
+patrolbot_2_0343.4.jpg,bilateral+gamma+CLAHE,104.2,2.83,18.71,0,0.0
+patrolbot_2_0346.5.jpg,raw,51.2,5.37,0.44,0,0.0
+patrolbot_2_0346.5.jpg,gamma only,93.7,7.27,1.84,0,0.0
+patrolbot_2_0346.5.jpg,CLAHE only,74.4,11.99,4.54,0,0.0
+patrolbot_2_0346.5.jpg,median3+gamma+CLAHE,120.3,5.96,3.79,0,0.0
+patrolbot_2_0346.5.jpg,median5+gamma+CLAHE,106.1,2.7,5.06,0,0.0
+patrolbot_2_0346.5.jpg,bilateral+gamma+CLAHE,105.6,2.92,12.18,0,0.0
+patrolbot_2_0349.6.jpg,raw,28.9,4.86,0.31,0,0.0
+patrolbot_2_0349.6.jpg,gamma only,92.0,9.14,0.73,0,0.0
+patrolbot_2_0349.6.jpg,CLAHE only,51.9,10.99,3.1,0,0.0
+patrolbot_2_0349.6.jpg,median3+gamma+CLAHE,119.3,7.5,3.53,0,0.0
+patrolbot_2_0349.6.jpg,median5+gamma+CLAHE,105.4,3.25,4.74,0,0.0
+patrolbot_2_0349.6.jpg,bilateral+gamma+CLAHE,104.7,3.45,11.02,0,0.0
+patrolbot_2_0352.7.jpg,raw,54.1,5.51,0.32,0,0.0
+patrolbot_2_0352.7.jpg,gamma only,96.5,6.86,0.83,0,0.0
+patrolbot_2_0352.7.jpg,CLAHE only,75.4,13.35,3.32,0,0.0
+patrolbot_2_0352.7.jpg,median3+gamma+CLAHE,119.9,5.85,3.88,0,0.0
+patrolbot_2_0352.7.jpg,median5+gamma+CLAHE,105.0,2.48,5.25,0,0.0
+patrolbot_2_0352.7.jpg,bilateral+gamma+CLAHE,104.4,2.81,12.13,0,0.0
+patrolbot_2_0356.2.jpg,raw,45.0,5.44,0.29,0,0.0
+patrolbot_2_0356.2.jpg,gamma only,95.3,7.47,0.8,0,0.0
+patrolbot_2_0356.2.jpg,CLAHE only,68.9,13.26,4.05,0,0.0
+patrolbot_2_0356.2.jpg,median3+gamma+CLAHE,122.0,6.09,3.64,0,0.0
+patrolbot_2_0356.2.jpg,median5+gamma+CLAHE,108.3,2.65,4.8,0,0.0
+patrolbot_2_0356.2.jpg,bilateral+gamma+CLAHE,108.0,3.01,11.6,0,0.0
+patrolbot_2_0359.2.jpg,raw,71.5,5.9,0.27,0,0.0
+patrolbot_2_0359.2.jpg,gamma only,97.5,6.62,0.7,0,0.0
+patrolbot_2_0359.2.jpg,CLAHE only,89.4,13.37,3.07,0,0.0
+patrolbot_2_0359.2.jpg,median3+gamma+CLAHE,116.9,5.16,3.75,0,0.0
+patrolbot_2_0359.2.jpg,median5+gamma+CLAHE,104.1,2.27,4.55,0,0.0
+patrolbot_2_0359.2.jpg,bilateral+gamma+CLAHE,103.8,2.65,11.03,0,0.0
+patrolbot_2_0362.3.jpg,raw,56.9,5.82,0.27,0,0.0
+patrolbot_2_0362.3.jpg,gamma only,96.3,7.11,0.98,0,0.0
+patrolbot_2_0362.3.jpg,CLAHE only,80.6,13.64,3.03,0,0.0
+patrolbot_2_0362.3.jpg,median3+gamma+CLAHE,120.3,5.64,3.5,0,0.0
+patrolbot_2_0362.3.jpg,median5+gamma+CLAHE,106.8,2.48,4.48,0,0.0
+patrolbot_2_0362.3.jpg,bilateral+gamma+CLAHE,106.7,2.86,11.27,0,0.0
+patrolbot_2_0365.4.jpg,raw,63.0,5.84,0.28,1,0.262
+patrolbot_2_0365.4.jpg,gamma only,97.3,6.79,0.96,0,0.0
+patrolbot_2_0365.4.jpg,CLAHE only,84.5,13.92,2.91,0,0.0
+patrolbot_2_0365.4.jpg,median3+gamma+CLAHE,119.6,5.5,3.61,0,0.0
+patrolbot_2_0365.4.jpg,median5+gamma+CLAHE,105.5,2.43,5.52,0,0.0
+patrolbot_2_0365.4.jpg,bilateral+gamma+CLAHE,105.0,2.84,10.79,0,0.0
+patrolbot_2_0368.4.jpg,raw,72.5,5.92,0.27,0,0.0
+patrolbot_2_0368.4.jpg,gamma only,99.3,6.32,0.86,0,0.0
+patrolbot_2_0368.4.jpg,CLAHE only,91.1,14.58,2.88,0,0.0
+patrolbot_2_0368.4.jpg,median3+gamma+CLAHE,118.6,5.02,3.37,0,0.0
+patrolbot_2_0368.4.jpg,median5+gamma+CLAHE,105.3,2.17,4.32,0,0.0
+patrolbot_2_0368.4.jpg,bilateral+gamma+CLAHE,104.9,2.57,10.67,0,0.0
+patrolbot_2_0371.6.jpg,raw,58.3,5.57,0.3,0,0.0
+patrolbot_2_0371.6.jpg,gamma only,95.0,6.96,0.73,0,0.0
+patrolbot_2_0371.6.jpg,CLAHE only,78.7,12.6,3.28,0,0.0
+patrolbot_2_0371.6.jpg,median3+gamma+CLAHE,119.7,5.65,3.3,0,0.0
+patrolbot_2_0371.6.jpg,median5+gamma+CLAHE,105.4,2.49,4.18,0,0.0
+patrolbot_2_0371.6.jpg,bilateral+gamma+CLAHE,104.8,2.82,10.99,0,0.0
+patrolbot_2_0374.6.jpg,raw,55.4,5.62,0.28,0,0.0
+patrolbot_2_0374.6.jpg,gamma only,94.7,7.22,0.76,1,0.297
+patrolbot_2_0374.6.jpg,CLAHE only,78.6,12.61,2.89,0,0.0
+patrolbot_2_0374.6.jpg,median3+gamma+CLAHE,119.4,5.66,3.29,0,0.0
+patrolbot_2_0374.6.jpg,median5+gamma+CLAHE,107.1,2.5,4.79,0,0.0
+patrolbot_2_0374.6.jpg,bilateral+gamma+CLAHE,106.5,2.86,11.14,0,0.0
+patrolbot_2_0377.7.jpg,raw,67.6,5.55,0.36,0,0.0
+patrolbot_2_0377.7.jpg,gamma only,95.7,6.63,0.77,0,0.0
+patrolbot_2_0377.7.jpg,CLAHE only,85.4,12.86,3.05,0,0.0
+patrolbot_2_0377.7.jpg,median3+gamma+CLAHE,118.1,5.52,3.34,0,0.0
+patrolbot_2_0377.7.jpg,median5+gamma+CLAHE,103.6,2.3,4.49,0,0.0
+patrolbot_2_0377.7.jpg,bilateral+gamma+CLAHE,103.8,2.57,10.7,0,0.0
+patrolbot_2_0380.8.jpg,raw,80.2,6.05,0.32,0,0.0
+patrolbot_2_0380.8.jpg,gamma only,100.4,6.2,0.74,0,0.0
+patrolbot_2_0380.8.jpg,CLAHE only,96.8,15.56,3.03,0,0.0
+patrolbot_2_0380.8.jpg,median3+gamma+CLAHE,120.1,5.13,3.58,0,0.0
+patrolbot_2_0380.8.jpg,median5+gamma+CLAHE,105.7,2.2,4.24,0,0.0
+patrolbot_2_0380.8.jpg,bilateral+gamma+CLAHE,106.1,2.74,13.02,0,0.0
+patrolbot_2_0383.8.jpg,raw,46.2,5.19,0.28,1,0.734
+patrolbot_2_0383.8.jpg,gamma only,93.1,7.5,0.72,1,0.712
+patrolbot_2_0383.8.jpg,CLAHE only,67.7,11.73,2.88,1,0.698
+patrolbot_2_0383.8.jpg,median3+gamma+CLAHE,118.8,6.28,3.32,1,0.617
+patrolbot_2_0383.8.jpg,median5+gamma+CLAHE,104.8,2.8,4.21,1,0.655
+patrolbot_2_0383.8.jpg,bilateral+gamma+CLAHE,104.0,3.03,10.66,1,0.666
+patrolbot_2_0386.9.jpg,raw,80.4,5.99,0.27,0,0.0
+patrolbot_2_0386.9.jpg,gamma only,100.4,6.13,0.71,0,0.0
+patrolbot_2_0386.9.jpg,CLAHE only,95.9,15.32,3.05,0,0.0
+patrolbot_2_0386.9.jpg,median3+gamma+CLAHE,119.4,5.11,3.37,0,0.0
+patrolbot_2_0386.9.jpg,median5+gamma+CLAHE,105.0,2.21,4.37,0,0.0
+patrolbot_2_0386.9.jpg,bilateral+gamma+CLAHE,105.3,2.69,10.56,0,0.0
+patrolbot_2_0390.0.jpg,raw,48.7,8.66,0.33,0,0.0
+patrolbot_2_0390.0.jpg,gamma only,92.2,12.97,0.75,0,0.0
+patrolbot_2_0390.0.jpg,CLAHE only,71.4,19.13,2.93,0,0.0
+patrolbot_2_0390.0.jpg,median3+gamma+CLAHE,116.2,9.18,3.41,0,0.0
+patrolbot_2_0390.0.jpg,median5+gamma+CLAHE,104.3,4.05,4.52,0,0.0
+patrolbot_2_0390.0.jpg,bilateral+gamma+CLAHE,104.1,8.09,13.54,0,0.0
+patrolbot_2_0393.1.jpg,raw,45.1,5.1,0.32,0,0.0
+patrolbot_2_0393.1.jpg,gamma only,92.7,7.57,0.74,0,0.0
+patrolbot_2_0393.1.jpg,CLAHE only,67.6,11.68,3.15,0,0.0
+patrolbot_2_0393.1.jpg,median3+gamma+CLAHE,119.0,6.38,3.53,0,0.0
+patrolbot_2_0393.1.jpg,median5+gamma+CLAHE,105.0,2.76,4.59,0,0.0
+patrolbot_2_0393.1.jpg,bilateral+gamma+CLAHE,104.2,3.01,11.1,0,0.0
+patrolbot_2_0396.2.jpg,raw,40.4,5.14,0.26,0,0.0
+patrolbot_2_0396.2.jpg,gamma only,93.7,7.83,0.72,0,0.0
+patrolbot_2_0396.2.jpg,CLAHE only,62.7,12.19,3.12,0,0.0
+patrolbot_2_0396.2.jpg,median3+gamma+CLAHE,118.9,6.41,3.4,0,0.0
+patrolbot_2_0396.2.jpg,median5+gamma+CLAHE,104.1,2.85,4.32,0,0.0
+patrolbot_2_0396.2.jpg,bilateral+gamma+CLAHE,103.4,3.12,10.64,0,0.0
+patrolbot_2_0399.2.jpg,raw,56.6,5.95,0.27,0,0.0
+patrolbot_2_0399.2.jpg,gamma only,98.1,6.96,0.72,0,0.0
+patrolbot_2_0399.2.jpg,CLAHE only,80.0,14.9,3.08,0,0.0
+patrolbot_2_0399.2.jpg,median3+gamma+CLAHE,121.0,5.59,3.39,0,0.0
+patrolbot_2_0399.2.jpg,median5+gamma+CLAHE,106.7,2.44,4.0,0,0.0
+patrolbot_2_0399.2.jpg,bilateral+gamma+CLAHE,106.4,2.9,10.49,0,0.0
+patrolbot_2_0402.3.jpg,raw,52.8,5.43,0.27,1,0.766
+patrolbot_2_0402.3.jpg,gamma only,95.7,7.0,0.72,1,0.738
+patrolbot_2_0402.3.jpg,CLAHE only,73.5,12.87,2.88,1,0.765
+patrolbot_2_0402.3.jpg,median3+gamma+CLAHE,118.8,5.81,3.45,1,0.786
+patrolbot_2_0402.3.jpg,median5+gamma+CLAHE,103.5,2.56,4.49,1,0.781
+patrolbot_2_0402.3.jpg,bilateral+gamma+CLAHE,102.9,2.88,11.1,1,0.814
+patrolbot_2_0405.4.jpg,raw,44.5,5.18,0.27,1,0.718
+patrolbot_2_0405.4.jpg,gamma only,93.9,7.52,0.66,1,0.592
+patrolbot_2_0405.4.jpg,CLAHE only,66.2,12.04,2.95,1,0.728
+patrolbot_2_0405.4.jpg,median3+gamma+CLAHE,119.0,6.28,3.41,1,0.664
+patrolbot_2_0405.4.jpg,median5+gamma+CLAHE,104.3,2.76,4.45,1,0.708
+patrolbot_2_0405.4.jpg,bilateral+gamma+CLAHE,103.1,2.99,10.42,1,0.68
+patrolbot_2_0408.4.jpg,raw,37.4,4.96,0.27,1,0.81
+patrolbot_2_0408.4.jpg,gamma only,92.5,7.98,0.72,1,0.773
+patrolbot_2_0408.4.jpg,CLAHE only,59.1,11.46,3.29,1,0.806
+patrolbot_2_0408.4.jpg,median3+gamma+CLAHE,119.1,6.72,3.42,1,0.826
+patrolbot_2_0408.4.jpg,median5+gamma+CLAHE,104.8,2.93,4.41,1,0.833
+patrolbot_2_0408.4.jpg,bilateral+gamma+CLAHE,103.7,3.13,10.23,1,0.829
+patrolbot_2_0411.6.jpg,raw,36.9,5.25,0.26,1,0.918
+patrolbot_2_0411.6.jpg,gamma only,94.7,8.14,0.73,1,0.91
+patrolbot_2_0411.6.jpg,CLAHE only,60.6,12.59,2.86,1,0.911
+patrolbot_2_0411.6.jpg,median3+gamma+CLAHE,120.3,6.83,3.37,1,0.915
+patrolbot_2_0411.6.jpg,median5+gamma+CLAHE,105.5,2.99,4.71,1,0.908
+patrolbot_2_0411.6.jpg,bilateral+gamma+CLAHE,105.0,3.32,10.44,1,0.908
+patrolbot_2_0414.6.jpg,raw,34.4,5.1,0.26,1,0.887
+patrolbot_2_0414.6.jpg,gamma only,93.8,8.39,0.74,1,0.889
+patrolbot_2_0414.6.jpg,CLAHE only,58.1,12.05,2.9,1,0.895
+patrolbot_2_0414.6.jpg,median3+gamma+CLAHE,119.7,6.94,3.47,1,0.905
+patrolbot_2_0414.6.jpg,median5+gamma+CLAHE,105.6,3.01,4.9,1,0.904
+patrolbot_2_0414.6.jpg,bilateral+gamma+CLAHE,105.0,3.32,10.97,1,0.903
+patrolbot_2_0417.7.jpg,raw,57.4,5.77,0.28,0,0.0
+patrolbot_2_0417.7.jpg,gamma only,96.7,7.01,0.92,0,0.0
+patrolbot_2_0417.7.jpg,CLAHE only,80.2,13.64,2.91,0,0.0
+patrolbot_2_0417.7.jpg,median3+gamma+CLAHE,119.6,5.57,3.27,0,0.0
+patrolbot_2_0417.7.jpg,median5+gamma+CLAHE,105.6,2.54,4.11,0,0.0
+patrolbot_2_0417.7.jpg,bilateral+gamma+CLAHE,105.1,2.91,10.78,0,0.0
+patrolbot_2_0420.7.jpg,raw,35.7,5.03,0.29,0,0.0
+patrolbot_2_0420.7.jpg,gamma only,93.0,8.15,0.71,0,0.0
+patrolbot_2_0420.7.jpg,CLAHE only,59.1,11.77,3.01,0,0.0
+patrolbot_2_0420.7.jpg,median3+gamma+CLAHE,121.6,6.65,3.25,0,0.0
+patrolbot_2_0420.7.jpg,median5+gamma+CLAHE,107.3,2.88,4.22,0,0.0
+patrolbot_2_0420.7.jpg,bilateral+gamma+CLAHE,106.3,3.09,10.39,0,0.0
+patrolbot_2_0423.8.jpg,raw,72.3,6.02,0.28,0,0.0
+patrolbot_2_0423.8.jpg,gamma only,100.3,6.26,0.73,0,0.0
+patrolbot_2_0423.8.jpg,CLAHE only,90.0,15.82,2.91,0,0.0
+patrolbot_2_0423.8.jpg,median3+gamma+CLAHE,120.2,5.2,3.27,0,0.0
+patrolbot_2_0423.8.jpg,median5+gamma+CLAHE,104.9,2.26,4.18,0,0.0
+patrolbot_2_0423.8.jpg,bilateral+gamma+CLAHE,105.2,2.79,10.62,0,0.0
+patrolbot_2_0426.9.jpg,raw,42.6,5.48,0.28,0,0.0
+patrolbot_2_0426.9.jpg,gamma only,96.2,7.55,0.73,0,0.0
+patrolbot_2_0426.9.jpg,CLAHE only,66.2,13.61,3.04,0,0.0
+patrolbot_2_0426.9.jpg,median3+gamma+CLAHE,122.3,6.13,3.36,0,0.0
+patrolbot_2_0426.9.jpg,median5+gamma+CLAHE,107.7,2.67,4.82,0,0.0
+patrolbot_2_0426.9.jpg,bilateral+gamma+CLAHE,107.1,3.0,11.09,0,0.0
+patrolbot_2_0430.0.jpg,raw,29.7,4.84,0.29,0,0.0
+patrolbot_2_0430.0.jpg,gamma only,92.8,8.83,0.77,0,0.0
+patrolbot_2_0430.0.jpg,CLAHE only,51.9,11.18,3.02,0,0.0
+patrolbot_2_0430.0.jpg,median3+gamma+CLAHE,119.5,7.46,3.37,0,0.0
+patrolbot_2_0430.0.jpg,median5+gamma+CLAHE,105.1,3.16,4.47,0,0.0
+patrolbot_2_0430.0.jpg,bilateral+gamma+CLAHE,104.4,3.34,10.96,0,0.0
+patrolbot_2_0433.0.jpg,raw,27.1,5.09,0.27,1,0.395
+patrolbot_2_0433.0.jpg,gamma only,93.9,9.46,0.78,0,0.0
+patrolbot_2_0433.0.jpg,CLAHE only,49.7,11.46,2.98,1,0.513
+patrolbot_2_0433.0.jpg,median3+gamma+CLAHE,121.5,7.58,3.27,1,0.376
+patrolbot_2_0433.0.jpg,median5+gamma+CLAHE,107.1,3.28,4.25,1,0.348
+patrolbot_2_0433.0.jpg,bilateral+gamma+CLAHE,106.4,3.47,10.62,0,0.0
+patrolbot_2_0436.1.jpg,raw,26.1,5.14,0.25,0,0.0
+patrolbot_2_0436.1.jpg,gamma only,93.9,9.67,0.97,0,0.0
+patrolbot_2_0436.1.jpg,CLAHE only,47.9,11.25,3.02,2,0.32
+patrolbot_2_0436.1.jpg,median3+gamma+CLAHE,120.9,7.85,3.27,0,0.0
+patrolbot_2_0436.1.jpg,median5+gamma+CLAHE,106.0,3.35,4.11,0,0.0
+patrolbot_2_0436.1.jpg,bilateral+gamma+CLAHE,104.9,3.57,10.33,0,0.0
+patrolbot_2_0439.2.jpg,raw,25.8,5.09,0.27,2,0.677
+patrolbot_2_0439.2.jpg,gamma only,94.0,9.69,0.71,2,0.667
+patrolbot_2_0439.2.jpg,CLAHE only,48.6,11.48,2.73,2,0.69
+patrolbot_2_0439.2.jpg,median3+gamma+CLAHE,121.3,7.85,3.38,2,0.306
+patrolbot_2_0439.2.jpg,median5+gamma+CLAHE,106.4,3.35,4.09,2,0.656
+patrolbot_2_0439.2.jpg,bilateral+gamma+CLAHE,105.4,3.65,10.46,2,0.324
+patrolbot_2_0442.2.jpg,raw,25.2,5.12,0.45,3,0.431
+patrolbot_2_0442.2.jpg,gamma only,93.9,9.87,0.69,2,0.487
+patrolbot_2_0442.2.jpg,CLAHE only,48.7,11.45,2.82,2,0.544
+patrolbot_2_0442.2.jpg,median3+gamma+CLAHE,121.4,7.99,3.19,2,0.528
+patrolbot_2_0442.2.jpg,median5+gamma+CLAHE,106.8,3.43,4.41,3,0.464
+patrolbot_2_0442.2.jpg,bilateral+gamma+CLAHE,105.7,3.66,10.69,3,0.419
+patrolbot_2_0445.3.jpg,raw,26.7,5.04,0.26,4,0.438
+patrolbot_2_0445.3.jpg,gamma only,93.4,9.58,0.66,3,0.472
+patrolbot_2_0445.3.jpg,CLAHE only,50.2,11.27,2.79,4,0.408
+patrolbot_2_0445.3.jpg,median3+gamma+CLAHE,119.5,7.86,3.39,4,0.421
+patrolbot_2_0445.3.jpg,median5+gamma+CLAHE,105.6,3.42,4.62,4,0.416
+patrolbot_2_0445.3.jpg,bilateral+gamma+CLAHE,104.6,3.66,10.61,4,0.504
+patrolbot_2_0448.4.jpg,raw,24.0,4.83,0.28,3,0.589
+patrolbot_2_0448.4.jpg,gamma only,92.9,9.89,0.74,3,0.585
+patrolbot_2_0448.4.jpg,CLAHE only,46.4,10.76,2.93,3,0.642
+patrolbot_2_0448.4.jpg,median3+gamma+CLAHE,120.3,8.25,3.33,3,0.664
+patrolbot_2_0448.4.jpg,median5+gamma+CLAHE,105.2,3.56,4.42,3,0.703
+patrolbot_2_0448.4.jpg,bilateral+gamma+CLAHE,104.8,3.72,10.85,3,0.745
+patrolbot_2_0451.5.jpg,raw,33.1,5.41,0.27,2,0.678
+patrolbot_2_0451.5.jpg,gamma only,93.9,8.89,0.69,3,0.594
+patrolbot_2_0451.5.jpg,CLAHE only,55.4,12.34,2.89,3,0.535
+patrolbot_2_0451.5.jpg,median3+gamma+CLAHE,116.6,7.16,3.78,3,0.601
+patrolbot_2_0451.5.jpg,median5+gamma+CLAHE,102.2,3.19,4.37,3,0.571
+patrolbot_2_0451.5.jpg,bilateral+gamma+CLAHE,101.7,3.56,10.83,3,0.579
+patrolbot_2_0454.5.jpg,raw,47.4,5.75,0.26,0,0.0
+patrolbot_2_0454.5.jpg,gamma only,96.4,7.51,0.78,0,0.0
+patrolbot_2_0454.5.jpg,CLAHE only,71.3,13.67,2.98,0,0.0
+patrolbot_2_0454.5.jpg,median3+gamma+CLAHE,116.7,5.96,3.31,0,0.0
+patrolbot_2_0454.5.jpg,median5+gamma+CLAHE,103.6,2.58,4.31,0,0.0
+patrolbot_2_0454.5.jpg,bilateral+gamma+CLAHE,103.6,3.02,10.74,0,0.0
+patrolbot_2_0457.6.jpg,raw,55.2,5.63,0.27,0,0.0
+patrolbot_2_0457.6.jpg,gamma only,94.6,7.23,0.73,0,0.0
+patrolbot_2_0457.6.jpg,CLAHE only,79.1,12.85,2.93,0,0.0
+patrolbot_2_0457.6.jpg,median3+gamma+CLAHE,120.2,5.7,3.35,0,0.0
+patrolbot_2_0457.6.jpg,median5+gamma+CLAHE,107.6,2.55,4.26,0,0.0
+patrolbot_2_0457.6.jpg,bilateral+gamma+CLAHE,106.9,2.85,11.33,0,0.0
+patrolbot_2_0460.7.jpg,raw,55.4,5.99,0.26,0,0.0
+patrolbot_2_0460.7.jpg,gamma only,99.3,6.94,0.69,0,0.0
+patrolbot_2_0460.7.jpg,CLAHE only,78.3,15.74,2.87,0,0.0
+patrolbot_2_0460.7.jpg,median3+gamma+CLAHE,119.3,5.7,3.48,0,0.0
+patrolbot_2_0460.7.jpg,median5+gamma+CLAHE,104.1,2.42,4.33,0,0.0
+patrolbot_2_0460.7.jpg,bilateral+gamma+CLAHE,104.1,2.97,10.33,0,0.0
+patrolbot_2_0463.7.jpg,raw,44.5,5.45,0.27,0,0.0
+patrolbot_2_0463.7.jpg,gamma only,95.9,7.43,0.75,0,0.0
+patrolbot_2_0463.7.jpg,CLAHE only,67.7,13.67,2.96,0,0.0
+patrolbot_2_0463.7.jpg,median3+gamma+CLAHE,121.6,6.19,3.32,0,0.0
+patrolbot_2_0463.7.jpg,median5+gamma+CLAHE,107.1,2.69,4.62,0,0.0
+patrolbot_2_0463.7.jpg,bilateral+gamma+CLAHE,106.5,3.06,10.8,0,0.0
+patrolbot_2_0466.8.jpg,raw,44.6,5.35,0.44,0,0.0
+patrolbot_2_0466.8.jpg,gamma only,93.5,7.77,0.69,0,0.0
+patrolbot_2_0466.8.jpg,CLAHE only,68.7,12.07,2.77,0,0.0
+patrolbot_2_0466.8.jpg,median3+gamma+CLAHE,121.4,6.19,3.39,0,0.0
+patrolbot_2_0466.8.jpg,median5+gamma+CLAHE,106.7,2.81,4.18,0,0.0
+patrolbot_2_0466.8.jpg,bilateral+gamma+CLAHE,105.9,3.1,10.56,0,0.0
+patrolbot_2_0469.9.jpg,raw,42.9,5.46,0.27,1,0.461
+patrolbot_2_0469.9.jpg,gamma only,94.5,7.85,0.72,1,0.459
+patrolbot_2_0469.9.jpg,CLAHE only,67.3,12.53,3.03,0,0.0
+patrolbot_2_0469.9.jpg,median3+gamma+CLAHE,121.6,6.25,3.5,0,0.0
+patrolbot_2_0469.9.jpg,median5+gamma+CLAHE,108.6,2.8,4.38,0,0.0
+patrolbot_2_0469.9.jpg,bilateral+gamma+CLAHE,107.5,3.08,10.92,0,0.0
+patrolbot_2_0473.0.jpg,raw,43.0,5.54,0.25,0,0.0
+patrolbot_2_0473.0.jpg,gamma only,95.6,7.74,0.69,0,0.0
+patrolbot_2_0473.0.jpg,CLAHE only,69.2,13.18,2.9,0,0.0
+patrolbot_2_0473.0.jpg,median3+gamma+CLAHE,121.9,6.28,3.26,0,0.0
+patrolbot_2_0473.0.jpg,median5+gamma+CLAHE,108.5,2.77,4.52,0,0.0
+patrolbot_2_0473.0.jpg,bilateral+gamma+CLAHE,107.5,3.13,10.62,0,0.0
+patrolbot_2_0476.1.jpg,raw,46.8,5.35,0.27,1,0.387
+patrolbot_2_0476.1.jpg,gamma only,92.8,7.71,0.76,0,0.0
+patrolbot_2_0476.1.jpg,CLAHE only,69.2,12.03,2.96,1,0.404
+patrolbot_2_0476.1.jpg,median3+gamma+CLAHE,119.0,6.14,3.63,0,0.0
+patrolbot_2_0476.1.jpg,median5+gamma+CLAHE,105.6,2.76,4.31,0,0.0
+patrolbot_2_0476.1.jpg,bilateral+gamma+CLAHE,104.7,3.02,10.49,0,0.0
+patrolbot_2_0479.1.jpg,raw,59.2,5.5,0.26,0,0.0
+patrolbot_2_0479.1.jpg,gamma only,95.1,6.88,0.75,0,0.0
+patrolbot_2_0479.1.jpg,CLAHE only,80.6,12.44,2.95,0,0.0
+patrolbot_2_0479.1.jpg,median3+gamma+CLAHE,119.8,5.61,3.52,0,0.0
+patrolbot_2_0479.1.jpg,median5+gamma+CLAHE,106.8,2.54,4.23,0,0.0
+patrolbot_2_0479.1.jpg,bilateral+gamma+CLAHE,106.3,2.8,10.88,0,0.0
+patrolbot_2_0482.2.jpg,raw,61.9,5.56,0.28,0,0.0
+patrolbot_2_0482.2.jpg,gamma only,95.8,6.75,0.73,0,0.0
+patrolbot_2_0482.2.jpg,CLAHE only,82.0,12.7,2.98,0,0.0
+patrolbot_2_0482.2.jpg,median3+gamma+CLAHE,118.5,5.55,3.21,0,0.0
+patrolbot_2_0482.2.jpg,median5+gamma+CLAHE,104.3,2.41,4.52,0,0.0
+patrolbot_2_0482.2.jpg,bilateral+gamma+CLAHE,104.6,2.79,12.32,0,0.0
+patrolbot_2_0485.3.jpg,raw,55.1,5.43,0.3,0,0.0
+patrolbot_2_0485.3.jpg,gamma only,93.9,7.14,0.74,0,0.0
+patrolbot_2_0485.3.jpg,CLAHE only,75.4,12.52,2.98,0,0.0
+patrolbot_2_0485.3.jpg,median3+gamma+CLAHE,117.8,5.92,3.33,0,0.0
+patrolbot_2_0485.3.jpg,median5+gamma+CLAHE,104.5,2.61,4.45,0,0.0
+patrolbot_2_0485.3.jpg,bilateral+gamma+CLAHE,104.1,2.86,10.78,0,0.0
+patrolbot_2_0488.4.jpg,raw,44.3,5.02,0.3,1,0.659
+patrolbot_2_0488.4.jpg,gamma only,91.8,7.59,0.7,1,0.48
+patrolbot_2_0488.4.jpg,CLAHE only,64.4,11.15,2.88,1,0.637
+patrolbot_2_0488.4.jpg,median3+gamma+CLAHE,116.9,6.54,3.23,2,0.364
+patrolbot_2_0488.4.jpg,median5+gamma+CLAHE,102.5,2.87,4.87,2,0.364
+patrolbot_2_0488.4.jpg,bilateral+gamma+CLAHE,101.3,3.03,10.65,1,0.635
+patrolbot_2_0491.4.jpg,raw,83.9,6.05,0.27,0,0.0
+patrolbot_2_0491.4.jpg,gamma only,100.6,6.12,0.73,0,0.0
+patrolbot_2_0491.4.jpg,CLAHE only,98.5,15.7,3.03,0,0.0
+patrolbot_2_0491.4.jpg,median3+gamma+CLAHE,120.4,5.11,3.37,0,0.0
+patrolbot_2_0491.4.jpg,median5+gamma+CLAHE,105.3,2.19,4.72,0,0.0
+patrolbot_2_0491.4.jpg,bilateral+gamma+CLAHE,105.4,2.69,10.78,0,0.0
+patrolbot_2_0494.5.jpg,raw,46.8,5.37,0.27,0,0.0
+patrolbot_2_0494.5.jpg,gamma only,93.8,7.56,0.72,0,0.0
+patrolbot_2_0494.5.jpg,CLAHE only,70.4,12.4,3.05,0,0.0
+patrolbot_2_0494.5.jpg,median3+gamma+CLAHE,119.4,6.19,3.3,0,0.0
+patrolbot_2_0494.5.jpg,median5+gamma+CLAHE,105.6,2.79,4.64,0,0.0
+patrolbot_2_0494.5.jpg,bilateral+gamma+CLAHE,104.8,3.06,10.96,0,0.0
+patrolbot_2_0497.6.jpg,raw,47.9,5.11,0.32,0,0.0
+patrolbot_2_0497.6.jpg,gamma only,92.7,7.35,0.78,0,0.0
+patrolbot_2_0497.6.jpg,CLAHE only,69.2,11.64,2.92,0,0.0
+patrolbot_2_0497.6.jpg,median3+gamma+CLAHE,117.8,6.25,3.29,0,0.0
+patrolbot_2_0497.6.jpg,median5+gamma+CLAHE,103.5,2.79,4.22,0,0.0
+patrolbot_2_0497.6.jpg,bilateral+gamma+CLAHE,102.2,2.98,10.46,0,0.0
+patrolbot_2_0500.7.jpg,raw,44.7,5.08,0.3,0,0.0
+patrolbot_2_0500.7.jpg,gamma only,92.9,7.47,0.73,0,0.0
+patrolbot_2_0500.7.jpg,CLAHE only,67.2,11.66,2.88,0,0.0
+patrolbot_2_0500.7.jpg,median3+gamma+CLAHE,118.7,6.27,3.41,0,0.0
+patrolbot_2_0500.7.jpg,median5+gamma+CLAHE,105.1,2.81,4.26,0,0.0
+patrolbot_2_0500.7.jpg,bilateral+gamma+CLAHE,104.3,3.02,10.35,0,0.0
+patrolbot_2_0503.7.jpg,raw,42.8,5.29,0.26,0,0.0
+patrolbot_2_0503.7.jpg,gamma only,95.0,7.55,0.69,0,0.0
+patrolbot_2_0503.7.jpg,CLAHE only,66.9,12.86,2.88,0,0.0
+patrolbot_2_0503.7.jpg,median3+gamma+CLAHE,120.0,6.27,3.49,0,0.0
+patrolbot_2_0503.7.jpg,median5+gamma+CLAHE,105.7,2.79,4.62,0,0.0
+patrolbot_2_0503.7.jpg,bilateral+gamma+CLAHE,104.9,3.11,10.17,0,0.0
+patrolbot_2_0506.8.jpg,raw,56.3,5.76,0.27,0,0.0
+patrolbot_2_0506.8.jpg,gamma only,97.7,6.85,0.81,0,0.0
+patrolbot_2_0506.8.jpg,CLAHE only,79.2,14.34,2.75,0,0.0
+patrolbot_2_0506.8.jpg,median3+gamma+CLAHE,120.1,5.68,3.23,0,0.0
+patrolbot_2_0506.8.jpg,median5+gamma+CLAHE,105.9,2.48,4.22,0,0.0
+patrolbot_2_0506.8.jpg,bilateral+gamma+CLAHE,105.7,2.91,11.14,0,0.0
+patrolbot_2_0509.9.jpg,raw,51.6,5.42,0.27,1,0.788
+patrolbot_2_0509.9.jpg,gamma only,95.5,7.1,0.69,1,0.806
+patrolbot_2_0509.9.jpg,CLAHE only,72.6,12.83,3.06,1,0.805
+patrolbot_2_0509.9.jpg,median3+gamma+CLAHE,118.2,5.85,3.23,1,0.559
+patrolbot_2_0509.9.jpg,median5+gamma+CLAHE,103.7,2.58,4.58,1,0.711
+patrolbot_2_0509.9.jpg,bilateral+gamma+CLAHE,103.1,2.92,12.05,1,0.735
+patrolbot_2_0513.0.jpg,raw,43.0,5.1,0.28,1,0.771
+patrolbot_2_0513.0.jpg,gamma only,93.0,7.66,0.69,1,0.707
+patrolbot_2_0513.0.jpg,CLAHE only,64.3,11.74,2.87,1,0.778
+patrolbot_2_0513.0.jpg,median3+gamma+CLAHE,118.1,6.41,3.44,1,0.744
+patrolbot_2_0513.0.jpg,median5+gamma+CLAHE,104.7,2.84,4.41,1,0.765
+patrolbot_2_0513.0.jpg,bilateral+gamma+CLAHE,103.3,3.05,13.24,1,0.765
+patrolbot_2_0516.2.jpg,raw,35.6,4.86,0.29,1,0.815
+patrolbot_2_0516.2.jpg,gamma only,91.5,8.23,0.69,1,0.8
+patrolbot_2_0516.2.jpg,CLAHE only,56.9,11.07,2.88,1,0.818
+patrolbot_2_0516.2.jpg,median3+gamma+CLAHE,119.3,6.91,5.38,1,0.81
+patrolbot_2_0516.2.jpg,median5+gamma+CLAHE,105.3,3.0,4.84,2,0.584
+patrolbot_2_0516.2.jpg,bilateral+gamma+CLAHE,104.2,3.19,10.71,1,0.795
+patrolbot_2_0519.5.jpg,raw,64.0,5.84,0.31,0,0.0
+patrolbot_2_0519.5.jpg,gamma only,98.0,6.64,1.01,0,0.0
+patrolbot_2_0519.5.jpg,CLAHE only,84.4,14.29,2.94,0,0.0
+patrolbot_2_0519.5.jpg,median3+gamma+CLAHE,120.4,5.49,3.28,0,0.0
+patrolbot_2_0519.5.jpg,median5+gamma+CLAHE,106.4,2.39,4.51,0,0.0
+patrolbot_2_0519.5.jpg,bilateral+gamma+CLAHE,106.2,2.81,11.34,0,0.0
+patrolbot_2_0522.7.jpg,raw,46.0,5.54,0.28,0,0.0
+patrolbot_2_0522.7.jpg,gamma only,96.3,7.41,0.72,0,0.0
+patrolbot_2_0522.7.jpg,CLAHE only,70.0,13.8,2.87,0,0.0
+patrolbot_2_0522.7.jpg,median3+gamma+CLAHE,122.1,6.02,3.29,0,0.0
+patrolbot_2_0522.7.jpg,median5+gamma+CLAHE,108.3,2.58,4.89,0,0.0
+patrolbot_2_0522.7.jpg,bilateral+gamma+CLAHE,107.4,2.98,10.67,0,0.0
+patrolbot_2_0527.3.jpg,raw,43.6,5.27,0.28,1,0.868
+patrolbot_2_0527.3.jpg,gamma only,95.0,7.48,0.7,1,0.842
+patrolbot_2_0527.3.jpg,CLAHE only,66.1,12.85,2.9,1,0.873
+patrolbot_2_0527.3.jpg,median3+gamma+CLAHE,120.0,6.33,3.14,1,0.792
+patrolbot_2_0527.3.jpg,median5+gamma+CLAHE,105.6,2.69,4.53,1,0.813
+patrolbot_2_0527.3.jpg,bilateral+gamma+CLAHE,104.7,2.99,10.17,1,0.856
+patrolbot_2_0530.5.jpg,raw,44.3,5.29,0.31,1,0.378
+patrolbot_2_0530.5.jpg,gamma only,93.0,7.8,0.67,1,0.295
+patrolbot_2_0530.5.jpg,CLAHE only,66.6,11.94,2.89,1,0.407
+patrolbot_2_0530.5.jpg,median3+gamma+CLAHE,118.6,6.3,3.23,0,0.0
+patrolbot_2_0530.5.jpg,median5+gamma+CLAHE,105.2,2.84,4.05,0,0.0
+patrolbot_2_0530.5.jpg,bilateral+gamma+CLAHE,104.0,3.1,10.26,2,0.277
+patrolbot_2_0533.7.jpg,raw,45.5,5.53,0.28,1,0.49
+patrolbot_2_0533.7.jpg,gamma only,94.8,7.71,0.95,1,0.437
+patrolbot_2_0533.7.jpg,CLAHE only,69.8,12.82,3.32,1,0.481
+patrolbot_2_0533.7.jpg,median3+gamma+CLAHE,121.4,6.2,3.34,1,0.372
+patrolbot_2_0533.7.jpg,median5+gamma+CLAHE,106.9,2.73,4.38,1,0.518
+patrolbot_2_0533.7.jpg,bilateral+gamma+CLAHE,105.5,3.05,10.75,1,0.567
+patrolbot_2_0537.0.jpg,raw,46.9,5.24,0.26,0,0.0
+patrolbot_2_0537.0.jpg,gamma only,93.7,7.45,0.72,0,0.0
+patrolbot_2_0537.0.jpg,CLAHE only,68.5,12.3,3.05,0,0.0
+patrolbot_2_0537.0.jpg,median3+gamma+CLAHE,119.0,6.29,3.36,0,0.0
+patrolbot_2_0537.0.jpg,median5+gamma+CLAHE,104.5,2.71,4.28,0,0.0
+patrolbot_2_0537.0.jpg,bilateral+gamma+CLAHE,103.4,2.97,11.24,0,0.0
+patrolbot_2_0540.2.jpg,raw,29.5,4.84,0.32,0,0.0
+patrolbot_2_0540.2.jpg,gamma only,92.5,8.79,0.73,0,0.0
+patrolbot_2_0540.2.jpg,CLAHE only,51.7,11.1,2.91,0,0.0
+patrolbot_2_0540.2.jpg,median3+gamma+CLAHE,120.3,7.48,3.44,0,0.0
+patrolbot_2_0540.2.jpg,median5+gamma+CLAHE,104.9,3.13,4.67,0,0.0
+patrolbot_2_0540.2.jpg,bilateral+gamma+CLAHE,103.7,3.25,10.51,0,0.0
+patrolbot_2_0543.4.jpg,raw,33.8,5.08,0.28,0,0.0
+patrolbot_2_0543.4.jpg,gamma only,93.5,8.52,0.69,0,0.0
+patrolbot_2_0543.4.jpg,CLAHE only,57.2,11.97,2.85,0,0.0
+patrolbot_2_0543.4.jpg,median3+gamma+CLAHE,121.2,7.11,3.24,0,0.0
+patrolbot_2_0543.4.jpg,median5+gamma+CLAHE,106.0,3.11,4.24,0,0.0
+patrolbot_2_0543.4.jpg,bilateral+gamma+CLAHE,104.7,3.39,10.54,0,0.0
+patrolbot_2_0546.6.jpg,raw,55.4,5.55,0.25,0,0.0
+patrolbot_2_0546.6.jpg,gamma only,96.7,6.82,0.69,0,0.0
+patrolbot_2_0546.6.jpg,CLAHE only,75.8,13.81,5.72,0,0.0
+patrolbot_2_0546.6.jpg,median3+gamma+CLAHE,118.4,5.61,3.28,0,0.0
+patrolbot_2_0546.6.jpg,median5+gamma+CLAHE,105.4,2.42,4.24,0,0.0
+patrolbot_2_0546.6.jpg,bilateral+gamma+CLAHE,105.2,2.79,10.76,0,0.0
+patrolbot_2_0549.9.jpg,raw,57.8,5.92,0.27,0,0.0
+patrolbot_2_0549.9.jpg,gamma only,98.8,6.77,0.69,0,0.0
+patrolbot_2_0549.9.jpg,CLAHE only,79.4,15.37,3.33,0,0.0
+patrolbot_2_0549.9.jpg,median3+gamma+CLAHE,118.8,5.51,3.26,0,0.0
+patrolbot_2_0549.9.jpg,median5+gamma+CLAHE,105.5,2.39,4.33,0,0.0
+patrolbot_2_0549.9.jpg,bilateral+gamma+CLAHE,105.8,2.9,10.8,0,0.0
+patrolbot_2_0553.1.jpg,raw,64.7,5.91,0.26,0,0.0
+patrolbot_2_0553.1.jpg,gamma only,98.4,6.61,0.82,0,0.0
+patrolbot_2_0553.1.jpg,CLAHE only,84.1,14.81,2.93,0,0.0
+patrolbot_2_0553.1.jpg,median3+gamma+CLAHE,117.9,5.38,3.5,0,0.0
+patrolbot_2_0553.1.jpg,median5+gamma+CLAHE,104.1,2.35,4.56,0,0.0
+patrolbot_2_0553.1.jpg,bilateral+gamma+CLAHE,103.9,2.81,11.13,0,0.0
+patrolbot_2_0556.3.jpg,raw,55.3,5.65,0.26,0,0.0
+patrolbot_2_0556.3.jpg,gamma only,97.2,6.9,0.73,0,0.0
+patrolbot_2_0556.3.jpg,CLAHE only,76.5,13.84,2.99,0,0.0
+patrolbot_2_0556.3.jpg,median3+gamma+CLAHE,119.9,5.76,3.31,0,0.0
+patrolbot_2_0556.3.jpg,median5+gamma+CLAHE,105.0,2.52,4.59,0,0.0
+patrolbot_2_0556.3.jpg,bilateral+gamma+CLAHE,104.6,2.91,11.01,0,0.0
+patrolbot_2_0559.5.jpg,raw,36.2,5.12,0.3,0,0.0
+patrolbot_2_0559.5.jpg,gamma only,93.1,8.25,0.81,0,0.0
+patrolbot_2_0559.5.jpg,CLAHE only,60.0,11.91,2.92,0,0.0
+patrolbot_2_0559.5.jpg,median3+gamma+CLAHE,119.7,6.62,3.44,0,0.0
+patrolbot_2_0559.5.jpg,median5+gamma+CLAHE,106.2,2.87,4.46,0,0.0
+patrolbot_2_0559.5.jpg,bilateral+gamma+CLAHE,105.0,3.14,10.63,0,0.0
+patrolbot_2_0562.7.jpg,raw,58.2,5.81,0.26,0,0.0
+patrolbot_2_0562.7.jpg,gamma only,98.4,6.8,0.73,0,0.0
+patrolbot_2_0562.7.jpg,CLAHE only,79.7,14.66,3.07,0,0.0
+patrolbot_2_0562.7.jpg,median3+gamma+CLAHE,120.5,5.65,3.38,0,0.0
+patrolbot_2_0562.7.jpg,median5+gamma+CLAHE,105.9,2.47,4.44,0,0.0
+patrolbot_2_0562.7.jpg,bilateral+gamma+CLAHE,105.9,2.91,10.47,0,0.0
+patrolbot_2_0566.0.jpg,raw,59.6,5.64,0.27,0,0.0
+patrolbot_2_0566.0.jpg,gamma only,95.8,6.85,0.77,0,0.0
+patrolbot_2_0566.0.jpg,CLAHE only,79.7,13.13,3.19,0,0.0
+patrolbot_2_0566.0.jpg,median3+gamma+CLAHE,117.8,5.4,3.34,0,0.0
+patrolbot_2_0566.0.jpg,median5+gamma+CLAHE,103.8,2.39,4.18,0,0.0
+patrolbot_2_0566.0.jpg,bilateral+gamma+CLAHE,103.3,2.77,10.84,0,0.0
+patrolbot_2_0569.2.jpg,raw,76.9,6.1,0.29,0,0.0
+patrolbot_2_0569.2.jpg,gamma only,98.5,6.53,0.76,0,0.0
+patrolbot_2_0569.2.jpg,CLAHE only,95.2,14.19,3.09,0,0.0
+patrolbot_2_0569.2.jpg,median3+gamma+CLAHE,119.5,5.06,3.25,0,0.0
+patrolbot_2_0569.2.jpg,median5+gamma+CLAHE,106.8,2.22,4.31,0,0.0
+patrolbot_2_0569.2.jpg,bilateral+gamma+CLAHE,106.4,2.72,12.05,0,0.0
+patrolbot_2_0572.4.jpg,raw,56.2,5.73,0.28,0,0.0
+patrolbot_2_0572.4.jpg,gamma only,95.7,7.14,0.74,0,0.0
+patrolbot_2_0572.4.jpg,CLAHE only,78.8,13.41,2.78,0,0.0
+patrolbot_2_0572.4.jpg,median3+gamma+CLAHE,120.8,5.78,3.27,0,0.0
+patrolbot_2_0572.4.jpg,median5+gamma+CLAHE,106.3,2.57,4.5,1,0.358
+patrolbot_2_0572.4.jpg,bilateral+gamma+CLAHE,105.7,2.96,10.87,0,0.0

@@ -1,0 +1,17 @@
+LOW-LIGHT ENHANCEMENT - ABLATION STUDY
+run: run_2026-10-11_20-03-18   frames: 327
+
+pipeline                 bright   noise  time(ms)   frames%   dets    conf
+--------------------------------------------------------------------------
+raw                        49.7    5.45       0.3     27.8%    127   0.649
+gamma only                 94.5    7.54       0.7     26.6%    118   0.661
+CLAHE only                 71.4   12.76       3.0     27.2%    128   0.660
+median3+gamma+CLAHE       118.5    6.16       3.3     23.5%    105   0.674
+median5+gamma+CLAHE       104.7    2.71       4.4     22.6%     99   0.701
+bilateral+gamma+CLAHE     104.1    3.05      10.8     23.9%    103   0.697   <- robot default
+
+bright   = mean brightness 0-255        noise = sensor-noise estimate (lower = cleaner)
+frames%  = frames with >= 1 detection   dets  = total detections   conf = mean confidence
+
+Note: counts without ground-truth labels cannot separate true from false detections.
+Precision / recall / mAP on labelled frames are computed in the custom-model step.

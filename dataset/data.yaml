@@ -1,0 +1,8 @@
+# InteliPatrol / Vision Security Robot - auto-labelled campus dataset
+path: C:/Users/LENOVO/OneDrive/Documents/VisionSecurityRobot/dataset
+train: train/images
+val: val/images
+test: test_night/images
+names:
+  0: person
+  1: suitcase

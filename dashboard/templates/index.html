@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vision Security Robot – Control Room</title>
+<style>
+  :root {
+    --bg: #0b0f17; --panel: #121826; --panel2: #182033; --line: #24304a;
+    --text: #e6ebf5; --muted: #8a97b2; --accent: #3da9fc;
+    --ok: #2ecc71; --warn: #f5a623; --bad: #ff4d5e; --violet: #b38cff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.4 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  header { display: flex; align-items: center; gap: 16px; padding: 10px 18px;
+           border-bottom: 1px solid var(--line); background: #0e1420; }
+  header h1 { font-size: 18px; margin: 0; letter-spacing: .5px; }
+  header h1 span { color: var(--accent); }
+  .pill { padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600;
+          background: var(--panel2); color: var(--muted); border: 1px solid var(--line); }
+  .pill.live { color: var(--ok); border-color: #1e5e3a; }
+  .pill.off { color: var(--bad); border-color: #6b2630; }
+  .grow { flex: 1; }
+  .clock { font: 600 20px/1 Consolas, monospace; color: var(--text); }
+  .clock small { font-size: 11px; color: var(--muted); margin-left: 6px; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 14px; padding: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+  .card h2 { margin: 0 0 10px; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+  #mapwrap { position: relative; }
+  canvas { width: 100%; aspect-ratio: 1 / 1; display: block; border-radius: 8px; background: #0f1a12; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; font-size: 12px; color: var(--muted); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  .side { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .robot { background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin-bottom: 8px; }
+  .robot .top { display: flex; align-items: center; gap: 8px; }
+  .robot .name { font-weight: 700; }
+  .state { margin-left: auto; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; letter-spacing: .5px; }
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; margin-top: 8px; font-size: 12px; }
+  .kv dt { color: var(--muted); } .kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+  .bar { height: 8px; background: #0b111d; border-radius: 4px; overflow: hidden; margin-top: 8px; }
+  .bar > div { height: 100%; transition: width .4s; }
+  .cam { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: #000; display: block; }
+  .camlabel { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  #alerts { max-height: 420px; overflow-y: auto; }
+  .alert { display: grid; grid-template-columns: 84px 1fr; gap: 10px; padding: 8px; border-radius: 8px;
+           background: var(--panel2); border-left: 4px solid var(--muted); margin-bottom: 8px; cursor: pointer; }
+  .alert img { width: 84px; height: 63px; object-fit: cover; border-radius: 4px; background: #000; }
+  .alert .t { font-weight: 700; }
+  .alert .m { font-size: 12px; color: var(--muted); }
+  .alert.HIGH { border-left-color: var(--bad); } .alert.MEDIUM { border-left-color: var(--warn); }
+  .alert.LOW { border-left-color: var(--muted); opacity: .7; }
+  .badge { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; margin-left: 4px; }
+  .badge.HIGH { background: #4a1820; color: var(--bad); } .badge.MEDIUM { background: #4a3510; color: var(--warn); }
+  .badge.conf { background: #12391f; color: var(--ok); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .stat { background: var(--panel2); border-radius: 8px; padding: 8px; text-align: center; }
+  .stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 11px; color: var(--muted); }
+  #log { font: 12px/1.5 Consolas, monospace; max-height: 190px; overflow-y: auto; color: #b9c4dc; }
+  #log .k { display: inline-block; width: 92px; color: var(--accent); }
+  #log .ALERT, #log .THREAT { color: var(--bad); } #log .REPLAN, #log .YIELD, #log .AVOID { color: var(--warn); }
+  #log .COORD { color: #2ee6d6; }
+  .empty { color: var(--muted); font-size: 13px; padding: 8px 0; }
+  #modal { position: fixed; inset: 0; background: rgba(0,0,0,.8); display: none; align-items: center;
+           justify-content: center; z-index: 10; }
+  #modal img { max-width: 92vw; max-height: 86vh; border-radius: 8px; border: 1px solid var(--line); }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1><span>Vision</span> Security Robot &nbsp;·&nbsp; Control Room</h1>
+  <span id="conn" class="pill off">CONNECTING…</span>
+  <span id="night" class="pill">—</span>
+  <div class="grow"></div>
+  <div class="clock" id="clock">--:--<small>campus time</small></div>
+</header>
+
+<main>
+  <section>
+    <div class="card" id="mapwrap">
+      <h2>Live campus map</h2>
+      <canvas id="map" width="900" height="900"></canvas>
+      <div class="legend">
+        <span><i style="background:#3da9fc"></i>Robot 1 + A* path</span>
+        <span><i style="background:#ff7ad9"></i>Robot 2 + A* path</span>
+        <span><i style="border:2px solid #aaa;background:none"></i>Ring = checkpoint sector (dashed = covering)</span>
+        <span><i style="background:#f5d90a"></i>Checkpoint</span>
+        <span><i style="background:#2ecc71"></i>Charging dock</span>
+        <span><i style="background:rgba(255,77,94,.35)"></i>Restricted zone (night)</span>
+        <span><i style="background:#f5a623"></i>LiDAR-detected obstacle</span>
+        <span><i style="background:#b38cff"></i>Camera detection / tracked person trail</span>
+        <span><i style="background:#ff4d5e"></i>Alert location</span>
+      </div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <h2>Robot event log</h2>
+      <div id="log"><div class="empty">Waiting for robot…</div></div>
+    </div>
+  </section>
+
+  <aside class="side">
+    <div class="card">
+      <h2>Mission summary</h2>
+      <div class="stats">
+        <div class="stat"><b id="s-robots">0</b><span>robots online</span></div>
+        <div class="stat"><b id="s-high">0</b><span>HIGH alerts</span></div>
+        <div class="stat"><b id="s-alerts">0</b><span>total alerts</span></div>
+        <div class="stat"><b id="s-dist">0</b><span>metres patrolled</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Robots</h2>
+      <div id="robots"><div class="empty">No robot telemetry yet. Start the Webots simulation.</div></div>
+    </div>
+    <div class="card">
+      <h2>Live camera (night enhancement + YOLOv8)</h2>
+      <div id="cams"><div class="empty">No camera feed yet.</div></div>
+    </div>
+    <div class="card">
+      <h2>Alert feed</h2>
+      <div id="alerts"><div class="empty">No alerts yet.</div></div>
+    </div>
+  </aside>
+</main>
+
+<div id="modal" onclick="this.style.display='none'"><img id="modalimg" alt="alert snapshot"></div>
+
+<script>
+const STATE_COLORS = {
+  PATROL: ["#12324a", "#3da9fc"], SCAN: ["#1f2d4a", "#8fb8ff"], INVESTIGATE: ["#4a3510", "#f5a623"],
+  ALERT: ["#4a1820", "#ff4d5e"], AVOID: ["#3a2f10", "#f5d90a"], RETURN_TO_BASE: ["#2b1f4a", "#b38cff"],
+  CHARGING: ["#12391f", "#2ecc71"]
+};
+const ROBOT_COLORS = ["#3da9fc", "#ff7ad9", "#2ee6d6", "#f5d90a"];
+const cv = document.getElementById("map"), ctx = cv.getContext("2d");
+let layout = null, last = null;
+
+// ---------------------------------------------------------------- helpers
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const rgb = c => `rgb(${Math.round(c[0]*255)},${Math.round(c[1]*255)},${Math.round(c[2]*255)})`;
+function W(x, y) {                       // world metres -> canvas pixels (y points up)
+  const h = layout.half, s = cv.width / (2 * h);
+  return [(x + h) * s, (h - y) * s];
+}
+const S = m => m * cv.width / (2 * layout.half);
+function rect(cx, cy, w, h) { const [x, y] = W(cx - w / 2, cy + h / 2); ctx.fillRect(x, y, S(w), S(h)); }
+
+// ---------------------------------------------------------------- map
+function drawMap(robots, alerts) {
+  ctx.clearRect(0, 0, cv.width, cv.height);
+  ctx.fillStyle = "#16301c"; ctx.fillRect(0, 0, cv.width, cv.height);
+  // zones
+  for (const z of layout.zones) {
+    const [x, y] = W(z.x0, z.y1);
+    ctx.fillStyle = z.restricted ? "rgba(255,77,94,.13)" : "rgba(255,255,255,.03)";
+    ctx.fillRect(x, y, S(z.x1 - z.x0), S(z.y1 - z.y0));
+    ctx.strokeStyle = z.restricted ? "rgba(255,77,94,.55)" : "rgba(255,255,255,.12)";
+    ctx.setLineDash([6, 5]); ctx.strokeRect(x, y, S(z.x1 - z.x0), S(z.y1 - z.y0)); ctx.setLineDash([]);
+    ctx.fillStyle = z.restricted ? "rgba(255,140,150,.9)" : "rgba(255,255,255,.35)";
+    ctx.font = "600 13px Segoe UI"; ctx.fillText(z.name + (z.restricted ? "  (restricted at night)" : ""), x + 6, y + 16);
+  }
+  // roads, sports ground
+  ctx.fillStyle = "#3a3f47"; layout.roads.forEach(r => rect(r.x, r.y, r.w, r.h));
+  ctx.fillStyle = "#7a3f30"; rect(layout.sports.x, layout.sports.y, layout.sports.w, layout.sports.h);
+  // buildings
+  for (const b of layout.buildings) {
+    ctx.fillStyle = rgb(b.color); rect(b.x, b.y, b.w, b.h);
+    ctx.strokeStyle = "rgba(0,0,0,.5)"; const [x, y] = W(b.x - b.w / 2, b.y + b.h / 2);
+    ctx.strokeRect(x, y, S(b.w), S(b.h));
+    if (b.w > 2) {
+      ctx.fillStyle = "#1b1b1b"; ctx.font = "700 14px Segoe UI"; ctx.textAlign = "center";
+      const [cx, cy] = W(b.x, b.y); ctx.fillText(b.name, cx, cy + 5); ctx.textAlign = "left";
+    }
+  }
+  ctx.fillStyle = "#8a5a30"; layout.benches.forEach(b => rect(b.x, b.y, b.w, b.h));
+  for (const t of layout.trees) {
+    const [x, y] = W(t.x, t.y); ctx.fillStyle = "rgba(40,120,40,.9)";
+    ctx.beginPath(); ctx.arc(x, y, S(1.0), 0, 7); ctx.fill();
+  }
+  // walls
+  ctx.strokeStyle = "#c9c2b8"; ctx.lineWidth = 4; ctx.strokeRect(2, 2, cv.width - 4, cv.height - 4); ctx.lineWidth = 1;
+  // dock + checkpoints
+  { const [x, y] = W(layout.dock.x, layout.dock.y); ctx.fillStyle = "#2ecc71";
+    ctx.fillRect(x - S(.7), y - S(.7), S(1.4), S(1.4)); ctx.fillStyle = "#c8ffd9";
+    ctx.font = "600 12px Segoe UI"; ctx.fillText("⚡ Dock", x + S(1), y + 4); }
+  layout.checkpoints.forEach((c, i) => {
+    const [x, y] = W(c.x, c.y); ctx.fillStyle = "#f5d90a";
+    ctx.beginPath(); ctx.arc(x, y, 9, 0, 7); ctx.fill();
+    ctx.fillStyle = "#111"; ctx.font = "700 11px Segoe UI"; ctx.textAlign = "center"; ctx.fillText(i + 1, x, y + 4);
+    ctx.textAlign = "left"; ctx.fillStyle = "#fff4a8"; ctx.font = "12px Segoe UI"; ctx.fillText(c.name, x + 12, y - 8);
+  });
+  // alerts (recent)
+  for (const a of alerts.slice(0, 15)) {
+    if (a.level === "LOW") continue;
+    const [x, y] = W(a.x, a.y), col = a.level === "HIGH" ? "#ff4d5e" : "#f5a623";
+    ctx.strokeStyle = col; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(x, y, 12, 0, 7); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x - 6, y - 6); ctx.lineTo(x + 6, y + 6); ctx.moveTo(x + 6, y - 6); ctx.lineTo(x - 6, y + 6); ctx.stroke();
+    ctx.lineWidth = 1;
+  }
+  // sector ownership: solid ring = robot's own checkpoint, dashed = temporarily covering
+  robots.forEach((r, i) => {
+    const col = ROBOT_COLORS[i % ROBOT_COLORS.length];
+    (r.route || []).forEach(k => {
+      const c = layout.checkpoints[k]; if (!c) return;
+      const own = (r.own_route || []).includes(k), [x, y] = W(c.x, c.y);
+      ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.setLineDash(own ? [] : [4, 4]);
+      ctx.beginPath(); ctx.arc(x, y, own ? 14 : 19, 0, 7); ctx.stroke();
+      ctx.setLineDash([]); ctx.lineWidth = 1;
+    });
+    if (r.dock) { const [x, y] = W(r.dock.x, r.dock.y); ctx.strokeStyle = col; ctx.lineWidth = 3;
+      ctx.strokeRect(x - S(.8), y - S(.8), S(1.6), S(1.6)); ctx.lineWidth = 1; }
+  });
+  // robots
+  robots.forEach((r, i) => {
+    const col = ROBOT_COLORS[i % ROBOT_COLORS.length];
+    // LiDAR-discovered obstacles
+    ctx.fillStyle = "rgba(245,166,35,.85)";
+    for (const [ox, oy] of r.dynamic_obstacles || []) { const [x, y] = W(ox, oy); ctx.fillRect(x - S(.2), y - S(.2), S(.4), S(.4)); }
+    // planned path
+    if (r.path && r.path.length) {
+      ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.setLineDash([8, 6]); ctx.beginPath();
+      let [x0, y0] = W(r.x, r.y); ctx.moveTo(x0, y0);
+      for (const [px, py] of r.path) { const [x, y] = W(px, py); ctx.lineTo(x, y); }
+      ctx.stroke(); ctx.setLineDash([]); ctx.lineWidth = 1;
+    }
+    // investigation target
+    if (r.target) {
+      const [x, y] = W(r.target.x, r.target.y);
+      ctx.strokeStyle = "#ff4d5e"; ctx.lineWidth = 2; ctx.setLineDash([3, 3]);
+      ctx.beginPath(); ctx.arc(x, y, 22 + 4 * Math.sin(Date.now() / 150), 0, 7); ctx.stroke();
+      ctx.setLineDash([]); ctx.lineWidth = 1;
+    }
+    // tracked people: trail + id + speed, red ring when loitering
+    for (const tk of r.tracks || []) {
+      if (tk.unseen > 15) continue;
+      const tr = tk.trail || [];
+      if (tr.length > 1) {
+        ctx.strokeStyle = "rgba(179,140,255,.9)"; ctx.lineWidth = 2; ctx.beginPath();
+        tr.forEach(([px, py], k) => { const [x, y] = W(px, py); k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+        ctx.stroke(); ctx.lineWidth = 1;
+      }
+      const [tx, ty] = W(tk.x, tk.y);
+      if (tk.loitering) { ctx.strokeStyle = "#ff4d5e"; ctx.lineWidth = 2; ctx.setLineDash([5, 4]);
+        ctx.beginPath(); ctx.arc(tx, ty, S(2.5), 0, 7); ctx.stroke(); ctx.setLineDash([]); ctx.lineWidth = 1; }
+      ctx.fillStyle = "#e9ddff"; ctx.font = "700 11px Segoe UI";
+      ctx.fillText(`R${r.robot.slice(-1)}#${tk.id} ${tk.speed.toFixed(1)} m/s${tk.loitering ? " LOITERING" : ""}`, tx + 8, ty - 8);
+    }
+    // camera detections
+    for (const d of r.detections || []) {
+      const [x, y] = W(d.x, d.y); ctx.fillStyle = "#b38cff";
+      ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill();
+      ctx.font = "11px Segoe UI"; ctx.fillText(`${d.label} ${d.conf}`, x + 8, y + 4);
+    }
+    // camera field of view + robot body
+    const [x, y] = W(r.x, r.y), a = -r.yaw;
+    ctx.fillStyle = "rgba(61,169,252,.12)"; ctx.beginPath(); ctx.moveTo(x, y);
+    ctx.arc(x, y, S(12), a - 0.6, a + 0.6); ctx.closePath(); ctx.fill();
+    ctx.save(); ctx.translate(x, y); ctx.rotate(a);
+    ctx.fillStyle = r.online ? col : "#555"; ctx.strokeStyle = "#fff"; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(S(.55), 0); ctx.lineTo(-S(.4), S(.35)); ctx.lineTo(-S(.25), 0); ctx.lineTo(-S(.4), -S(.35));
+    ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore(); ctx.lineWidth = 1;
+    ctx.fillStyle = "#fff"; ctx.font = "700 12px Segoe UI"; ctx.fillText(r.robot, x + 14, y + 18);
+  });
+}
+
+// ---------------------------------------------------------------- side panels
+function stateBadge(s) {
+  const [bg, fg] = STATE_COLORS[s] || ["#222", "#ccc"];
+  return `<span class="state" style="background:${bg};color:${fg}">${esc(s.replace(/_/g, " "))}</span>`;
+}
+function renderRobots(robots) {
+  const el = document.getElementById("robots");
+  if (!robots.length) { el.innerHTML = '<div class="empty">No robot telemetry yet. Start the Webots simulation.</div>'; return; }
+  el.innerHTML = robots.map((r, i) => {
+    const b = r.battery, bc = b > 50 ? "var(--ok)" : b > 25 ? "var(--warn)" : "var(--bad)";
+    return `<div class="robot">
+      <div class="top"><span style="color:${ROBOT_COLORS[i % 4]}">●</span>
+        <span class="name">${esc(r.robot)}</span>
+        ${r.online ? "" : '<span class="pill off">OFFLINE</span>'}
+        ${stateBadge(r.state)}</div>
+      <div class="bar"><div style="width:${b}%;background:${bc}"></div></div>
+      <dl class="kv">
+        <dt>Battery</dt><dd>${b.toFixed(0)} %</dd>
+        <dt>Heading to</dt><dd>${esc(r.goal ? r.goal.name : "—")}</dd>
+        <dt>Sector</dt><dd>${esc((r.own_route || []).map(k => layout.checkpoints[k] ? layout.checkpoints[k].name : k).join(", "))}</dd>
+        ${(r.covering || []).length ? `<dt>Covering for</dt><dd style="color:var(--warn)">${esc(r.covering.join(", "))}</dd>` : ""}
+        <dt>Position</dt><dd>(${r.x.toFixed(1)}, ${r.y.toFixed(1)}) m</dd>
+        <dt>Checkpoints visited</dt><dd>${r.checkpoints_visited}</dd>
+        <dt>Distance patrolled</dt><dd>${r.distance_travelled.toFixed(0)} m</dd>
+        <dt>People tracked</dt><dd>${(r.tracks || []).filter(t => t.unseen < 15).length}${(r.tracks || []).some(t => t.loitering) ? ' <span style="color:var(--bad)">(loitering!)</span>' : ""}</dd>
+        <dt>LiDAR obstacles</dt><dd>${(r.dynamic_obstacles || []).length} cells</dd>
+        <dt>AI vision</dt><dd>${r.vision === "ok" ? esc(r.model === "campus_yolo.pt" ? "campus-trained YOLO" : "YOLOv8 (COCO)") : esc(r.vision)}</dd>
+        ${r.vision_stats && r.vision_stats.brightness_before !== undefined ? `<dt>Camera image</dt><dd>${r.vision_stats.enhanced
+          ? `<span style="color:var(--ok)">ENHANCED</span> · brightness ${r.vision_stats.brightness_before} → ${r.vision_stats.brightness_after} (γ ${r.vision_stats.gamma})`
+          : `RAW · brightness ${r.vision_stats.brightness_before}`}</dd>` : ""}
+        ${r.target ? `<dt>Investigating</dt><dd style="color:var(--bad)">${esc(r.target.kind)} (${r.target.score})</dd>` : ""}
+      </dl></div>`;
+  }).join("");
+}
+let camTick = 0;
+function renderCams(robots) {
+  const el = document.getElementById("cams"), withCam = robots.filter(r => r.has_camera);
+  if (!withCam.length) { el.innerHTML = '<div class="empty">No camera feed yet.</div>'; return; }
+  camTick++;
+  // build once, then only swap image sources (avoids flicker)
+  const ids = withCam.map(r => r.robot).join(",");
+  if (el.dataset.ids !== ids) {
+    el.dataset.ids = ids;
+    el.innerHTML = withCam.map(r => `<img class="cam" id="cam-${esc(r.robot)}" alt="camera"><div class="camlabel">${esc(r.robot)} – front camera</div>`).join("");
+  }
+  for (const r of withCam) {
+    const img = document.getElementById("cam-" + r.robot);
+    const next = new Image();
+    next.onload = () => { img.src = next.src; };
+    next.src = `/camera/${encodeURIComponent(r.robot)}.jpg?t=${camTick}`;
+  }
+}
+function renderAlerts(alerts) {
+  const el = document.getElementById("alerts");
+  if (!alerts.length) { el.innerHTML = '<div class="empty">No alerts yet.</div>'; return; }
+  el.innerHTML = alerts.map(a => {
+    const src = a.snapshot ? `/snapshot/${encodeURIComponent(a.robot)}/${encodeURIComponent(a.snapshot)}` : "";
+    return `<div class="alert ${esc(a.level)}" data-src="${src}">
+      ${src ? `<img src="${src}" alt="">` : "<div></div>"}
+      <div><div class="t">${esc(a.kind.replace(/_/g, " "))}
+        <span class="badge ${esc(a.level)}">${esc(a.level)} ${a.score}</span>
+        ${a.confirmed ? '<span class="badge conf">CONFIRMED</span>' : ""}</div>
+        <div class="m">${esc(a.campus_time)} · ${esc(a.zone)} · (${a.x.toFixed(1)}, ${a.y.toFixed(1)}) · ${esc(a.robot)}</div>
+        <div class="m">${esc((a.reasons || []).join("; "))}</div></div></div>`;
+  }).join("");
+  el.querySelectorAll(".alert").forEach(d => d.onclick = () => {
+    if (!d.dataset.src) return;
+    document.getElementById("modalimg").src = d.dataset.src;
+    document.getElementById("modal").style.display = "flex";
+  });
+}
+function renderLog(robots) {
+  const ev = [];
+  robots.forEach(r => (r.events || []).forEach(e => ev.push({...e, robot: r.robot})));
+  ev.sort((a, b) => b.t - a.t);
+  const el = document.getElementById("log");
+  if (!ev.length) return;
+  el.innerHTML = ev.slice(0, 40).map(e => {
+    const t = `${String(Math.floor(e.t / 60)).padStart(2, "0")}:${String(Math.floor(e.t % 60)).padStart(2, "0")}`;
+    const who = robots.length > 1 ? `<b>${esc(e.robot.replace("patrolbot_", "R"))}</b> ` : "";
+    return `<div class="${esc(e.type)}">[${t}] ${who}<span class="k">${esc(e.type)}</span>${esc(e.msg)}</div>`;
+  }).join("");
+}
+function renderHeader(data) {
+  const online = data.robots.filter(r => r.online);
+  const conn = document.getElementById("conn");
+  conn.className = "pill " + (online.length ? "live" : "off");
+  conn.textContent = online.length ? "● LIVE" : (data.robots.length ? "SIMULATION PAUSED / STOPPED" : "NO ROBOT");
+  const r0 = data.robots[0];
+  if (r0) {
+    document.getElementById("clock").innerHTML = `${esc(r0.campus_time)}<small>campus time</small>`;
+    const n = document.getElementById("night");
+    n.textContent = r0.night ? "🌙 NIGHT PATROL" : "☀ DAY PATROL";
+  }
+  document.getElementById("s-robots").textContent = online.length;
+  document.getElementById("s-alerts").textContent = data.alerts.length;
+  document.getElementById("s-high").textContent = data.alerts.filter(a => a.level === "HIGH").length;
+  document.getElementById("s-dist").textContent = Math.round(data.robots.reduce((s, r) => s + r.distance_travelled, 0));
+}
+
+// ---------------------------------------------------------------- main loop
+let lastAlertsKey = "";
+async function tick() {
+  try {
+    const data = await (await fetch("/api/state", {cache: "no-store"})).json();
+    last = data;
+    renderHeader(data);
+    renderRobots(data.robots);
+    renderCams(data.robots);
+    const key = data.alerts.map(a => a.robot + a.id).join(",");
+    if (key !== lastAlertsKey) { lastAlertsKey = key; renderAlerts(data.alerts); }
+    renderLog(data.robots);
+  } catch (e) {
+    const conn = document.getElementById("conn");
+    conn.className = "pill off"; conn.textContent = "DASHBOARD SERVER STOPPED";
+  }
+}
+function frame() { if (layout && last) drawMap(last.robots, last.alerts); requestAnimationFrame(frame); }
+
+(async () => {
+  layout = await (await fetch("/api/layout")).json();
+  last = {robots: [], alerts: []};
+  tick(); setInterval(tick, 500); frame();
+})();
+</script>
+</body>
+</html>

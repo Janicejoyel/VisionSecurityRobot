@@ -1,0 +1,18 @@
+DETECTION EVALUATION (IoU >= 0.5, confidence >= 0.25)
+model: yolov8n   split: test_night   images: 150
+
+pipeline               | person  P / R / AP50        | suitcase  P / R / AP50      |   mAP50
+--------------------------------------------------------------------------------------------
+raw                    | 0.89 / 0.66 / 0.744        | 1.00 / 0.05 / 0.173        | 0.459
+gamma only             | 0.86 / 0.65 / 0.706        | 0.83 / 0.05 / 0.166        | 0.436
+CLAHE only             | 0.90 / 0.67 / 0.761        | 1.00 / 0.04 / 0.193        | 0.477
+median3+gamma+CLAHE    | 0.94 / 0.62 / 0.717        | 1.00 / 0.01 / 0.133        | 0.425
+median5+gamma+CLAHE    | 0.93 / 0.65 / 0.717        | 1.00 / 0.01 / 0.120        | 0.418
+bilateral+gamma+CLAHE  | 0.94 / 0.60 / 0.762        | 0.00 / 0.00 / 0.182        | 0.472
+
+Person recall by distance (pipeline: CLAHE only):
+  near (<6 m)     85.0%  (40 people)
+  mid (6-12 m)    83.7%  (49 people)
+  far (>12 m)     38.2%  (55 people)
+
+best pipeline by mAP50: CLAHE only

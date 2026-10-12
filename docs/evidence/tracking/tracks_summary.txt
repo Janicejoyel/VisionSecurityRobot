@@ -1,0 +1,23 @@
+MULTI-OBJECT TRACKING SUMMARY
+run: run_2026-10-11_20-22-35
+
+track            points  duration  max speed  loitering
+R1#1                 21       44s     0.73m/s          -
+R1#3                 23       46s     0.67m/s          -
+R1#4                 19       38s     1.01m/s          -
+R1#5                 21       42s     0.64m/s          -
+R1#6                 21       42s     0.62m/s          -
+R1#9                 15       29s     0.55m/s          -
+R1#10                21       43s     1.18m/s          -
+R1#11                30       61s     0.96m/s        YES
+R1#12                15       29s     0.10m/s          -
+R1#13                16       32s     1.01m/s          -
+R2#1                 17       33s     0.37m/s          -
+R2#2                 15       29s     0.35m/s          -
+R2#3                 13       25s     0.11m/s          -
+R2#4                 23       52s     1.08m/s        YES
+R2#8                 20       42s     0.31m/s          -
+R2#10                 8       14s     0.00m/s          -
+R2#11                 3        4s     0.68m/s          -
+
+tracks: 17   (each robot keeps its own track ids)
